@@ -1,0 +1,5 @@
+<rasty specificationClass="Mercat\UI\components\stats\balance\BalanceRankCliente" templateLocation="BalanceRankCliente.htm">
+
+	<param name="filterType" value="post:filter" />
+
+</rasty>

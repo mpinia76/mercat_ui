@@ -1,0 +1,5 @@
+<rasty specificationClass="Mercat\UI\layouts\MercatLoginMetroLayout" templateLocation="MercatLoginMetroLayout.htm">
+
+	<component id="footer" type="FooterLpnkf">
+	</component>
+</rasty>

@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\vendedores\Vendedores" templateLocation="pages/vendedores/Vendedores.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="vendedoresFilter" type="VendedorFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:vendedor.buscar" />
+		<param name="legendAgain" value="msg:vendedor.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+	
+</rasty>

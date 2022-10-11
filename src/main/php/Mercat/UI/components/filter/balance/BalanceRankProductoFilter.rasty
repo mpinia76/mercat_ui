@@ -1,0 +1,55 @@
+<rasty specificationClass="Mercat\UI\components\filter\balance\BalanceRankProductoFilter" templateLocation="BalanceRankProductoFilter.htm">
+
+
+
+	<component id="fechaDesde" type="InputDate">
+    		<param name="inputId" value="str:fechaDesde" />
+    		<param name="name" value="str:fechaDesde" />
+    		<param name="value" value="criteria.fechaDesde" />
+    		<param name="placeholder" value="msg:criteria.fechaDesde" />
+    		<param name="format" value="str:d/m/Y" />
+    	</component>
+
+    	<component id="fechaHasta" type="InputDate">
+    		<param name="inputId" value="str:fechaHasta" />
+    		<param name="name" value="str:fechaHasta" />
+    		<param name="value" value="criteria.fechaHasta" />
+    		<param name="placeholder" value="msg:criteria.fechaDesde" />
+    		<param name="format" value="str:d/m/Y" />
+    	</component>
+
+	<component id="nombre" type="InputText">
+		<param name="name" value="str:nombre" />
+		<param name="value" value="criteria.nombre" />
+		<param name="placeholder" value="msg:producto.nombre" />
+
+	</component>
+
+
+
+	<component id="tipoProducto" type="InputText">
+		<param name="name" value="str:tipoProducto" />
+		<param name="value" value="criteria.tipoProducto" />
+		<param name="placeholder" value="msg:producto.tipoProducto" />
+
+	</component>
+	<component id="marcaProducto" type="InputText">
+		<param name="name" value="str:marcaProducto" />
+		<param name="value" value="criteria.marcaProducto" />
+		<param name="placeholder" value="msg:producto.marcaProducto" />
+
+	</component>
+
+
+
+	<component id="vendedor" type="InputCombo">
+		<param name="inputId" value="str:vendedor" />
+		<param name="name" value="str:vendedor" />
+		<param name="value" value="criteria.vendedor" />
+		<param name="options" value="vendedores" />
+		<param name="finder" value="vendedorFinderClazz" />
+		<param name="placeholder" value="msg:venta.vendedor" />
+		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />
+	</component>
+
+</rasty>

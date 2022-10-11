@@ -1,0 +1,6 @@
+<rasty specificationClass="Mercat\UI\layouts\MercatHomeMetroLayout" templateLocation="MercatHomeMetroLayout.htm">
+
+	<param name="menuGroups" value="menuGroups" />
+	<component id="footer" type="FooterMercat">
+	</component>
+</rasty>

@@ -1,0 +1,5 @@
+<rasty specificationClass="Mercat\UI\components\pdf\venta\VentaPDF" templateLocation="VentaPDF.htm">
+
+	<param name="ventaOid" value="get:ventaOid" />
+
+</rasty>

@@ -1,0 +1,48 @@
+<rasty specificationClass="Mercat\UI\components\filter\producto\ProductoFilter" templateLocation="ProductoFilter.htm">
+
+	<component id="nombre" type="InputText">
+		<param name="name" value="str:nombre" />
+		<param name="value" value="criteria.nombre" />
+		<param name="placeholder" value="msg:producto.nombre" />
+		
+	</component>
+	
+	<component id="codigo" type="InputText">
+		<param name="name" value="str:codigo" />
+		<param name="value" value="criteria.codigo" />
+		<param name="placeholder" value="msg:producto.codigo" />
+		
+	</component>
+
+	<component id="tipoProducto" type="InputText">
+		<param name="name" value="str:tipoProducto" />
+		<param name="value" value="criteria.tipoProducto" />
+		<param name="placeholder" value="msg:producto.tipoProducto" />
+		
+	</component>
+	<component id="marcaProducto" type="InputText">
+		<param name="name" value="str:marcaProducto" />
+		<param name="value" value="criteria.marcaProducto" />
+		<param name="placeholder" value="msg:producto.marcaProducto" />
+		
+	</component>
+	
+	<component id="filtroPredefinido" type="InputCombo">
+		<param name="inputId" value="str:filtroPredefinido" />
+		<param name="name" value="str:filtroPredefinido" />
+		<param name="value" value="criteria.filtroPredefinido" />
+		<param name="options" value="filtrosPredefinidos" />
+		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />
+	</component>
+	
+	
+	<component id="vendedor" type="InputCombo">
+		<param name="inputId" value="str:vendedor" />
+		<param name="name" value="str:vendedor" />
+		
+		<param name="options" value="vendedores" />
+		<param name="finder" value="vendedorFinderClazz" />
+		<param name="placeholder" value="msg:venta.vendedor" />
+		
+	</component>
+</rasty>

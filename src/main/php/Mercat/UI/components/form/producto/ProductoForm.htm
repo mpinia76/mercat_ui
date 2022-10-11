@@ -1,0 +1,197 @@
+<!-- BEGIN:main -->
+
+
+<script>
+
+$(function() {
+
+	$("#codigo").focus();
+	$('#costo').change(function(){
+
+	    if($('#porcentajeGanancia').val()!=''){
+	    	var costo = parseFloat($(this).val().replace(',', '.'));
+
+	    	var porcentaje = parseFloat($('#porcentajeGanancia').val().replace(',', '.'));
+	    	var precio = (costo+(costo*(porcentaje/100)));
+
+	    	$('#precioEfectivo').val(precio.toFixed(0));
+	    }
+	    if($('#porcentajeGanancia2').val()!=''){
+	    	var costo = parseFloat($(this).val().replace(',', '.'));
+	    	var porcentaje = parseFloat($('#porcentajeGanancia2').val().replace(',', '.'));
+	    	var precio = (costo+(costo*(porcentaje/100)));
+	    	$('#precioLista').val(precio.toFixed(0));
+
+	    }
+	})
+	$('#porcentajeGanancia').change(function(){
+
+	    if($('#costo').val()!=''){
+	    	var costo = parseFloat($('#costo').val().replace(',', '.'));
+	    	var porcentaje = parseFloat($(this).val().replace(',', '.'));
+
+	    	var precio = (costo+(costo*(parseFloat(porcentaje/100))));
+
+	    	$('#precioEfectivo').val(precio.toFixed(0));
+	    }
+	    if($('#costo').val()!=''){
+	    	var costo = parseFloat($('#costo').val().replace(',', '.'));
+	    	var porcentaje = parseFloat($(this).val().replace(',', '.'));
+
+	    	var precio = (costo+(costo*(parseFloat(porcentaje/100))));
+
+	    	$('#precioEfectivo').val(precio.toFixed(0));
+	    }
+	})
+	$('#porcentajeGanancia2').change(function(){
+
+	    if($('#costo').val()!=''){
+	    	var costo = parseFloat($('#costo').val().replace(',', '.'));
+	    	var porcentaje = parseFloat($(this).val().replace(',', '.'));
+
+	    	var precio = (costo+(costo*(parseFloat(porcentaje/100))));
+
+	    	$('#precioLista').val(precio.toFixed(0));
+	    }
+	    if($('#costo').val()!=''){
+	    	var costo = parseFloat($('#costo').val().replace(',', '.'));
+	    	var porcentaje = parseFloat($(this).val().replace(',', '.'));
+
+	    	var precio = (costo+(costo*(parseFloat(porcentaje/100))));
+
+	    	$('#precioLista').val(precio.toFixed(0));
+	    }
+	})
+
+});
+</script>
+
+<div>
+<form class="cuentas_form" id="producto_form" onsubmit="return validate('producto_form');" action="{action}" method="{method}">
+
+		<fieldset>
+		<legend>{legend}</legend>
+
+		<rasty id="backSuccess" />
+	    <rasty id="oid" />
+		<div class="row">
+			<div class="col-3">
+				<div class="item">
+				    <label for="codigo">{lbl_codigo} *:</label>
+				    <rasty id="codigo" />
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="item">
+				    <label for="nombre">{lbl_nombre} *:</label>
+				    <rasty id="nombre" />
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="item">
+				    <label for="tipoProducto">{lbl_tipoProducto}:</label>
+				    <rasty id="tipoProducto" />
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="item">
+				    <label for="marcaProducto">{lbl_marcaProducto}:</label>
+				    <rasty id="marcaProducto" />
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<div class="item">
+				    <label for="costo">{lbl_costo}:</label>
+				    <rasty id="costo" />
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="item">
+				    <label for="porcentajeGanancia2">{lbl_porcentajeGanancia2}:</label>
+				    <rasty id="porcentajeGanancia2" />
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="item">
+				    <label for="porcentajeGanancia">{lbl_porcentajeGanancia}:</label>
+				    <rasty id="porcentajeGanancia" />
+				</div>
+			</div>
+
+			<div class="col-2">
+				<div class="item">
+				    <label for="precioLista">{lbl_precioLista}:</label>
+				    <rasty id="precioLista" />
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="item">
+				    <label for="precioEfectivo">{lbl_precioEfectivo}:</label>
+				    <rasty id="precioEfectivo" />
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				<div class="item">
+				    <label for="stock">{lbl_stock}:</label>
+				    <rasty id="stock" />
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="item">
+				    <label for="stockMinimo">{lbl_stockMinimo}:</label>
+				    <rasty id="stockMinimo" />
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="item">
+				    <label for="vencimiento">{lbl_vencimiento}:</label>
+				    <rasty id="vencimiento" />
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="item">
+		    <label for="descripcion">{lbl_descripcion}:</label>
+		    <rasty id="descripcion" />
+		</div>
+
+
+	</fieldset>
+
+
+</form>
+<!-- BEGIN: msg_error -->
+<fieldset class="ui-state-error">
+	{msg}
+</fieldset>
+<!-- END: msg_error -->
+
+<form  class="turnos_form" id="buttons{inputId}">
+	<fieldset class="tblFooters">
+
+		<button type="button"  id="input_submit" onclick="submitFormulario('producto_form'); "><i class="icon-checkmark on-left"></i>{lbl_submit}</button>
+
+		<button type="button"  id="input_button_2" onclick="window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+
+	</fieldset>
+</form>
+</div>
+<!-- END:main -->

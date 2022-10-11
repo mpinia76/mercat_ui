@@ -1,0 +1,56 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Mercat\\UI": "src/main/php",
+            "Mercat\\UI\\Test": "src/test/php",
+            "Mercat\\Core": "D:/Documents/Mis Webs/mercat_core/src/main/php",
+            "Cose": "D:/Documents/Mis Webs/codnet_services/cose/src/main/php",
+        	"Cose\\Security": "D:/Documents/Mis Webs/codnet_services/cose_security/src/main/php",
+        	"Cose\\Catalogo": "D:/Documents/Mis Webs/codnet_services/cose_catalogo/src/main/php",
+        	"Cose\\Crud": "D:/Documents/Mis Webs/codnet_services/cose_crud/src/main/php",
+        	"Rasty": "D:/Documents/Mis Webs/rasty/phprasty/src/main/php",
+			"Rasty\\Grid": "D:/Documents/Mis Webs/rasty/phprasty_grid/src/main/php",
+        	"Rasty\\Layout": "D:/Documents/Mis Webs/rasty/phprasty_layout/src/main/php",
+        	"Rasty\\Forms": "D:/Documents/Mis Webs/rasty/phprasty_forms/src/main/php",
+        	"Rasty\\Menu": "D:/Documents/Mis Webs/rasty/phprasty_menu/src/main/php",
+        	"Rasty\\Catalogo": "D:/Documents/Mis Webs/rasty/phprasty_catalogo/src/main/php",
+        	"Rasty\\Crud": "D:/Documents/Mis Webs/rasty/phprasty_crud/src/main/php",
+        	"Rasty\\Security": "D:/Documents/Mis Webs/rasty/phprasty_security/src/main/php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/apache/logging-log4php"
+        },
+    	{
+            "type": "package",
+            "package": {
+                "name": "phprasty/fpdf",
+                "version": "1.0.1",
+                "dist": {
+                    "url": "http://codnet.no-ip.org/phprasty-libs/fpdf17.zip",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "psr-0": { "Rasty": "" }
+                },
+                "target-dir": "Rasty"
+            }
+        }
+    ],
+    "require": {
+        "apache/log4php": "2.3.0",
+        "doctrine/orm": "2.6.2",
+        "symfony/expression-language": "~3.4|~4.0",
+        "symfony/dependency-injection": "~3.4|~4.0",
+        "doctrine/annotations": "~1.0",
+        "doctrine/common": "2.8.1",
+        "niktux/addendum": "dev-master",
+        "dompdf/dompdf" : "dev-master",
+        "realityking/pchart": "dev-master",
+        "beberlei/doctrineextensions": "dev-master",
+        "mobiledetect/mobiledetectlib": "dev-master"
+    }
+    
+}

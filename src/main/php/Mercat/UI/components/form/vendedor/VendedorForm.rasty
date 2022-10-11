@@ -1,0 +1,67 @@
+<rasty specificationClass="Mercat\UI\components\form\vendedor\VendedorForm" templateLocation="VendedorForm.htm">
+
+	<param name="error" value="get:error" />
+
+	<component id="backSuccess" type="InputHidden">
+		<param name="inputId" value="str:backToOnSuccess" />
+		<param name="name" value="str:backToOnSuccess" />
+		<param name="value" value="backToOnSuccess" />
+	</component>
+
+	<component id="oid" type="InputHidden">
+		<param name="inputId" value="str:oid" />
+		<param name="name" value="str:oid" />
+		<param name="value" value="vendedor.oid" />
+	</component>
+
+
+	<component id="nombre" type="InputText">
+		<param name="inputId" value="str:nombre" />
+		<param name="name" value="str:nombre" />
+		<param name="value" value="vendedor.nombre" />
+		<param name="requiredMessage" value="msg:vendedor.nombre.required" />
+		<param name="placeholder" value="msg:vendedor.nombre" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	<component id="telefono" type="InputText">
+		<param name="inputId" value="str:telefono" />
+		<param name="name" value="str:telefono" />
+		<param name="value" value="vendedor.telefono" />
+		<param name="placeholder" value="msg:vendedor.telefono" />
+	</component>
+
+	
+	
+	<component id="mail" type="InputText">
+		<param name="inputId" value="str:mail" />
+		<param name="name" value="str:mail" />
+		<param name="value" value="vendedor.mail" />
+		<param name="placeholder" value="msg:vendedor.mail" />
+	</component>
+	
+	<component id="direccion" type="InputText">
+		<param name="inputId" value="str:direccion" />
+		<param name="name" value="str:direccion" />
+		<param name="value" value="vendedor.direccion" />
+		<param name="placeholder" value="msg:vendedor.direccion" />
+	</component>
+	
+	<component id="comision" type="InputCurrency">
+		<param name="inputId" value="str:comision" />
+		<param name="name" value="str:comision" />
+		<param name="value" value="vendedor.comision" />
+		
+		<param name="placeholder" value="msg:vendedor.comision" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+	
+	<component id="mayorista" type="InputCheckBox">
+		<param name="inputId" value="str:mayorista" />
+		<param name="name" value="str:mayorista" />
+		<param name="value" value="str:mayorista" />
+		<param name="isChecked" value="vendedor.mayorista" />
+	</component>
+	
+</rasty>

@@ -1,0 +1,120 @@
+<rasty specificationClass="Mercat\UI\components\form\pack\PackForm" templateLocation="PackForm.htm">
+
+	<param name="error" value="get:error" />
+
+	<component id="backSuccess" type="InputHidden">
+		<param name="inputId" value="str:backToOnSuccess" />
+		<param name="name" value="str:backToOnSuccess" />
+		<param name="value" value="backToOnSuccess" />
+	</component>
+
+	<component id="oid" type="InputHidden">
+		<param name="inputId" value="str:oid" />
+		<param name="name" value="str:oid" />
+		<param name="value" value="pack.oid" />
+	</component>
+	
+	<component id="producto" type="InputHidden">
+		<param name="inputId" value="str:producto" />
+		<param name="name" value="str:producto" />
+		<param name="value" value="pack.producto" />
+	</component>
+
+	<component id="codigo" type="InputNumber">
+		<param name="inputId" value="str:codigo" />
+		<param name="name" value="str:codigo" />
+		<param name="value" value="pack.codigo" />
+		
+		<param name="placeholder" value="msg:pack.codigo" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+
+	<component id="nombre" type="InputText">
+		<param name="inputId" value="str:nombre" />
+		<param name="name" value="str:nombre" />
+		<param name="value" value="pack.nombre" />
+		<param name="requiredMessage" value="msg:pack.nombre.required" />
+		<param name="placeholder" value="msg:pack.nombre" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	
+	<component id="cantidad" type="InputNumber">
+		<param name="inputId" value="str:cantidad" />
+		<param name="name" value="str:cantidad" />
+		<param name="value" value="pack.cantidad" />
+		<param name="requiredMessage" value="msg:pack.cantidad.required" />
+		<param name="placeholder" value="msg:pack.cantidad" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	
+	<component id="porcentajeGanancia" type="InputCurrency">
+		<param name="inputId" value="str:porcentajeGanancia" />
+		<param name="name" value="str:porcentajeGanancia" />
+		<param name="value" value="pack.porcentajeGanancia" />
+		
+		<param name="placeholder" value="msg:producto.porcentajeGanancia" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	<component id="porcentajeGanancia2" type="InputCurrency">
+		<param name="inputId" value="str:porcentajeGanancia2" />
+		<param name="name" value="str:porcentajeGanancia2" />
+		<param name="value" value="pack.porcentajeGanancia2" />
+		
+		<param name="placeholder" value="msg:producto.porcentajeGanancia2" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	
+
+	
+
+
+	<component id="costo" type="InputCurrency">
+		<param name="inputId" value="str:costo" />
+		<param name="name" value="str:costo" />
+		<param name="value" value="pack.costo" />
+		
+		<param name="placeholder" value="msg:pack.costo" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	
+	
+	
+	<component id="precioLista" type="InputCurrency">
+		<param name="inputId" value="str:precioLista" />
+		<param name="name" value="str:precioLista" />
+		<param name="value" value="pack.precioLista" />
+		
+		<param name="placeholder" value="msg:pack.precioLista" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+	
+	<component id="precioEfectivo" type="InputCurrency">
+		<param name="inputId" value="str:precioEfectivo" />
+		<param name="name" value="str:precioEfectivo" />
+		<param name="value" value="pack.precioEfectivo" />
+		
+		<param name="placeholder" value="msg:pack.precioEfectivo" />
+		<param name="autocomplete" value="str:off" />
+		
+	</component>
+
+	
+	
+	
+	
+	
+	
+	
+</rasty>

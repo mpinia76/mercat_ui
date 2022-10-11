@@ -1,0 +1,7 @@
+<rasty specificationClass="Mercat\UI\pages\login\Login" templateLocation="pages/login/Login.htm">
+
+	<param name="layoutType" value="str:MercatLoginMetroLayout" />
+	<param name="error" value="get:error" />
+
+		
+</rasty>

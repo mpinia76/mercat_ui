@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\conceptoMovimientos\ConceptoMovimientos" templateLocation="pages/conceptoMovimientos/ConceptoMovimientos.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="conceptoMovimientosFilter" type="ConceptoMovimientoFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:conceptoMovimiento.buscar" />
+		<param name="legendAgain" value="msg:conceptoMovimiento.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+	
+</rasty>

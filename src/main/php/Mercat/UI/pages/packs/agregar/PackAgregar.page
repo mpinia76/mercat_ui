@@ -1,0 +1,14 @@
+<rasty specificationClass="Mercat\UI\pages\packs\agregar\PackAgregar" templateLocation="pages/packs/agregar/PackAgregar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="packForm" type="PackForm">
+		<param name="legend" value="msg:pack.agregar.legend" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="action" value="linkActionAgregarPack" />
+		<param name="method" value="str:post" />
+		<param name="pack" value="pack" />
+	</component>
+	
+</rasty>

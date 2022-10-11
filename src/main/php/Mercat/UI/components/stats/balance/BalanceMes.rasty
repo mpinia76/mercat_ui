@@ -1,0 +1,4 @@
+<rasty specificationClass="Mercat\UI\components\stats\balance\BalanceMes" templateLocation="BalanceMes.htm">
+
+	<param name="filterType" value="post:filter" />
+</rasty>

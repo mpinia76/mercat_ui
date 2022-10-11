@@ -1,0 +1,27 @@
+<rasty specificationClass="Mercat\UI\components\filter\cliente\ClienteCtaCteFilter" templateLocation="ClienteCtaCteFilter.htm">
+
+	<component id="nombre" type="InputText">
+		<param name="name" value="str:nombre" />
+		<param name="value" value="criteria.nombre" />
+		<param name="placeholder" value="msg:cliente.nombre" />
+		
+	</component>
+
+	<component id="documento" type="InputText">
+		<param name="name" value="str:documento" />
+		<param name="value" value="criteria.documento" />
+		<param name="placeholder" value="msg:cliente.documento" />
+		
+	</component>
+	
+	
+	<component id="tipoCliente" type="InputCombo">
+		<param name="inputId" value="str:tipoCliente" />
+		<param name="name" value="str:tipoCliente" />
+		<param name="value" value="criteria.tipoCliente" />
+		<param name="options" value="tiposClientes" />
+		
+		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />
+	</component>
+	
+</rasty>

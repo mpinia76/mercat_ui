@@ -1,0 +1,16 @@
+<rasty specificationClass="Mercat\UI\pages\packs\modificar\PackModificar" templateLocation="pages/packs/modificar/PackModificar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="packOid" value="get:oid" />
+
+
+	<component id="packForm" type="PackForm">
+		<param name="legend" value="msg:pack.modificar.legend" />
+		<param name="action" value="linkActionModificarPack" />
+		<param name="method" value="str:post" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="pack" value="pack" />
+	</component>
+	
+</rasty>

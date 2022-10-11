@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\packs\Packs" templateLocation="pages/packs/Packs.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="packsFilter" type="PackFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:pack.buscar" />
+		<param name="legendAgain" value="msg:pack.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+	
+</rasty>

@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\balances\BalancePedidos" templateLocation="pages/balances/BalancePedidos.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="pedidosFilter" type="BalancePedidoFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:pedido.buscar" />
+		<param name="legendAgain" value="msg:pedido.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+
+</rasty>

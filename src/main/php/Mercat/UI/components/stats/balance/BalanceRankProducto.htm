@@ -1,0 +1,42 @@
+r<!-- BEGIN:main -->
+<style>
+.buttons button{
+
+	margin: 10px;
+}
+
+td.saldo{
+
+	text-align: right;
+}
+</style>
+
+
+<!-- BEGIN: rank_productos -->
+<div class="box">
+	<fieldset>
+		<legend>{detalle_productos_legend}</legend>
+
+		<table>
+			<tr>
+				<th>{lbl_producto}</th>
+
+				<th>{lbl_cantidad}</th>
+
+
+			</tr>
+			<!-- BEGIN: productos -->
+			<tr>
+				<td>{producto}</td>
+
+                <td class='saldo'>{cantidad}</td>
+
+			</tr>
+			<!-- END: productos -->
+		</table>
+
+	</fieldset>
+</div>
+<!-- END: rank_productos -->
+
+<!-- END:main -->

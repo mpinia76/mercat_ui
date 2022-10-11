@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\vendedores\agregar\VendedorAgregar" templateLocation="pages/vendedores/agregar/VendedorAgregar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="vendedorForm" type="VendedorForm">
+		<param name="legend" value="msg:vendedor.agregar.legend" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="action" value="linkActionAgregarVendedor" />
+		<param name="method" value="str:post" />
+		<param name="vendedor" value="vendedor" />
+	</component>
+	
+</rasty>

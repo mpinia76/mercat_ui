@@ -1,0 +1,14 @@
+<rasty specificationClass="Mercat\UI\pages\vendedores\modificar\VendedorModificar" templateLocation="pages/vendedores/modificar/VendedorModificar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="vendedorOid" value="get:oid" />
+	
+	<component id="vendedorForm" type="VendedorForm">
+		<param name="legend" value="msg:vendedor.modificar.legend" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="action" value="linkActionModificarVendedor" />
+		<param name="method" value="str:post" />
+		<param name="vendedor" value="vendedor" />
+	</component>
+	
+</rasty>

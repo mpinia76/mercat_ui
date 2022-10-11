@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\balances\BalanceRankProducto" templateLocation="pages/balances/BalanceRankProducto.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="balanceFilter" type="BalanceRankProductoFilter">
+
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:venta.buscar" />
+		<param name="legendAgain" value="msg:balance.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+
+</rasty>
