@@ -427,10 +427,10 @@ body.loginform {
 
 body{
 	font-size:80%;
-	background-color: #C61B78;
+	background-color: #000000;
 }
 .metro .navigation-bar {
-    background-color: #9A4474;
+    background-color: #000000A4474;
     color: #FFFFFF;
     display: block;
     width: 100%;
@@ -444,7 +444,7 @@ body{
 }
 
 .block table thead th {
-    background-color: #9A4474;
+    background-color: #000000;
     border-right: 1px solid #FFFFFF;
     color: #FFFFFF;
     height: 37px;

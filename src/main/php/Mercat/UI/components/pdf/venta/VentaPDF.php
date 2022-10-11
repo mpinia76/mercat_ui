@@ -47,10 +47,10 @@ class VentaPDF extends RastyComponent{
 		$xtpl->assign( "APP_PATH", RastyConfig::getInstance()->getAppPath() );
 		if( !empty($venta )){
 			
-			$oVendedor = UIServiceFactory::getUIVendedorService()->get( $venta->getVendedor()->getOid() );
+			/*$oVendedor = UIServiceFactory::getUIVendedorService()->get( $venta->getVendedor()->getOid() );
 			if ($oVendedor->getMayorista()) {
 				$xtpl->assign( "vendedor",'<p style="font-size:12pt;"><span style="font-weight: bold;">Vendedor: </span>'.$oVendedor->getNombre().' - '.$oVendedor->getTelefono().'</p>');
-			}
+			}*/
 			
 			
 			/*$contrato = html_entity_decode( $venta->getDetalleFalla() );

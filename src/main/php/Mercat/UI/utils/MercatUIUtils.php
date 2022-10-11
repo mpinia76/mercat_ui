@@ -784,27 +784,19 @@ class MercatUIUtils {
 		return $estilos[$estadoGasto];
 	}
 
-	public static function getEstadoVentaCss($estadoVenta, $vendedor){
+	public static function getEstadoVentaCss($estadoVenta){
 
 
         //$user = MercatUtils::getUserByUsername($userName);
 
-        if( !$vendedor->getMayorista()) {
+
             $estilos = array(
                 EstadoVenta::Pagada=> "bg-lightGreen fg-black",
                 EstadoVenta::Impaga=> "bg-yellow fg-black",
                 EstadoVenta::PagadaParcialmente=> "bg-orange fg-black",
                 EstadoVenta::Anulada=> "bg-crimson fg-white"
             );
-        }
-        else{
-            $estilos = array(
-                EstadoVenta::Pagada=> "bg-lighterBlue fg-black",
-                EstadoVenta::Impaga=> "bg-amber fg-black",
-                EstadoVenta::PagadaParcialmente=> "bg-red fg-black",
-                EstadoVenta::Anulada=> "bg-brown fg-white"
-            );
-        }
+
 
 
 		return $estilos[$estadoVenta];

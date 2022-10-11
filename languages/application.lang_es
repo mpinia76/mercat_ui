@@ -2,9 +2,9 @@
 
 	"common.campos_obligatorios":"Campos requeridos",
 
-	"app.title":"Your Mercat",
+	"app.title":"Mercat Rauch",
 
-	"app.pdf.footer":"Your Mercat",
+	"app.pdf.footer":"Mercat Rauch",
 
 	"menu.page":"Opciones de la página",
 	"menu.main":"Menú de navegación",
@@ -382,8 +382,8 @@
 	"cliente.ayuda.popup": "Si te resulta más práctico, puedes<br />utilizar la lupa para hacer una búsqueda avanzada.",
 	"cliente.ayuda.add":"Si no encuentras al cliente, utiliza<br />el '+' para ingresar sus datos y registrarlo en el sistema",
 
-	"login.title":"Your Mercat",
-	"login.titulo":"Your Mercat",
+	"login.title":"Mercat Rauch",
+	"login.titulo":"Mercat Rauch",
 	"login.subtitulo":"Sistema de gestión",
 
 	"login.iniciar_sesion":"Iniciar sesión",
@@ -395,7 +395,7 @@
 	"login.invalid_password": "La clave ingresada no es válida",
 	"login.user_not_found": "El usuario ingresado no es válido",
 
-	"admin_home.title": "Your Mercat",
+	"admin_home.title": "Mercat Rauch",
 	"admin_home.subtitle": "Administración",
 
 	"admin_home.informes": "Informes",
@@ -690,10 +690,10 @@
    	"producto.stockMinimo":"Stock Mínimo",
    	"producto.iva":"I.V.A.",
 	"producto.iva.required":"Ingrese el iva del producto",
-   	"producto.precioEfectivo":"Precio Minorista",
+   	"producto.precioEfectivo":"Precio",
    	"producto.descripcion":"Descripción",
-   	"producto.porcentajeGanancia":"% gan. min.",
-   	"producto.porcentajeGanancia.required":"Ingrese un porcentaje de ganancia minorista",
+   	"producto.porcentajeGanancia":"% ganancia",
+   	"producto.porcentajeGanancia.required":"Ingrese un porcentaje de ganancia",
    	"producto.porcentajeGanancia2":"% gan. may.",
    	"producto.porcentajeGanancia2.required":"Ingrese un porcentaje de ganancia mayorista",
 
@@ -745,7 +745,7 @@
 	"pack.costo.required":"Ingrese un costo",
    	"pack.precioLista":"Precio Mayorista",
 	"pack.precioLista.required":"Ingrese un precio mayorista",
-   	"pack.precioEfectivo":"Precio Minorista",
+   	"pack.precioEfectivo":"Precio",
 
   	"stock.modificar.title" : "Recibir productos",
   	"stock.modificar.productos_legend" : "Productos a recibir",
@@ -816,7 +816,7 @@
 	"venta.detalle.precio": "Precio",
 	"venta.detalle.subtotal": "Subtotal",
 	"venta.detalle.precioLista": "Precio Mayorista",
-	"venta.detalle.precioEfectivo": "Precio Minorista",
+	"venta.detalle.precioEfectivo": "Precio",
 
 
 
@@ -831,7 +831,7 @@
 	"venta.devolucion.precio": "Precio",
 	"venta.devolucion.subtotal": "Subtotal",
 	"venta.devolucion.precioLista": "Precio Mayorista",
-	"venta.devolucion.precioEfectivo": "Precio Minorista",
+	"venta.devolucion.precioEfectivo": "Precio",
 
 	"venta.agregar.producto.title": "Agregra productos",
 

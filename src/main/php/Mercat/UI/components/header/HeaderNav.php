@@ -353,12 +353,12 @@ class HeaderNav extends RastyComponent{
 
 		$menuGroup->addMenuOption( $menuOption );
 
-		$menuOption = new MenuOption();
+		/*$menuOption = new MenuOption();
 		$menuOption->setLabel( $this->localize( "menu.vendedores") );
 		$menuOption->setPageName( "Vendedores" );
 
 
-		$menuGroup->addMenuOption( $menuOption );
+		$menuGroup->addMenuOption( $menuOption );*/
 
 		$submenu = new SubmenuOption($menuGroup);
 
@@ -507,11 +507,11 @@ class HeaderNav extends RastyComponent{
 
 
 
-		$menuOption = new MenuOption();
+		/*$menuOption = new MenuOption();
 		$menuOption->setLabel( $this->localize( "menu.presupuestos.listar") );
 		$menuOption->setPageName( "Presupuestos" );
 		$menuOption->setIconClass("icon-ventas");
-		$menuGroup->addMenuOption( $menuOption );
+		$menuGroup->addMenuOption( $menuOption );*/
 
 
 		$submenu = new SubmenuOption($menuGroup);

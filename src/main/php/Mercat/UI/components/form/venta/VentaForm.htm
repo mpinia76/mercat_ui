@@ -92,7 +92,7 @@ function mostrarDetalles(data){
 
 function cleanInputs(){
 
-	$("#detallePrecioLista").val("") ;
+	/*$("#detallePrecioLista").val("") ;*/
 	$("#detallePrecioEfectivo").val("") ;
 	$("#detallePrecio").val("") ;
 	$("#detalleCosto").val("") ;
@@ -132,7 +132,7 @@ function productochange(entity){
 			$precio=$precioEfectivo;
 		}
 		$("#detallePrecioEfectivo").val( $precioEfectivo ) ;
-		$("#detallePrecioLista").val( $precioLista ) ;
+		/*$("#detallePrecioLista").val( $precioLista ) ;*/
 		$("#detallePrecio").val( $precio ) ;
 		$("#detalleCosto").val( $costo ) ;
 		$("#detalleCantidad").val($cantidad) ;
@@ -179,7 +179,7 @@ function packchange(entity){
 			$precio=$precioEfectivo;
 		}
 		$("#detallePrecioEfectivo").val( $precioEfectivo ) ;
-		$("#detallePrecioLista").val( $precioLista ) ;
+		/*$("#detallePrecioLista").val( $precioLista ) ;*/
 		$("#detallePrecio").val( $precio ) ;
 		$("#detalleCosto").val( $costo ) ;
 		$("#detalleCantidad").val($cantidad) ;
@@ -621,12 +621,12 @@ display:none;
                 </div>
             </div>
 
-			<div class="col-3">
+			<!--<div class="col-3">
 				<div class="item">
 				    <label for="vendedor">{lbl_vendedor}:</label>
 		    		<rasty id="vendedor" />
 				</div>
-			</div>
+			</div>-->
 			<div style="clear: both"></div>
 		</div>
 
@@ -651,7 +651,7 @@ display:none;
 				</tr>
 				<tr>
 					<td></td>
-					<td class="importe"><rasty id="detallePrecioLista"/></td>
+					<!--<td class="importe"><rasty id="detallePrecioLista"/></td>-->
 					<td class="importe"><rasty id="detallePrecioEfectivo"/></td>
 					<td class="importe"><rasty id="detallePrecio"/><rasty id="detalleCosto"/></td>
 

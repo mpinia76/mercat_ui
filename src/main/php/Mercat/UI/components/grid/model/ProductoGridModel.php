@@ -101,12 +101,12 @@ class ProductoGridModel extends EntityGridModel{
 		$column = GridModelBuilder::buildColumn( "precioEfectivo", "producto.precioEfectivo", 10, EntityGrid::TEXT_ALIGN_RIGHT  ,  new GridImporteFormat()) ;
 		$this->addColumn( $column );
 		
-		$column = GridModelBuilder::buildColumn( "porcentajeGanancia2", "producto.porcentajeGanancia2", 10, EntityGrid::TEXT_ALIGN_RIGHT, new GridPorcentajeFormat() );
+		/*$column = GridModelBuilder::buildColumn( "porcentajeGanancia2", "producto.porcentajeGanancia2", 10, EntityGrid::TEXT_ALIGN_RIGHT, new GridPorcentajeFormat() );
 		$column->setCssClass("no-phone no-tablet");
 		$this->addColumn( $column );
 		
 		$column = GridModelBuilder::buildColumn( "precioLista", "producto.precioLista", 10, EntityGrid::TEXT_ALIGN_RIGHT ,  new GridImporteFormat()) ;
-		$this->addColumn( $column );
+		$this->addColumn( $column );*/
 		
 	
 		

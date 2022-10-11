@@ -158,9 +158,9 @@ class VentaForm extends Form{
 
 		$xtpl->assign("linkConsultarMayorista", $this->getLinkActionConsultarMayorista() );
 
-		$oVendedor = UIServiceFactory::getUIVendedorService()->get(MercatUIUtils::getVendedorSession() );
+		/*$oVendedor = UIServiceFactory::getUIVendedorService()->get(MercatUIUtils::getVendedorSession() );
 
-		$xtpl->assign("mayorista", $oVendedor->getMayorista() );
+		$xtpl->assign("mayorista", $oVendedor->getMayorista() );*/
 
         $xtpl->assign("lbl_nombre",  $this->localize("producto.nombre") );
         $xtpl->assign("lbl_tipoProducto",  $this->localize("producto.tipoProducto") );

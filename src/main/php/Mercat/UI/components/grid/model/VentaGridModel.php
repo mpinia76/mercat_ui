@@ -115,7 +115,7 @@ class VentaGridModel extends EntityGridModel{
 
 	public function getRowStyleClass($item){
 
-		return MercatUIUtils::getEstadoVentaCss($item->getEstado(),$item->getVendedor());
+		return MercatUIUtils::getEstadoVentaCss($item->getEstado());
 
 	}
 

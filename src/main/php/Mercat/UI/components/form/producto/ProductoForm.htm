@@ -16,13 +16,13 @@ $(function() {
 
 	    	$('#precioEfectivo').val(precio.toFixed(0));
 	    }
-	    if($('#porcentajeGanancia2').val()!=''){
+	    /*if($('#porcentajeGanancia2').val()!=''){
 	    	var costo = parseFloat($(this).val().replace(',', '.'));
 	    	var porcentaje = parseFloat($('#porcentajeGanancia2').val().replace(',', '.'));
 	    	var precio = (costo+(costo*(porcentaje/100)));
 	    	$('#precioLista').val(precio.toFixed(0));
 
-	    }
+	    }*/
 	})
 	$('#porcentajeGanancia').change(function(){
 
@@ -43,7 +43,7 @@ $(function() {
 	    	$('#precioEfectivo').val(precio.toFixed(0));
 	    }
 	})
-	$('#porcentajeGanancia2').change(function(){
+	/*$('#porcentajeGanancia2').change(function(){
 
 	    if($('#costo').val()!=''){
 	    	var costo = parseFloat($('#costo').val().replace(',', '.'));
@@ -61,7 +61,7 @@ $(function() {
 
 	    	$('#precioLista').val(precio.toFixed(0));
 	    }
-	})
+	})*/
 
 });
 </script>
@@ -108,12 +108,12 @@ $(function() {
 				    <rasty id="costo" />
 				</div>
 			</div>
-			<div class="col-2">
+			<!--<div class="col-2">
 				<div class="item">
 				    <label for="porcentajeGanancia2">{lbl_porcentajeGanancia2}:</label>
 				    <rasty id="porcentajeGanancia2" />
 				</div>
-			</div>
+			</div>-->
 			<div class="col-2">
 				<div class="item">
 				    <label for="porcentajeGanancia">{lbl_porcentajeGanancia}:</label>
@@ -121,16 +121,23 @@ $(function() {
 				</div>
 			</div>
 
-			<div class="col-2">
+			<!--<div class="col-2">
 				<div class="item">
 				    <label for="precioLista">{lbl_precioLista}:</label>
 				    <rasty id="precioLista" />
 				</div>
-			</div>
+			</div>-->
+
 			<div class="col-2">
 				<div class="item">
 				    <label for="precioEfectivo">{lbl_precioEfectivo}:</label>
 				    <rasty id="precioEfectivo" />
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="item">
+					<label for="vencimiento">{lbl_vencimiento}:</label>
+					<rasty id="vencimiento" />
 				</div>
 			</div>
 			<div style="clear: both"></div>
@@ -149,12 +156,7 @@ $(function() {
 				    <rasty id="stockMinimo" />
 				</div>
 			</div>
-			<div class="col-4">
-				<div class="item">
-				    <label for="vencimiento">{lbl_vencimiento}:</label>
-				    <rasty id="vencimiento" />
-				</div>
-			</div>
+
 			<div style="clear: both"></div>
 		</div>
 

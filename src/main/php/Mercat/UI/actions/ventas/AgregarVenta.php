@@ -45,7 +45,8 @@ class AgregarVenta extends Action{
 			//completados con los datos del formulario.
 			$ventaForm->fillEntity($venta);
 			
-			MercatUIUtils::setVendedorSession($venta->getVendedor()->getOid());
+			//MercatUIUtils::setVendedorSession($venta->getVendedor()->getOid());
+            MercatUIUtils::setVendedorSession(1);
 			
 			//print_r($venta->getDetalles());
 			//agregamos la venta.
