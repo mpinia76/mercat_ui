@@ -1,11 +1,11 @@
 <?php
 
-namespace Mercat\UI\components\form\cliente;
+namespace Mercat\UI\components\form\empleado;
 
 use Datetime;
-use Mercat\UI\components\filter\model\UIClienteCriteria;
+use Mercat\UI\components\filter\model\UIEmpleadoCriteria;
 
-use Mercat\UI\service\finder\ClienteFinder;
+use Mercat\UI\service\finder\EmpleadoFinder;
 
 
 
@@ -21,21 +21,21 @@ use Rasty\utils\XTemplate;
 use Rasty\utils\RastyUtils;
 
 
-use Mercat\Core\model\Cliente;
+use Mercat\Core\model\Empleado;
 use Mercat\Core\model\Sexo;
 
 use Mercat\Core\model\TipoDocumento;
-use Mercat\Core\model\TipoCliente;
+use Mercat\Core\model\TipoEmpleado;
 
 use Rasty\utils\LinkBuilder;
 
 /**
- * Formulario para cliente
+ * Formulario para empleado
 
  * @author Marcos
- * @since 02/03/2018
+ * @since 11/10/2022
  */
-class ClienteForm extends Form{
+class EmpleadoForm extends Form{
 
 
 
@@ -48,12 +48,12 @@ class ClienteForm extends Form{
 
 	/**
 	 *
-	 * @var Cliente
+	 * @var Empleado
 	 */
-	private $cliente;
+	private $empleado;
 
 
-	public function __construct($backToOnSuccess="Clientes"){
+	public function __construct($backToOnSuccess="Empleados"){
 
 		parent::__construct();
 		$this->setLabelCancel("form.cancelar");
@@ -62,7 +62,7 @@ class ClienteForm extends Form{
 
 		$this->addProperty("tipoDocumento");
 		$this->addProperty("documento");
-		$this->addProperty("cuit");
+		$this->addProperty("cuil");
 		$this->addProperty("nacimiento");
 		$this->addProperty("sexo");
 		$this->addProperty("telefono");
@@ -70,6 +70,7 @@ class ClienteForm extends Form{
 		$this->addProperty("mail");
 		$this->addProperty("direccion");
 		$this->addProperty("observaciones");
+		$this->addProperty("numero");
 
 
 
@@ -98,7 +99,7 @@ class ClienteForm extends Form{
 
 	public function getType(){
 
-		return "ClienteForm";
+		return "EmpleadoForm";
 
 	}
 
@@ -122,19 +123,19 @@ class ClienteForm extends Form{
 		$xtpl->assign("cancel", $this->getLinkCancel() );
 		$xtpl->assign("lbl_cancel", $this->localize( $this->getLabelCancel() ) );
 
-		$xtpl->assign("lbl_nombre", $this->localize("cliente.nombre") );
-		$xtpl->assign("lbl_tipoDocumento", $this->localize("cliente.tipoDocumento") );
+		$xtpl->assign("lbl_nombre", $this->localize("empleado.nombre") );
+		$xtpl->assign("lbl_tipoDocumento", $this->localize("empleado.tipoDocumento") );
 
-		$xtpl->assign("lbl_documento", $this->localize("cliente.documento") );
-		$xtpl->assign("lbl_sexo", $this->localize("cliente.sexo") );
-		$xtpl->assign("lbl_nacimiento", $this->localize("cliente.nacimiento") );
-		$xtpl->assign("lbl_telefono", $this->localize("cliente.telefono") );
-		$xtpl->assign("lbl_celular", $this->localize("cliente.celular") );
-		$xtpl->assign("lbl_mail", $this->localize("cliente.mail") );
-		$xtpl->assign("lbl_direccion", $this->localize("cliente.direccion") );
-		$xtpl->assign("lbl_observaciones", $this->localize("cliente.observaciones") );
-
-		$xtpl->assign("lbl_cuit", $this->localize("cliente.cuit") );
+		$xtpl->assign("lbl_documento", $this->localize("empleado.documento") );
+		$xtpl->assign("lbl_sexo", $this->localize("empleado.sexo") );
+		$xtpl->assign("lbl_nacimiento", $this->localize("empleado.nacimiento") );
+		$xtpl->assign("lbl_telefono", $this->localize("empleado.telefono") );
+		$xtpl->assign("lbl_celular", $this->localize("empleado.celular") );
+		$xtpl->assign("lbl_mail", $this->localize("empleado.mail") );
+		$xtpl->assign("lbl_direccion", $this->localize("empleado.direccion") );
+		$xtpl->assign("lbl_observaciones", $this->localize("empleado.observaciones") );
+		$xtpl->assign("lbl_numero", $this->localize("empleado.numero") );
+		$xtpl->assign("lbl_cuil", $this->localize("empleado.cuil") );
 
 	}
 
@@ -151,14 +152,14 @@ class ClienteForm extends Form{
 
 
 
-	public function getCliente()
+	public function getEmpleado()
 	{
-	    return $this->cliente;
+	    return $this->empleado;
 	}
 
-	public function setCliente($cliente)
+	public function setEmpleado($empleado)
 	{
-	    $this->cliente = $cliente;
+	    $this->empleado = $empleado;
 
 	}
 
@@ -178,9 +179,9 @@ class ClienteForm extends Form{
 		return MercatUIUtils::localizeEntities(TipoDocumento::getItems());
 	}
 
-	public function getTiposCliente(){
+	public function getTiposEmpleado(){
 
-		return MercatUIUtils::localizeEntities(TipoCliente::getItems());
+		return MercatUIUtils::localizeEntities(TipoEmpleado::getItems());
 	}
 
 

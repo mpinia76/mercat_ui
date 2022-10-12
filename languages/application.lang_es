@@ -101,7 +101,11 @@
 	"menu.actualizarCuentaCorriente":"Actualizar Deuda",
 
 
-
+    "menu.empleados":"Empleados",
+    	"menu.empleados.listar":"Listado de Empleados",
+    	"menu.empleados.agregar":"Agregar Empleado",
+    	"menu.empleados.modificar":"Modificar datos del Empleado",
+    	"menu.empleado.eliminar":"Eliminar el Empleado",
 
 
 	"menu.informes":"Informes",
@@ -587,7 +591,47 @@
 
    	"cliente.saldo":"Saldo Cta Cte",
 
+    "empleados.title": "Listado de Empleados",
+    	"empleado.agregar": "Agregar un nuevo empleado",
+    	"empleado.agregar.title": "Agregar un nuevo empleado",
+    	"empleado.agregar.legend": "Ingrese los datos del empleado",
 
+    	"empleado.modificar": "Modificar datos del empleado",
+    	"empleado.modificar.title": "Modificar empleado",
+    	"empleado.modificar.legend": "Modifique los datos del empleado",
+
+    	"empleado.buscar": "Buscar empleados",
+    	"empleado.buscar.again": "Afinar búsqueda...",
+
+    	"empleado.eliminar.confirm.title": "Eliminar Empleado",
+    	"empleado.eliminar.confirm.msg": "Confirma eliminar el cliente seleccionado?",
+
+    "empleado.nombre":"Nombre y apellido",
+    	"empleado.nombre.unicity":"Ya existe un empleado para el nombre indicado",
+    	"empleado.nombre.required":"Ingrese un nombre",
+
+    	"empleado.fechaAlta":"Fecha de alta",
+    	"empleado.edad":"Edad",
+
+    	"empleado.tipoEmpleado":"Tipo",
+    	"empleado.nacimiento":"Fecha de nacimiento",
+    	"empleado.mail":"E-mail",
+       	"empleado.oid":"Código",
+       	"empleado.documento":"Documento",
+       	"empleado.documento.unicity":"Ya existe un empleado con el documento indicado",
+
+       	"empleado.telefono":"Teléfono",
+       	"empleado.celular":"Celular",
+       	"empleado.laboral":"Tel. Laboral",
+       	"empleado.telefonos":"Teléfonos",
+       	"empleado.direccion":"Domicilio",
+       	"empleado.sexo":"Sexo",
+       	"empleado.documento":"Nro Documento",
+       	"empleado.tipoDocumento":"Tipo Documento",
+       	"empleado.observaciones":"Notas",
+       	"empleado.cuil":"Cuil",
+        "empleado.numero":"Nro Empleado",
+        "empleado.numero.required":"Ingrese un número",
 
    	"documento.tipo":"Tipo",
    	"documento.nro":"Nro",
@@ -1260,6 +1304,7 @@
    	"proveedor.observaciones":"Notas",
    	"proveedor.cuit":"Cuit",
    	"proveedor.razonSocial":"Razón Social",
+   	"proveedor.razonSocial.required":"Ingrese una razón social",
    	"proveedor.condicionIva":"Condición Iva",
    	"proveedor.saldo":"Saldo",
 

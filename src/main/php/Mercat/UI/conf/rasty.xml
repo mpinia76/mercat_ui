@@ -60,6 +60,11 @@
 
 	<page name="ClientesCtaCte"   location="pages/clientes/ClientesCtaCte.page" url="clientesCtaCte"/>
 
+	<page name="Empleados"   location="pages/empleados/Empleados.page" url="empleados"/>
+	<page name="EmpleadoAgregar"   location="pages/empleados/agregar/EmpleadoAgregar.page" url="empleados/agregar"/>
+	<page name="EmpleadoModificar"   location="pages/empleados/modificar/EmpleadoModificar.page" url="empleados/modificar"/>
+
+
 	<page name="Combos"   location="pages/combos/Combos.page" url="combos"/>
 	<page name="ComboAgregar"   location="pages/combos/agregar/ComboAgregar.page" url="combos/agregar"/>
 	<page name="ComboModificar"   location="pages/combos/modificar/ComboModificar.page" url="combos/modificar"/>
@@ -152,6 +157,7 @@
 	<component name="PackForm"   location="components/form/pack"/>
 	<component name="VentaForm"   location="components/form/venta"/>
 	<component name="ClienteForm"   location="components/form/cliente"/>
+	<component name="EmpleadoForm"   location="components/form/empleado"/>
 
 	<component name="VentaCobrarTarjetaForm"   location="components/form/venta"/>
 
@@ -181,6 +187,8 @@
 	<component name="PackFilter"   location="components/filter/pack"/>
 	<component name="ClienteFilter"   location="components/filter/cliente"/>
 	<component name="ClienteCtaCteFilter"   location="components/filter/cliente"/>
+
+	<component name="EmpleadoFilter"   location="components/filter/empleado"/>
 
 	<component name="VentaFilter"   location="components/filter/venta"/>
 	<component name="MovimientoCajaFilter"   location="components/filter/movimiento"/>
@@ -276,6 +284,10 @@
 	<action name="AgregarCliente" class="Mercat\UI\actions\clientes\AgregarCliente" url="clientes/agregar"/>
 	<action name="ModificarCliente" class="Mercat\UI\actions\clientes\ModificarCliente" url="clientes/modificar"/>
 	<action name="EliminarCliente" class="Mercat\UI\actions\clientes\EliminarCliente" url="clientes/eliminar"/>
+
+	<action name="AgregarEmpleado" class="Mercat\UI\actions\empleados\AgregarEmpleado" url="empleados/agregar"/>
+	<action name="ModificarEmpleado" class="Mercat\UI\actions\empleados\ModificarEmpleado" url="empleados/modificar"/>
+	<action name="EliminarEmpleado" class="Mercat\UI\actions\empleados\EliminarEmpleado" url="empleados/eliminar"/>
 
 	<action name="ModificarParametro" class="Mercat\UI\actions\parametros\ModificarParametro" url="parametros/modificar"/>
 

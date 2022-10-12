@@ -12246,4 +12246,3572 @@ Types: Array
 ==========================
 
  2022-10-11T18:29:52-03:00 DEBUG stop query
+ 2022-10-11T22:54:48-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:55:12-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:55:13-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => admin
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-11T22:55:13-03:00 DEBUG stop query
+ 2022-10-11T22:55:13-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:55:23-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:55:23-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-11T22:55:23-03:00 DEBUG stop query
+ 2022-10-11T22:55:23-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:56:14-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:56:14-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-11T22:56:14-03:00 DEBUG stop query
+ 2022-10-11T22:56:14-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:58:55-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T22:58:55-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-11T22:58:55-03:00 DEBUG stop query
+ 2022-10-11T22:58:55-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T23:00:27-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T23:00:27-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-11T23:00:27-03:00 DEBUG stop query
+ 2022-10-11T23:00:27-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T23:03:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-11T23:03:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-11T23:03:06-03:00 DEBUG stop query
+ 2022-10-11T23:03:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T08:58:36-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:26:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:26:38-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 INFO  C05E5ECURT1C05E5 - c0NlbVRBV1duanNjeDUyTUpLWkFQdz09OjowEqRGyopQ6RTKNuQfzRyC - aes-128-cbc
+ 2022-10-12T09:26:39-03:00 INFO  NDä@”E=BÓ‘9 - sCemTAWWnjscx52MJKZAPw== - 0¤FÊŠPéÊ6äÍ‚
+ 2022-10-12T09:26:39-03:00 INFO  Decr: mAsp0149!
+ 2022-10-12T09:26:39-03:00 INFO  Pass: mAsp0149! => c0NlbVRBV1duanNjeDUyTUpLWkFQdz09OjowEqRGyopQ6RTKNuQfzRyC
+ 2022-10-12T09:26:39-03:00 DEBUG 
+==========================
+Sql: SELECT count(s0_.oid) AS sclr_0 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.oid <> ? AND s0_.username = ?
+Params: Array
+(
+    [0] => 3
+    [1] => mpinia
+)
+
+Types: Array
+(
+    [0] => integer
+    [1] => 2
+)
+
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 DEBUG 
+==========================
+Sql: UPDATE security_user SET lastLogin = ? WHERE oid = ?
+Params: Array
+(
+    [0] => DateTime Object
+        (
+            [date] => 2022-10-12 09:26:39.126838
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [1] => 3
+)
+
+Types: Array
+(
+    [0] => datetime
+    [1] => integer
+)
+
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 DEBUG 
+==========================
+Sql: SELECT t0.oid AS oid_1, t0.name AS name_2, t0.description AS description_3, t0.level AS level_4 FROM security_usergroup t0 INNER JOIN security_users_groups ON t0.oid = security_users_groups.usergroup_oid WHERE security_users_groups.user_oid = ?
+Params: Array
+(
+    [0] => 3
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T09:26:39-03:00 DEBUG stop query
+ 2022-10-12T09:26:39-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:26:40-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.fecha AS fecha_1, m0_.codigo AS codigo_2, m0_.nombre AS nombre_3, m0_.descripcion AS descripcion_4, m0_.stock AS stock_5, m0_.stockMinimo AS stockMinimo_6, m0_.precioLista AS precioLista_7, m0_.precioEfectivo AS precioEfectivo_8, m0_.costo AS costo_9, m0_.porcentajeGanancia AS porcentajeGanancia_10, m0_.porcentajeGanancia2 AS porcentajeGanancia2_11, m0_.vencimiento AS vencimiento_12, m0_.cantidad AS cantidad_13, m1_.oid AS oid_14, m1_.nombre AS nombre_15, m2_.oid AS oid_16, m2_.nombre AS nombre_17, m0_.tipoProducto_oid AS tipoProducto_oid_18, m0_.marcaProducto_oid AS marcaProducto_oid_19, m0_.iva_oid AS iva_oid_20 FROM mercat_producto m0_ LEFT JOIN mercat_tipo_producto m1_ ON m0_.tipoProducto_oid = m1_.oid LEFT JOIN mercat_marca_producto m2_ ON m0_.marcaProducto_oid = m2_.oid WHERE m0_.stockMinimo >= m0_.stock
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:26:40-03:00 DEBUG stop query
+ 2022-10-12T09:26:40-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_pedido m0_ LEFT JOIN mercat_proveedor m1_ ON m0_.proveedor_oid = m1_.oid WHERE m0_.fechaHoraRecibido IS NULL AND m0_.estado <> 4
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:26:40-03:00 DEBUG stop query
+ 2022-10-12T09:26:41-03:00 DEBUG 
+==========================
+Sql: SELECT t0.oid AS oid_6, t0.numero AS numero_7, t0.fecha AS fecha_8, t0.saldoInicial AS saldoInicial_9, t0.saldo AS saldo_10, t0.discr, t1.cliente_oid AS cliente_oid_11, t2.horaApertura AS horaApertura_12, t2.horaCierre AS horaCierre_13, t2.cajero_oid AS cajero_oid_14, t3.nombre AS nombre_15, t3.cbu AS cbu_16, t3.titular AS titular_17, t3.cuit AS cuit_18, t4.marca AS marca_19, t4.nro AS nro_20, t4.titular AS titular_21, t4.cliente_oid AS cliente_oid_22 FROM mercat_cuenta t0 LEFT JOIN mercat_cuenta_corriente t1 ON t0.oid = t1.oid LEFT JOIN mercat_caja t2 ON t0.oid = t2.oid LEFT JOIN mercat_banco t3 ON t0.oid = t3.oid LEFT JOIN mercat_tarjeta t4 ON t0.oid = t4.oid LEFT JOIN mercat_caja_chica t5 ON t0.oid = t5.oid WHERE t0.oid = ?
+Params: Array
+(
+    [0] => 1
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T09:26:45-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:26:46-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:26:46-03:00 DEBUG stop query
+ 2022-10-12T09:26:46-03:00 DEBUG 
+==========================
+Sql: SELECT count(s0_.oid) AS sclr_0 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.oid <> ? AND s0_.username = ?
+Params: Array
+(
+    [0] => 3
+    [1] => mpinia
+)
+
+Types: Array
+(
+    [0] => integer
+    [1] => 2
+)
+
+==========================
+
+ 2022-10-12T09:26:46-03:00 DEBUG stop query
+ 2022-10-12T09:26:46-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:26:46-03:00 DEBUG stop query
+ 2022-10-12T09:26:46-03:00 DEBUG 
+==========================
+Sql: UPDATE security_user SET logged = ? WHERE oid = ?
+Params: Array
+(
+    [0] => 
+    [1] => 3
+)
+
+Types: Array
+(
+    [0] => boolean
+    [1] => integer
+)
+
+==========================
+
+ 2022-10-12T09:26:46-03:00 DEBUG stop query
+ 2022-10-12T09:26:46-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:26:46-03:00 DEBUG stop query
+ 2022-10-12T09:26:46-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:32:52-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 INFO  C05E5ECURT1C05E5 - c0NlbVRBV1duanNjeDUyTUpLWkFQdz09OjowEqRGyopQ6RTKNuQfzRyC - aes-128-cbc
+ 2022-10-12T09:32:52-03:00 INFO  NDä@”E=BÓ‘9 - sCemTAWWnjscx52MJKZAPw== - 0¤FÊŠPéÊ6äÍ‚
+ 2022-10-12T09:32:52-03:00 INFO  Decr: mAsp0149!
+ 2022-10-12T09:32:52-03:00 INFO  Pass: mAsp0149! => c0NlbVRBV1duanNjeDUyTUpLWkFQdz09OjowEqRGyopQ6RTKNuQfzRyC
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: SELECT count(s0_.oid) AS sclr_0 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.oid <> ? AND s0_.username = ?
+Params: Array
+(
+    [0] => 3
+    [1] => mpinia
+)
+
+Types: Array
+(
+    [0] => integer
+    [1] => 2
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: UPDATE security_user SET lastLogin = ? WHERE oid = ?
+Params: Array
+(
+    [0] => DateTime Object
+        (
+            [date] => 2022-10-12 09:32:52.713061
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [1] => 3
+)
+
+Types: Array
+(
+    [0] => datetime
+    [1] => integer
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: SELECT t0.oid AS oid_1, t0.name AS name_2, t0.description AS description_3, t0.level AS level_4 FROM security_usergroup t0 INNER JOIN security_users_groups ON t0.oid = security_users_groups.usergroup_oid WHERE security_users_groups.user_oid = ?
+Params: Array
+(
+    [0] => 3
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.fecha AS fecha_1, m0_.codigo AS codigo_2, m0_.nombre AS nombre_3, m0_.descripcion AS descripcion_4, m0_.stock AS stock_5, m0_.stockMinimo AS stockMinimo_6, m0_.precioLista AS precioLista_7, m0_.precioEfectivo AS precioEfectivo_8, m0_.costo AS costo_9, m0_.porcentajeGanancia AS porcentajeGanancia_10, m0_.porcentajeGanancia2 AS porcentajeGanancia2_11, m0_.vencimiento AS vencimiento_12, m0_.cantidad AS cantidad_13, m1_.oid AS oid_14, m1_.nombre AS nombre_15, m2_.oid AS oid_16, m2_.nombre AS nombre_17, m0_.tipoProducto_oid AS tipoProducto_oid_18, m0_.marcaProducto_oid AS marcaProducto_oid_19, m0_.iva_oid AS iva_oid_20 FROM mercat_producto m0_ LEFT JOIN mercat_tipo_producto m1_ ON m0_.tipoProducto_oid = m1_.oid LEFT JOIN mercat_marca_producto m2_ ON m0_.marcaProducto_oid = m2_.oid WHERE m0_.stockMinimo >= m0_.stock
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:52-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_pedido m0_ LEFT JOIN mercat_proveedor m1_ ON m0_.proveedor_oid = m1_.oid WHERE m0_.fechaHoraRecibido IS NULL AND m0_.estado <> 4
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:52-03:00 DEBUG stop query
+ 2022-10-12T09:32:53-03:00 DEBUG 
+==========================
+Sql: SELECT t0.oid AS oid_6, t0.numero AS numero_7, t0.fecha AS fecha_8, t0.saldoInicial AS saldoInicial_9, t0.saldo AS saldo_10, t0.discr, t1.cliente_oid AS cliente_oid_11, t2.horaApertura AS horaApertura_12, t2.horaCierre AS horaCierre_13, t2.cajero_oid AS cajero_oid_14, t3.nombre AS nombre_15, t3.cbu AS cbu_16, t3.titular AS titular_17, t3.cuit AS cuit_18, t4.marca AS marca_19, t4.nro AS nro_20, t4.titular AS titular_21, t4.cliente_oid AS cliente_oid_22 FROM mercat_cuenta t0 LEFT JOIN mercat_cuenta_corriente t1 ON t0.oid = t1.oid LEFT JOIN mercat_caja t2 ON t0.oid = t2.oid LEFT JOIN mercat_banco t3 ON t0.oid = t3.oid LEFT JOIN mercat_tarjeta t4 ON t0.oid = t4.oid LEFT JOIN mercat_caja_chica t5 ON t0.oid = t5.oid WHERE t0.oid = ?
+Params: Array
+(
+    [0] => 1
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T09:32:53-03:00 DEBUG stop query
+ 2022-10-12T09:32:53-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.fecha AS fecha_1, m0_.haber AS haber_2, m0_.debe AS debe_3, m0_.saldo AS saldo_4, m0_.observaciones AS observaciones_5, m1_.oid AS oid_6, m1_.numero AS numero_7, m1_.fecha AS fecha_8, m1_.saldoInicial AS saldoInicial_9, m1_.saldo AS saldo_10, m3_.horaApertura AS horaApertura_11, m3_.horaCierre AS horaCierre_12, m4_.nombre AS nombre_13, m4_.cbu AS cbu_14, m4_.titular AS titular_15, m4_.cuit AS cuit_16, m5_.marca AS marca_17, m5_.nro AS nro_18, m5_.titular AS titular_19, m7_.oid AS oid_20, m7_.nombre AS nombre_21, m0_.discr AS discr_22, m0_.cuenta_oid AS cuenta_oid_23, m0_.concepto_oid AS concepto_oid_24, m0_.user_oid AS user_oid_25, m0_.venta_oid AS venta_oid_26, m0_.gasto_oid AS gasto_oid_27, m0_.actualizacion_oid AS actualizacion_oid_28, m0_.pago_oid AS pago_oid_29, m0_.pedido_oid AS pedido_oid_30, m1_.discr AS discr_31, m2_.cliente_oid AS cliente_oid_32, m3_.cajero_oid AS cajero_oid_33, m5_.cliente_oid AS cliente_oid_34 FROM mercat_movimiento_caja m0_ LEFT JOIN mercat_cuenta m1_ ON m0_.cuenta_oid = m1_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.oid = m2_.oid LEFT JOIN mercat_caja m3_ ON m1_.oid = m3_.oid LEFT JOIN mercat_banco m4_ ON m1_.oid = m4_.oid LEFT JOIN mercat_tarjeta m5_ ON m1_.oid = m5_.oid LEFT JOIN mercat_caja_chica m6_ ON m1_.oid = m6_.oid LEFT JOIN mercat_concepto_movimiento m7_ ON m0_.concepto_oid = m7_.oid WHERE (m0_.fecha LIKE '2022-10-12%' AND m1_.oid = 1) AND m0_.discr IN ('venta', 'gasto', 'actualizacion', 'pago', 'pedido')
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:53-03:00 DEBUG stop query
+ 2022-10-12T09:32:53-03:00 DEBUG 
+==========================
+Sql: SELECT SUM(m0_.debe) AS sclr_0, SUM(m0_.haber) AS sclr_1 FROM mercat_movimiento_caja m0_ LEFT JOIN mercat_cuenta m1_ ON m0_.cuenta_oid = m1_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.oid = m2_.oid LEFT JOIN mercat_caja m3_ ON m1_.oid = m3_.oid LEFT JOIN mercat_banco m4_ ON m1_.oid = m4_.oid LEFT JOIN mercat_tarjeta m5_ ON m1_.oid = m5_.oid LEFT JOIN mercat_caja_chica m6_ ON m1_.oid = m6_.oid WHERE (MONTH(m0_.fecha) = 10 AND YEAR(m0_.fecha) = 2022 AND DAY(m0_.fecha) = 12) AND m0_.discr IN ('venta')
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:53-03:00 DEBUG stop query
+ 2022-10-12T09:32:53-03:00 DEBUG 
+==========================
+Sql: SELECT SUM(m0_.debe) AS sclr_0, SUM(m0_.haber) AS sclr_1 FROM mercat_movimiento_caja m0_ LEFT JOIN mercat_cuenta m1_ ON m0_.cuenta_oid = m1_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.oid = m2_.oid LEFT JOIN mercat_caja m3_ ON m1_.oid = m3_.oid LEFT JOIN mercat_banco m4_ ON m1_.oid = m4_.oid LEFT JOIN mercat_tarjeta m5_ ON m1_.oid = m5_.oid LEFT JOIN mercat_caja_chica m6_ ON m1_.oid = m6_.oid WHERE (MONTH(m0_.fecha) = 10 AND YEAR(m0_.fecha) = 2022 AND DAY(m0_.fecha) = 12) AND m0_.discr IN ('gasto')
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:53-03:00 DEBUG stop query
+ 2022-10-12T09:32:53-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.numero AS numero_1, m0_.fecha AS fecha_2, m0_.saldoInicial AS saldoInicial_3, m0_.saldo AS saldo_4, m1_.marca AS marca_5, m1_.nro AS nro_6, m1_.titular AS titular_7, m2_.oid AS oid_8, m2_.cuit AS cuit_9, m2_.fecha AS fecha_10, m2_.ultModificacion AS ultModificacion_11, m0_.discr AS discr_12, m1_.cliente_oid AS cliente_oid_13, m2_.cuentaCorriente_oid AS cuentaCorriente_oid_14 FROM mercat_tarjeta m1_ INNER JOIN mercat_cuenta m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cliente m2_ ON m1_.cliente_oid = m2_.oid LIMIT 18446744073709551615 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:53-03:00 DEBUG stop query
+ 2022-10-12T09:32:53-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.fecha AS fecha_1, m0_.haber AS haber_2, m0_.debe AS debe_3, m0_.saldo AS saldo_4, m0_.observaciones AS observaciones_5, m1_.oid AS oid_6, m1_.numero AS numero_7, m1_.fecha AS fecha_8, m1_.saldoInicial AS saldoInicial_9, m1_.saldo AS saldo_10, m3_.horaApertura AS horaApertura_11, m3_.horaCierre AS horaCierre_12, m4_.nombre AS nombre_13, m4_.cbu AS cbu_14, m4_.titular AS titular_15, m4_.cuit AS cuit_16, m5_.marca AS marca_17, m5_.nro AS nro_18, m5_.titular AS titular_19, m7_.oid AS oid_20, m7_.nombre AS nombre_21, m0_.discr AS discr_22, m0_.cuenta_oid AS cuenta_oid_23, m0_.concepto_oid AS concepto_oid_24, m0_.user_oid AS user_oid_25, m0_.venta_oid AS venta_oid_26, m0_.gasto_oid AS gasto_oid_27, m0_.actualizacion_oid AS actualizacion_oid_28, m0_.pago_oid AS pago_oid_29, m0_.pedido_oid AS pedido_oid_30, m1_.discr AS discr_31, m2_.cliente_oid AS cliente_oid_32, m3_.cajero_oid AS cajero_oid_33, m5_.cliente_oid AS cliente_oid_34 FROM mercat_movimiento_caja m0_ LEFT JOIN mercat_cuenta m1_ ON m0_.cuenta_oid = m1_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.oid = m2_.oid LEFT JOIN mercat_caja m3_ ON m1_.oid = m3_.oid LEFT JOIN mercat_banco m4_ ON m1_.oid = m4_.oid LEFT JOIN mercat_tarjeta m5_ ON m1_.oid = m5_.oid LEFT JOIN mercat_caja_chica m6_ ON m1_.oid = m6_.oid LEFT JOIN mercat_concepto_movimiento m7_ ON m0_.concepto_oid = m7_.oid WHERE (m0_.fecha LIKE '2022-10-12%') AND m0_.discr IN ('venta', 'gasto', 'actualizacion', 'pago', 'pedido')
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:53-03:00 DEBUG stop query
+ 2022-10-12T09:32:54-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.numero AS numero_1, m0_.fecha AS fecha_2, m0_.saldoInicial AS saldoInicial_3, m0_.saldo AS saldo_4, m1_.oid AS oid_5, m1_.cuit AS cuit_6, m1_.fecha AS fecha_7, m1_.ultModificacion AS ultModificacion_8, m0_.discr AS discr_9, m2_.cliente_oid AS cliente_oid_10, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_11 FROM mercat_cuenta_corriente m2_ INNER JOIN mercat_cuenta m0_ ON m2_.oid = m0_.oid LEFT JOIN mercat_cliente m1_ ON m2_.cliente_oid = m1_.oid LIMIT 18446744073709551615 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:54-03:00 DEBUG stop query
+ 2022-10-12T09:32:54-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.fecha AS fecha_1, m0_.haber AS haber_2, m0_.debe AS debe_3, m0_.saldo AS saldo_4, m0_.observaciones AS observaciones_5, m1_.oid AS oid_6, m1_.numero AS numero_7, m1_.fecha AS fecha_8, m1_.saldoInicial AS saldoInicial_9, m1_.saldo AS saldo_10, m3_.horaApertura AS horaApertura_11, m3_.horaCierre AS horaCierre_12, m4_.nombre AS nombre_13, m4_.cbu AS cbu_14, m4_.titular AS titular_15, m4_.cuit AS cuit_16, m5_.marca AS marca_17, m5_.nro AS nro_18, m5_.titular AS titular_19, m7_.oid AS oid_20, m7_.nombre AS nombre_21, m0_.discr AS discr_22, m0_.cuenta_oid AS cuenta_oid_23, m0_.concepto_oid AS concepto_oid_24, m0_.user_oid AS user_oid_25, m0_.venta_oid AS venta_oid_26, m0_.gasto_oid AS gasto_oid_27, m0_.actualizacion_oid AS actualizacion_oid_28, m0_.pago_oid AS pago_oid_29, m0_.pedido_oid AS pedido_oid_30, m1_.discr AS discr_31, m2_.cliente_oid AS cliente_oid_32, m3_.cajero_oid AS cajero_oid_33, m5_.cliente_oid AS cliente_oid_34 FROM mercat_movimiento_caja m0_ LEFT JOIN mercat_cuenta m1_ ON m0_.cuenta_oid = m1_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.oid = m2_.oid LEFT JOIN mercat_caja m3_ ON m1_.oid = m3_.oid LEFT JOIN mercat_banco m4_ ON m1_.oid = m4_.oid LEFT JOIN mercat_tarjeta m5_ ON m1_.oid = m5_.oid LEFT JOIN mercat_caja_chica m6_ ON m1_.oid = m6_.oid LEFT JOIN mercat_concepto_movimiento m7_ ON m0_.concepto_oid = m7_.oid WHERE (m0_.fecha LIKE '2022-10-12%') AND m0_.discr IN ('venta', 'gasto', 'actualizacion', 'pago', 'pedido')
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:32:54-03:00 DEBUG stop query
+ 2022-10-12T09:33:01-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:33:01-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:01-03:00 DEBUG stop query
+ 2022-10-12T09:33:01-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:01-03:00 DEBUG stop query
+ 2022-10-12T09:33:01-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:01-03:00 DEBUG stop query
+ 2022-10-12T09:33:01-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:01-03:00 DEBUG stop query
+ 2022-10-12T09:33:02-03:00 INFO  fillFromSaved
+ 2022-10-12T09:33:02-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:33:02-03:00 INFO  Component Extend 
+ 2022-10-12T09:33:02-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:02-03:00 DEBUG stop query
+ 2022-10-12T09:33:02-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:02-03:00 DEBUG stop query
+ 2022-10-12T09:33:05-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:33:10-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:33:10-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:10-03:00 DEBUG stop query
+ 2022-10-12T09:33:10-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:10-03:00 DEBUG stop query
+ 2022-10-12T09:33:10-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:10-03:00 DEBUG stop query
+ 2022-10-12T09:33:10-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:10-03:00 DEBUG stop query
+ 2022-10-12T09:33:10-03:00 INFO  fillFromSaved
+ 2022-10-12T09:33:11-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:33:11-03:00 INFO  Component Extend 
+ 2022-10-12T09:33:11-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:11-03:00 DEBUG stop query
+ 2022-10-12T09:33:11-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:33:11-03:00 DEBUG stop query
+ 2022-10-12T09:42:44-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:50:32-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:50:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:33-03:00 DEBUG stop query
+ 2022-10-12T09:50:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:33-03:00 DEBUG stop query
+ 2022-10-12T09:50:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:33-03:00 DEBUG stop query
+ 2022-10-12T09:50:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:33-03:00 DEBUG stop query
+ 2022-10-12T09:50:33-03:00 INFO  fillFromSaved
+ 2022-10-12T09:50:34-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:50:34-03:00 INFO  Component Extend 
+ 2022-10-12T09:50:34-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:34-03:00 DEBUG stop query
+ 2022-10-12T09:50:34-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:34-03:00 DEBUG stop query
+ 2022-10-12T09:50:34-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.email AS email_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.domicilio AS domicilio_5, m0_.observaciones AS observaciones_6, m0_.nroDocumento AS nroDocumento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:50:34-03:00 DEBUG stop query
+ 2022-10-12T09:50:34-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:50:34-03:00 DEBUG stop query
+ 2022-10-12T09:50:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:50:41-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 INFO  fillFromSaved
+ 2022-10-12T09:50:41-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:50:41-03:00 INFO  Component Extend 
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.email AS email_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.domicilio AS domicilio_5, m0_.observaciones AS observaciones_6, m0_.nroDocumento AS nroDocumento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:50:41-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:50:41-03:00 DEBUG stop query
+ 2022-10-12T09:51:41-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:53:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 INFO  fillFromSaved
+ 2022-10-12T09:53:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:53:06-03:00 INFO  Component Extend 
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.email AS email_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.domicilio AS domicilio_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:06-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:53:06-03:00 DEBUG stop query
+ 2022-10-12T09:53:08-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:54:32-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:54:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:33-03:00 DEBUG stop query
+ 2022-10-12T09:54:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:33-03:00 DEBUG stop query
+ 2022-10-12T09:54:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:33-03:00 DEBUG stop query
+ 2022-10-12T09:54:33-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:33-03:00 DEBUG stop query
+ 2022-10-12T09:54:33-03:00 INFO  fillFromSaved
+ 2022-10-12T09:54:33-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:54:33-03:00 INFO  Component Extend 
+ 2022-10-12T09:54:34-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:34-03:00 DEBUG stop query
+ 2022-10-12T09:54:34-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:34-03:00 DEBUG stop query
+ 2022-10-12T09:54:34-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.email AS email_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.domicilio AS domicilio_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:54:34-03:00 DEBUG stop query
+ 2022-10-12T09:54:34-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:54:34-03:00 DEBUG stop query
+ 2022-10-12T09:54:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:54:40-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:54:40-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:40-03:00 DEBUG stop query
+ 2022-10-12T09:54:40-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:40-03:00 DEBUG stop query
+ 2022-10-12T09:54:40-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:40-03:00 DEBUG stop query
+ 2022-10-12T09:54:40-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:40-03:00 DEBUG stop query
+ 2022-10-12T09:54:40-03:00 INFO  fillFromSaved
+ 2022-10-12T09:54:41-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:54:41-03:00 INFO  Component Extend 
+ 2022-10-12T09:54:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:41-03:00 DEBUG stop query
+ 2022-10-12T09:54:41-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:54:41-03:00 DEBUG stop query
+ 2022-10-12T09:54:41-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.email AS email_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.domicilio AS domicilio_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:54:41-03:00 DEBUG stop query
+ 2022-10-12T09:54:41-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:54:41-03:00 DEBUG stop query
+ 2022-10-12T09:55:13-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:29-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:29-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:29-03:00 DEBUG stop query
+ 2022-10-12T09:56:29-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:29-03:00 DEBUG stop query
+ 2022-10-12T09:56:29-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:29-03:00 DEBUG stop query
+ 2022-10-12T09:56:29-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:29-03:00 DEBUG stop query
+ 2022-10-12T09:56:30-03:00 INFO  fillFromSaved
+ 2022-10-12T09:56:30-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:30-03:00 INFO  Component Extend 
+ 2022-10-12T09:56:30-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:30-03:00 DEBUG stop query
+ 2022-10-12T09:56:30-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:30-03:00 DEBUG stop query
+ 2022-10-12T09:56:30-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:56:30-03:00 DEBUG stop query
+ 2022-10-12T09:56:30-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:56:30-03:00 DEBUG stop query
+ 2022-10-12T09:56:31-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:31-03:00 INFO  fillFromSaved
+ 2022-10-12T09:56:58-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:58-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:56:58-03:00 DEBUG stop query
+ 2022-10-12T09:56:58-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_persona (nombre, mail, telefono, celular, direccion, observaciones, documento, tipoDocumento, sexo, nacimiento, discr) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => Consumidor final
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 1
+    [9] => 
+    [10] => 
+    [11] => cliente
+)
+
+Types: Array
+(
+    [1] => string
+    [2] => string
+    [3] => string
+    [4] => string
+    [5] => string
+    [6] => string
+    [7] => string
+    [8] => integer
+    [9] => integer
+    [10] => date
+    [11] => string
+)
+
+==========================
+
+ 2022-10-12T09:56:58-03:00 DEBUG stop query
+ 2022-10-12T09:56:58-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_cliente (oid, cuit, fecha, ultModificacion, cuentaCorriente_oid) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => 1
+    [2] => 
+    [3] => DateTime Object
+        (
+            [date] => 2022-10-12 09:56:58.746091
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [4] => DateTime Object
+        (
+            [date] => 2022-10-12 09:56:58.746102
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [5] => 
+)
+
+Types: Array
+(
+    [1] => integer
+    [2] => string
+    [3] => datetime
+    [4] => datetime
+    [5] => integer
+)
+
+==========================
+
+ 2022-10-12T09:56:58-03:00 DEBUG stop query
+ 2022-10-12T09:56:58-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T09:56:58-03:00 DEBUG stop query
+ 2022-10-12T09:56:58-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:58-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:58-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 INFO  fillFromSaved
+ 2022-10-12T09:56:59-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:56:59-03:00 INFO  Component Extend 
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:56:59-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:56:59-03:00 DEBUG stop query
+ 2022-10-12T09:57:21-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:59:09-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:59:09-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:59:09-03:00 DEBUG stop query
+ 2022-10-12T09:59:09-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:59:09-03:00 DEBUG stop query
+ 2022-10-12T09:59:09-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:59:09-03:00 DEBUG stop query
+ 2022-10-12T09:59:09-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:59:09-03:00 DEBUG stop query
+ 2022-10-12T09:59:09-03:00 INFO  fillFromSaved
+ 2022-10-12T09:59:10-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:59:10-03:00 INFO  Component Extend 
+ 2022-10-12T09:59:10-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:59:10-03:00 DEBUG stop query
+ 2022-10-12T09:59:10-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T09:59:10-03:00 DEBUG stop query
+ 2022-10-12T09:59:11-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:59:11-03:00 DEBUG stop query
+ 2022-10-12T09:59:11-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T09:59:11-03:00 DEBUG stop query
+ 2022-10-12T09:59:13-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T09:59:13-03:00 INFO  fillFromSaved
+ 2022-10-12T10:04:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:04:07-03:00 INFO  fillFromSaved
+ 2022-10-12T10:04:19-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:04:20-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:04:20-03:00 DEBUG stop query
+ 2022-10-12T10:04:20-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_persona (nombre, mail, telefono, celular, direccion, observaciones, documento, tipoDocumento, sexo, nacimiento, discr) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => Marcos PiÃ±ero
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => proveedor
+)
+
+Types: Array
+(
+    [1] => string
+    [2] => string
+    [3] => string
+    [4] => string
+    [5] => string
+    [6] => string
+    [7] => string
+    [8] => integer
+    [9] => integer
+    [10] => date
+    [11] => string
+)
+
+==========================
+
+ 2022-10-12T10:04:20-03:00 DEBUG stop query
+ 2022-10-12T10:04:20-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_proveedor (oid, razonSocial, cuit, condicionIva, fecha, ultModificacion, cuentaCorriente_oid) VALUES (?, ?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => 2
+    [2] => PiÃ±a
+    [3] => 
+    [4] => 1
+    [5] => DateTime Object
+        (
+            [date] => 2022-10-12 10:04:19.872288
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [6] => DateTime Object
+        (
+            [date] => 2022-10-12 10:04:19.872303
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [7] => 
+)
+
+Types: Array
+(
+    [1] => integer
+    [2] => string
+    [3] => string
+    [4] => integer
+    [5] => datetime
+    [6] => datetime
+    [7] => integer
+)
+
+==========================
+
+ 2022-10-12T10:04:20-03:00 DEBUG stop query
+ 2022-10-12T10:04:20-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:04:20-03:00 DEBUG stop query
+ 2022-10-12T10:04:20-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:04:20-03:00 INFO  fillFromSaved
+ 2022-10-12T10:04:20-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:04:20-03:00 INFO  Component Extend 
+ 2022-10-12T10:04:20-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:04:20-03:00 DEBUG stop query
+ 2022-10-12T10:04:20-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:04:20-03:00 DEBUG stop query
+ 2022-10-12T10:13:50-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:13:50-03:00 INFO  fillFromSaved
+ 2022-10-12T10:13:50-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:13:50-03:00 INFO  Component Extend 
+ 2022-10-12T10:13:50-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:13:50-03:00 DEBUG stop query
+ 2022-10-12T10:13:50-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:13:50-03:00 DEBUG stop query
+ 2022-10-12T10:16:44-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:16:44-03:00 INFO  fillFromSaved
+ 2022-10-12T10:16:45-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:16:45-03:00 INFO  Component Extend 
+ 2022-10-12T10:16:45-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:16:45-03:00 DEBUG stop query
+ 2022-10-12T10:16:45-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:16:45-03:00 DEBUG stop query
+ 2022-10-12T10:25:57-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:25:57-03:00 INFO  fillFromSaved
+ 2022-10-12T10:25:57-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:25:57-03:00 INFO  Component Extend 
+ 2022-10-12T10:25:57-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:25:57-03:00 DEBUG stop query
+ 2022-10-12T10:25:57-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:25:57-03:00 DEBUG stop query
+ 2022-10-12T10:26:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:26:06-03:00 INFO  fillFromSaved
+ 2022-10-12T10:26:07-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:26:07-03:00 INFO  Component Extend 
+ 2022-10-12T10:26:07-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:26:07-03:00 DEBUG stop query
+ 2022-10-12T10:26:07-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:26:07-03:00 DEBUG stop query
+ 2022-10-12T10:26:18-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:26:18-03:00 INFO  fillFromSaved
+ 2022-10-12T10:26:19-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:26:19-03:00 INFO  Component Extend 
+ 2022-10-12T10:26:19-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:26:19-03:00 DEBUG stop query
+ 2022-10-12T10:26:19-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:26:19-03:00 DEBUG stop query
+ 2022-10-12T10:26:27-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:28:07-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:29:39-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:31:21-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:05-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:05-03:00 INFO  fillFromSaved
+ 2022-10-12T10:33:06-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:06-03:00 INFO  Component Extend 
+ 2022-10-12T10:33:06-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.razonSocial AS razonSocial_11, m1_.cuit AS cuit_12, m1_.condicionIva AS condicionIva_13, m1_.fecha AS fecha_14, m1_.ultModificacion AS ultModificacion_15, m2_.oid AS oid_16, m2_.numero AS numero_17, m2_.fecha AS fecha_18, m2_.saldoInicial AS saldoInicial_19, m2_.saldo AS saldo_20, m0_.discr AS discr_21, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_22, m2_.discr AS discr_23, m3_.cliente_oid AS cliente_oid_24 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:33:06-03:00 DEBUG stop query
+ 2022-10-12T10:33:06-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_proveedor m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:33:06-03:00 DEBUG stop query
+ 2022-10-12T10:33:11-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:11-03:00 INFO  fillFromSaved
+ 2022-10-12T10:33:12-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:12-03:00 INFO  Component Extend 
+ 2022-10-12T10:33:16-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:17-03:00 INFO  Component Extend 
+ 2022-10-12T10:33:53-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:33:53-03:00 INFO  Component Extend 
+ 2022-10-12T10:34:56-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:34:56-03:00 INFO  Component Extend 
+ 2022-10-12T10:37:01-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:37:01-03:00 INFO  Component Extend 
+ 2022-10-12T10:37:56-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:37:56-03:00 INFO  Component Extend 
+ 2022-10-12T10:41:00-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:41:00-03:00 INFO  Component Extend 
+ 2022-10-12T10:42:15-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:42:15-03:00 INFO  fillFromSaved
+ 2022-10-12T10:42:17-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:42:17-03:00 INFO  Component Extend 
+ 2022-10-12T10:43:04-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:43:04-03:00 INFO  Component Extend 
+ 2022-10-12T10:43:31-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:43:31-03:00 INFO  Component Extend 
+ 2022-10-12T10:43:31-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fechaIngreso AS fechaIngreso_13, m0_.discr AS discr_14, m1_.user_oid AS user_oid_15 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:43:31-03:00 DEBUG stop query
+ 2022-10-12T10:43:31-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:43:31-03:00 DEBUG stop query
+ 2022-10-12T10:43:42-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:43:43-03:00 INFO  fillFromSaved
+ 2022-10-12T10:43:53-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_persona (nombre, mail, telefono, celular, direccion, observaciones, documento, tipoDocumento, sexo, nacimiento, discr) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => maaaa
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 1
+    [9] => 
+    [10] => 
+    [11] => cliente
+)
+
+Types: Array
+(
+    [1] => string
+    [2] => string
+    [3] => string
+    [4] => string
+    [5] => string
+    [6] => string
+    [7] => string
+    [8] => integer
+    [9] => integer
+    [10] => date
+    [11] => string
+)
+
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_cliente (oid, cuit, fecha, ultModificacion, cuentaCorriente_oid) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => 3
+    [2] => 
+    [3] => DateTime Object
+        (
+            [date] => 2022-10-12 10:43:53.117617
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [4] => DateTime Object
+        (
+            [date] => 2022-10-12 10:43:53.117627
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [5] => 
+)
+
+Types: Array
+(
+    [1] => integer
+    [2] => string
+    [3] => datetime
+    [4] => datetime
+    [5] => integer
+)
+
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:43:53-03:00 DEBUG stop query
+ 2022-10-12T10:43:53-03:00 INFO  fillFromSaved
+ 2022-10-12T10:43:53-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:43:53-03:00 INFO  Component Extend 
+ 2022-10-12T10:43:54-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:43:54-03:00 DEBUG stop query
+ 2022-10-12T10:43:54-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:43:54-03:00 DEBUG stop query
+ 2022-10-12T10:43:54-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:43:54-03:00 DEBUG stop query
+ 2022-10-12T10:43:54-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:43:54-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.cuit AS cuit_13, t0.fecha AS fecha_14, t0.ultModificacion AS ultModificacion_15, t0.cuentaCorriente_oid AS cuentaCorriente_oid_16, t1.discr FROM mercat_cliente t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 3
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: DELETE FROM mercat_persona WHERE oid = ?
+Params: Array
+(
+    [0] => 3
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:04-03:00 INFO  Component Extend 
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: SELECT s0_.oid AS oid_0, s0_.username AS username_1, s0_.password AS password_2, s0_.name AS name_3, s0_.email AS email_4, s0_.lastLogin AS lastLogin_5, s0_.loginFrom AS loginFrom_6, s0_.logged AS logged_7, s0_.lastname AS lastname_8 FROM security_user s0_ LEFT JOIN security_users_groups s2_ ON s0_.oid = s2_.user_oid LEFT JOIN security_usergroup s1_ ON s1_.oid = s2_.usergroup_oid WHERE s0_.username = ?
+Params: Array
+(
+    [0] => mpinia
+)
+
+Types: Array
+(
+    [0] => 2
+)
+
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.cuit AS cuit_11, m1_.fecha AS fecha_12, m1_.ultModificacion AS ultModificacion_13, m2_.oid AS oid_14, m2_.numero AS numero_15, m2_.fecha AS fecha_16, m2_.saldoInicial AS saldoInicial_17, m2_.saldo AS saldo_18, m0_.discr AS discr_19, m1_.cuentaCorriente_oid AS cuentaCorriente_oid_20, m2_.discr AS discr_21, m3_.cliente_oid AS cliente_oid_22 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m3_ ON m1_.cuentaCorriente_oid = m3_.oid LEFT JOIN mercat_cuenta m2_ ON m3_.oid = m2_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:04-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_cliente m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid LEFT JOIN mercat_cuenta_corriente m2_ ON m1_.cuentaCorriente_oid = m2_.oid LEFT JOIN mercat_cuenta m3_ ON m2_.oid = m3_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:04-03:00 DEBUG stop query
+ 2022-10-12T10:44:09-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:09-03:00 INFO  fillFromSaved
+ 2022-10-12T10:44:10-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:10-03:00 INFO  Component Extend 
+ 2022-10-12T10:44:10-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fechaIngreso AS fechaIngreso_13, m0_.discr AS discr_14, m1_.user_oid AS user_oid_15 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:10-03:00 DEBUG stop query
+ 2022-10-12T10:44:10-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:10-03:00 DEBUG stop query
+ 2022-10-12T10:44:17-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:17-03:00 INFO  fillFromSaved
+ 2022-10-12T10:44:27-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:27-03:00 INFO  fillFromSaved
+ 2022-10-12T10:44:28-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:44:28-03:00 INFO  Component Extend 
+ 2022-10-12T10:44:28-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fechaIngreso AS fechaIngreso_13, m0_.discr AS discr_14, m1_.user_oid AS user_oid_15 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:28-03:00 DEBUG stop query
+ 2022-10-12T10:44:28-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:44:28-03:00 DEBUG stop query
+ 2022-10-12T10:45:16-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:46:19-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:46:19-03:00 INFO  fillFromSaved
+ 2022-10-12T10:46:20-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:46:20-03:00 INFO  Component Extend 
+ 2022-10-12T10:46:20-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fechaIngreso AS fechaIngreso_13, m0_.discr AS discr_14, m1_.user_oid AS user_oid_15 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:46:20-03:00 DEBUG stop query
+ 2022-10-12T10:46:20-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:46:20-03:00 DEBUG stop query
+ 2022-10-12T10:46:21-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:46:21-03:00 INFO  fillFromSaved
+ 2022-10-12T10:46:31-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:48:28-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:52:39-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:54:27-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:54:27-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid WHERE m0_.nombre = 'daadsdsa' AND m0_.tipoDocumento = '1'
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T10:54:27-03:00 DEBUG stop query
+ 2022-10-12T10:54:27-03:00 INFO  No result was found for query although at least one row was expected.
+ 2022-10-12T10:54:27-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:54:27-03:00 DEBUG stop query
+ 2022-10-12T10:54:27-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_persona (nombre, mail, telefono, celular, direccion, observaciones, documento, tipoDocumento, sexo, nacimiento, discr) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => daadsdsa
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 1
+    [9] => 
+    [10] => 
+    [11] => empleado
+)
+
+Types: Array
+(
+    [1] => string
+    [2] => string
+    [3] => string
+    [4] => string
+    [5] => string
+    [6] => string
+    [7] => string
+    [8] => integer
+    [9] => integer
+    [10] => date
+    [11] => string
+)
+
+==========================
+
+ 2022-10-12T10:54:27-03:00 DEBUG stop query
+ 2022-10-12T10:54:27-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_empleado (oid, numero, cuil, fecha, ultModificacion, user_oid) VALUES (?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => 4
+    [2] => 
+    [3] => 
+    [4] => DateTime Object
+        (
+            [date] => 2022-10-12 10:54:27.567970
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [5] => DateTime Object
+        (
+            [date] => 2022-10-12 10:54:27.567980
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [6] => 
+)
+
+Types: Array
+(
+    [1] => integer
+    [2] => string
+    [3] => string
+    [4] => datetime
+    [5] => datetime
+    [6] => integer
+)
+
+==========================
+
+ 2022-10-12T10:54:27-03:00 DEBUG stop query
+ 2022-10-12T10:54:27-03:00 DEBUG 
+==========================
+Sql: "ROLLBACK"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T10:54:27-03:00 DEBUG stop query
+ 2022-10-12T10:54:27-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:54:28-03:00 INFO  fillFromSaved
+ 2022-10-12T10:58:05-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:58:05-03:00 INFO  fillFromSaved
+ 2022-10-12T10:58:50-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:58:50-03:00 INFO  fillFromSaved
+ 2022-10-12T10:59:59-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T10:59:59-03:00 INFO  fillFromSaved
+ 2022-10-12T11:00:20-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:00:20-03:00 INFO  fillFromSaved
+ 2022-10-12T11:00:29-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid WHERE m0_.nombre = 'mmmmm' AND m0_.tipoDocumento = '1'
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:30-03:00 INFO  No result was found for query although at least one row was expected.
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_persona (nombre, mail, telefono, celular, direccion, observaciones, documento, tipoDocumento, sexo, nacimiento, discr) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => mmmmm
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 1
+    [9] => 
+    [10] => 
+    [11] => empleado
+)
+
+Types: Array
+(
+    [1] => string
+    [2] => string
+    [3] => string
+    [4] => string
+    [5] => string
+    [6] => string
+    [7] => string
+    [8] => integer
+    [9] => integer
+    [10] => date
+    [11] => string
+)
+
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: INSERT INTO mercat_empleado (oid, numero, cuil, fecha, ultModificacion, user_oid) VALUES (?, ?, ?, ?, ?, ?)
+Params: Array
+(
+    [1] => 5
+    [2] => 2
+    [3] => 
+    [4] => DateTime Object
+        (
+            [date] => 2022-10-12 11:00:29.988937
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [5] => DateTime Object
+        (
+            [date] => 2022-10-12 11:00:29.988949
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [6] => 
+)
+
+Types: Array
+(
+    [1] => integer
+    [2] => string
+    [3] => string
+    [4] => datetime
+    [5] => datetime
+    [6] => integer
+)
+
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:30-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:00:30-03:00 INFO  fillFromSaved
+ 2022-10-12T11:00:30-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:00:30-03:00 INFO  Component Extend 
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:30-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:00:30-03:00 DEBUG stop query
+ 2022-10-12T11:00:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:00:35-03:00 INFO  Component Extend 
+ 2022-10-12T11:00:35-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:00:35-03:00 DEBUG stop query
+ 2022-10-12T11:00:35-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:00:35-03:00 DEBUG stop query
+ 2022-10-12T11:01:53-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:01:53-03:00 INFO  Component Extend 
+ 2022-10-12T11:01:54-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:01:54-03:00 DEBUG stop query
+ 2022-10-12T11:01:54-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:01:54-03:00 DEBUG stop query
+ 2022-10-12T11:02:19-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:02:22-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:02:22-03:00 INFO  fillFromSaved
+ 2022-10-12T11:02:23-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:02:23-03:00 INFO  Component Extend 
+ 2022-10-12T11:02:23-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:02:23-03:00 DEBUG stop query
+ 2022-10-12T11:02:23-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:02:23-03:00 DEBUG stop query
+ 2022-10-12T11:03:28-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:28-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:28-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid WHERE m0_.oid <> 5 AND m0_.nombre = 'mmmmm' AND m0_.tipoDocumento = '1'
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 INFO  No result was found for query although at least one row was expected.
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: UPDATE mercat_persona SET tipoDocumento = ?, sexo = ? WHERE oid = ?
+Params: Array
+(
+    [0] => 1
+    [1] => 
+    [2] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+    [1] => integer
+    [2] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: UPDATE mercat_empleado SET fecha = ?, ultModificacion = ? WHERE oid = ?
+Params: Array
+(
+    [0] => DateTime Object
+        (
+            [date] => 2022-10-12 11:03:35.284051
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [1] => DateTime Object
+        (
+            [date] => 2022-10-12 11:03:35.284056
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [2] => 5
+)
+
+Types: Array
+(
+    [0] => datetime
+    [1] => datetime
+    [2] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:35-03:00 INFO  fillFromSaved
+ 2022-10-12T11:03:35-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:35-03:00 INFO  Component Extend 
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:35-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:03:35-03:00 DEBUG stop query
+ 2022-10-12T11:03:37-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:37-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:37-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid WHERE m0_.oid <> 5 AND m0_.nombre = 'mmmmm' AND m0_.tipoDocumento = '1'
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 INFO  No result was found for query although at least one row was expected.
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: UPDATE mercat_persona SET tipoDocumento = ?, sexo = ? WHERE oid = ?
+Params: Array
+(
+    [0] => 1
+    [1] => 
+    [2] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+    [1] => integer
+    [2] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: UPDATE mercat_empleado SET numero = ?, fecha = ?, ultModificacion = ? WHERE oid = ?
+Params: Array
+(
+    [0] => 1
+    [1] => DateTime Object
+        (
+            [date] => 2022-10-12 11:03:41.707927
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [2] => DateTime Object
+        (
+            [date] => 2022-10-12 11:03:41.707932
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [3] => 5
+)
+
+Types: Array
+(
+    [0] => string
+    [1] => datetime
+    [2] => datetime
+    [3] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:03:41-03:00 DEBUG stop query
+ 2022-10-12T11:03:41-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:41-03:00 INFO  fillFromSaved
+ 2022-10-12T11:03:42-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:42-03:00 INFO  Component Extend 
+ 2022-10-12T11:03:42-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:03:42-03:00 DEBUG stop query
+ 2022-10-12T11:03:42-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:03:42-03:00 DEBUG stop query
+ 2022-10-12T11:03:50-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:03:50-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:03:50-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: SELECT t1.oid AS oid_2, t1.nombre AS nombre_3, t1.mail AS mail_4, t1.telefono AS telefono_5, t1.celular AS celular_6, t1.direccion AS direccion_7, t1.observaciones AS observaciones_8, t1.documento AS documento_9, t1.tipoDocumento AS tipoDocumento_10, t1.sexo AS sexo_11, t1.nacimiento AS nacimiento_12, t0.numero AS numero_13, t0.cuil AS cuil_14, t0.fecha AS fecha_15, t0.ultModificacion AS ultModificacion_16, t0.user_oid AS user_oid_17, t1.discr FROM mercat_empleado t0 INNER JOIN mercat_persona t1 ON t0.oid = t1.oid WHERE t1.oid = ?
+Params: Array
+(
+    [0] => 5
+)
+
+Types: Array
+(
+    [0] => integer
+)
+
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid WHERE m0_.oid <> 5 AND m0_.nombre = 'DueÃ±o' AND m0_.tipoDocumento = '1'
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 INFO  No result was found for query although at least one row was expected.
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: "START TRANSACTION"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: UPDATE mercat_persona SET nombre = ?, tipoDocumento = ?, sexo = ? WHERE oid = ?
+Params: Array
+(
+    [0] => DueÃ±o
+    [1] => 1
+    [2] => 
+    [3] => 5
+)
+
+Types: Array
+(
+    [0] => string
+    [1] => integer
+    [2] => integer
+    [3] => integer
+)
+
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: UPDATE mercat_empleado SET fecha = ?, ultModificacion = ? WHERE oid = ?
+Params: Array
+(
+    [0] => DateTime Object
+        (
+            [date] => 2022-10-12 11:04:04.846894
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [1] => DateTime Object
+        (
+            [date] => 2022-10-12 11:04:04.846898
+            [timezone_type] => 3
+            [timezone] => America/Argentina/Buenos_Aires
+        )
+
+    [2] => 5
+)
+
+Types: Array
+(
+    [0] => datetime
+    [1] => datetime
+    [2] => integer
+)
+
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 DEBUG 
+==========================
+Sql: "COMMIT"
+Params: 
+Types: 
+==========================
+
+ 2022-10-12T11:04:04-03:00 DEBUG stop query
+ 2022-10-12T11:04:04-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:04:05-03:00 INFO  fillFromSaved
+ 2022-10-12T11:04:05-03:00 INFO  Logger mercat ui configurado!
+ 2022-10-12T11:04:05-03:00 INFO  Component Extend 
+ 2022-10-12T11:04:05-03:00 DEBUG 
+==========================
+Sql: SELECT m0_.oid AS oid_0, m0_.nombre AS nombre_1, m0_.mail AS mail_2, m0_.telefono AS telefono_3, m0_.celular AS celular_4, m0_.direccion AS direccion_5, m0_.observaciones AS observaciones_6, m0_.documento AS documento_7, m0_.tipoDocumento AS tipoDocumento_8, m0_.sexo AS sexo_9, m0_.nacimiento AS nacimiento_10, m1_.numero AS numero_11, m1_.cuil AS cuil_12, m1_.fecha AS fecha_13, m1_.ultModificacion AS ultModificacion_14, m0_.discr AS discr_15, m1_.user_oid AS user_oid_16 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid ORDER BY m0_.nombre ASC LIMIT 20 OFFSET 0
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:04:05-03:00 DEBUG stop query
+ 2022-10-12T11:04:05-03:00 DEBUG 
+==========================
+Sql: SELECT count(m0_.oid) AS sclr_0 FROM mercat_empleado m1_ INNER JOIN mercat_persona m0_ ON m1_.oid = m0_.oid
+Params: Array
+(
+)
+
+Types: Array
+(
+)
+
+==========================
+
+ 2022-10-12T11:04:05-03:00 DEBUG stop query
  

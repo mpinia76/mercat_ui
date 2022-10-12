@@ -70,12 +70,7 @@
 		<param name="placeholder" value="msg:proveedor.celular" />
 	</component>
 	
-	<component id="laboral" type="InputText">
-		<param name="inputId" value="str:laboral" />
-		<param name="name" value="str:laboral" />
-		<param name="value" value="proveedor.laboral" />
-		<param name="placeholder" value="msg:proveedor.laboral" />
-	</component>
+
 	
 	<component id="mail" type="InputText">
 		<param name="inputId" value="str:mail" />
