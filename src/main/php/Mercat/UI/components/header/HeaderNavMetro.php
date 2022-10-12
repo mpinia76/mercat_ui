@@ -49,7 +49,7 @@ class HeaderNavMetro extends HeaderNav{
 			$xtpl->parse("main.menu_home");
 		}else{
 			$xtpl->assign("homeLabel", $this->localize("menu.main.panel"));
-			$xtpl->assign("linkHome", LinkBuilder::getPageUrl( "VentasHome") );
+			$xtpl->assign("linkHome", LinkBuilder::getPageUrl( "CajaHome") );
 			$xtpl->parse("main.menu_home");
 		}
 

@@ -250,4 +250,28 @@ class UIServiceFactory {
 	
 		return UIProveedorService::getInstance();	
 	}
+
+    /**
+     * @return UICajaService
+     */
+    public static function getUICajaService(){
+
+        return UICajaService::getInstance();
+    }
+
+    /**
+     * @return UIInformeDiarioDebitoCreditoService
+     */
+    public static function getUIInformeDiarioDebitoCreditoService(){
+
+        return UIInformeDiarioDebitoCreditoService::getInstance();
+    }
+
+    /**
+     * @return UIInformeSemanalService
+     */
+    public static function getUIInformeSemanalService(){
+
+        return UIInformeSemanalService::getInstance();
+    }
 }

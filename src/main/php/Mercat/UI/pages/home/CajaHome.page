@@ -1,0 +1,15 @@
+<rasty specificationClass="Mercat\UI\pages\home\CajaHome" templateLocation="pages/home/CajaHome.htm"> 
+
+	<param name="layoutType" value="str:MercatHomeMetroLayout" />
+
+	<component id="caja" type="CajaBox">
+		<param name="caja" value="caja" />
+	</component>
+
+
+	<component id="ultimosMovimientosCaja" type="UltimosMovimientos">
+		<param name="cuenta" value="caja" />
+		<param name="cantidad" value="str:10" />
+	</component>
+	
+</rasty>

@@ -1,0 +1,31 @@
+<!-- BEGIN: main-->
+<div id="editar">
+
+	<div align="justify">
+		<p class="titulo">{title}</p>
+	</div>
+
+	<fieldset>
+		<legend>{legend}</legend>
+		
+		<rasty id="caja" />
+		
+	</fieldset>
+	{errorMessage}
+	<form  class="turnos_form" id="caja_form" method="POST" action="{action}">
+	<fieldset class="tblFooters">
+	
+		<input type="hidden" id="cajaOid" name="cajaOid" value="{cajaOid}" >
+		
+		
+		<button type="button" class="shortcut" id="input_submit" onclick="javascript: submitFormulario('caja_form'); ">
+			<i class="icon-checkmark on-left"></i>{lbl_submit}
+		</button>
+
+		<button type="button"  class="shortcut" id="input_button_2" onclick="javascript: window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+	
+	</fieldset>
+	</form>	
+
+</div>
+<!-- END: main-->

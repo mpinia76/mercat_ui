@@ -1,0 +1,16 @@
+<rasty specificationClass="Mercat\UI\pages\informes\debitosCreditos\modificar\InformeDiarioDebitoCreditoModificar" templateLocation="pages/informes/debitosCreditos/modificar/InformeDiarioDebitoCreditoModificar.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="informeDiarioDebitoCreditoOid" value="get:oid" />
+
+
+	<component id="informeDiarioDebitoCreditoForm" type="InformeDiarioDebitoCreditoForm">
+		<param name="legend" value="msg:informeDiarioDebitoCredito.modificar.legend" />
+		<param name="action" value="linkActionModificarInformeDiarioDebitoCredito" />
+		<param name="method" value="str:post" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="informeDiarioDebitoCredito" value="informeDiarioDebitoCredito" />
+	</component>
+	
+</rasty>

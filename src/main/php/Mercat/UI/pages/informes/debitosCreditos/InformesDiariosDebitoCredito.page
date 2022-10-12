@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\informes\debitosCreditos\InformesDiariosDebitoCredito" templateLocation="pages/informes/debitosCreditos/InformesDiariosDebitoCredito.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="informesFilter" type="InformeDiarioDebitoCreditoFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:informeDiarioDebitoCredito.buscar" />
+		<param name="legendAgain" value="msg:informeDiarioDebitoCredito.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+	
+</rasty>

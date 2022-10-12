@@ -1,0 +1,6 @@
+<rasty specificationClass="Mercat\UI\components\boxes\caja\CajaBox" templateLocation="CajaBox.htm">
+
+	<param name="cajaOid" value="get:cajaOid" />
+	<param name="detalle" value="get:detalle" />
+
+</rasty>

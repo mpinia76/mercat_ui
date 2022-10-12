@@ -1,0 +1,110 @@
+<!-- BEGIN:main -->
+<style>
+.buttons button{
+
+	margin: 10px;
+}
+
+</style>
+<div class="box">
+	<div class="item">
+		<h2 class='saldo'>{lbl_saldo}</h2>
+		<p class='saldo'>{saldo}</p>
+	</div>
+	<div class="item">
+		<h2>{lbl_fecha}</h2>
+		<p>{fecha}</p>
+	</div>
+	<div class="item">
+		<h2>{lbl_horaApertura}</h2>
+		<p>{horaApertura}</p>
+	</div>
+	<div class="item">
+		<h2>{lbl_saldoInicial}</h2>
+		<p>{saldoInicial}</p>
+	</div>
+	<!-- BEGIN: detalles -->
+	<div class="item">
+		<h2>{lbl_ventas}</h2>
+		<p>{ventas}</p>
+	</div>
+	<div class="item">
+		<h2>{lbl_pagos}</h2>
+		<p>{pagos}</p>
+	</div>
+	<div class="item">
+		<h2>{lbl_gastos}</h2>
+		<p>{gastos}</p>
+	</div>
+	<!-- END: detalles -->	
+	<!--<div class="item">
+		<h2>{lbl_ventas_online_ctacte}</h2>
+		<p>{ventas_online_ctacte}</p>
+	</div>-->
+	<div class="item">
+		<h2>{lbl_cajero}</h2>
+		<p>{cajero}</p>
+	</div>
+
+</div>
+
+<!-- BEGIN: ventas -->
+<div class="box">
+	<fieldset>
+		<legend>{legend_detalle_ventas}</legend>
+		
+		<!-- BEGIN: detalle_categoria -->
+		<div class="item">
+			<h2 class='saldo'>{lbl_categoria}</h2>
+			<p class='saldo'>{importe}</p>
+		</div>
+		<!-- END: detalle_categoria -->
+		<div class="item">
+			<h2 class='saldo'>{lbl_total}</h2>
+			<p class='saldo'>{importe_total}</p>
+		</div>
+	</fieldset>
+</div>
+<!-- END: ventas -->
+
+
+<!-- BEGIN: totales_dia -->
+<div class="box">
+	<fieldset>
+		<legend>{legend_totales_dia}</legend>
+			<div class="item">
+			<h2>{lbl_ventas}</h2>
+			<p>{ventas}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_pagos}</h2>
+			<p>{pagos}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_gastos}</h2>
+			<p>{gastos}</p>
+		</div>
+	</fieldset>
+</div>		
+<!-- END: totales_dia -->
+
+<!-- BEGIN: ventas_dia -->
+<div class="box">
+	<fieldset>
+		<legend>{legend_totales_ventas_dia}</legend>
+		
+		<!-- BEGIN: detalle_categoria -->
+		<div class="item">
+			<h2 class='saldo'>{lbl_categoria}</h2>
+			<p class='saldo'>{importe}</p>
+		</div>
+		<!-- END: detalle_categoria -->
+		<div class="item">
+			<h2 class='saldo'>{lbl_total}</h2>
+			<p class='saldo'>{importe_total}</p>
+		</div>
+	</fieldset>
+</div>
+<!-- END: ventas_dia -->
+
+<!-- END:main -->

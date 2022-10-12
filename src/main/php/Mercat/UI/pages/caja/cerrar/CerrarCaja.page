@@ -1,0 +1,10 @@
+<rasty specificationClass="Mercat\UI\pages\caja\cerrar\CerrarCaja" templateLocation="pages/caja/cerrar/CerrarCaja.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="cajaOid" value="get:cajaOid" />
+
+	<component id="caja" type="CajaBox">
+		<param name="caja" value="caja" />
+	</component>
+
+</rasty>

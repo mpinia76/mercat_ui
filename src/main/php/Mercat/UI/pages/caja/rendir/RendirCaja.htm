@@ -1,0 +1,100 @@
+<!-- BEGIN: main-->
+<style>
+.buttons button{
+
+	margin: 10px;
+}
+
+</style>
+<script>
+
+function rendirCaja(){
+
+
+	$saldoInicial = {saldoInicialUnformat};
+	$ventas = {ventasUnformat};
+	$pagos = {pagosUnformat};
+	$gastos = {gastosUnformat};
+	$ventasCtasCtes = {ventasCtasCtesUnformat};
+	$pagosCtasCtes = {pagosCtasCtesUnformat};
+
+
+	$ventasOnline = parseFloat($("#ventasOnline").val());
+	$pagosOnline =  parseFloat($("#pagosOnline").val());
+
+	
+
+	$saldoCaja =  $saldoInicial 
+	+ $ventas 
+	- $pagos
+	- $gastos
+	+ $ventasCtasCtes
+	- $pagosCtasCtes
+	+ $ventasOnline
+	- $pagosOnline ;
+
+	$("#saldoCaja").html( accounting.formatMoney($saldoCaja, "$", 2, ".", ",") );
+	
+}
+
+$(function() {
+
+	$("#ventasOnline").focus();
+
+	$("#ventasOnline").keyup( function(){
+		rendirCaja();
+	});
+
+	$("#pagosOnline").keyup( function(){
+		rendirCaja();
+	});
+
+});    
+</script>
+<div id="editar">
+
+	<div class="box">
+		<div class="item">
+			<h2 class='saldo'>{lbl_saldo}</h2>
+			<p id="saldoCaja" class='saldo'>{saldo}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_saldoInicial}</h2>
+			<p>{saldoInicial}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_ventas}</h2>
+			<p>{ventas}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_pagos}</h2>
+			<p>{pagos}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_gastos}</h2>
+			<p>{gastos}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_ventasCtasCtes}</h2>
+			<p>{ventasCtasCtes}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_pagosCtasCtes}</h2>
+			<p>{pagosCtasCtes}</p>
+		</div>
+		<div class="item">
+			<h2>{lbl_ventasOnline}</h2>
+			<p><rasty id="ventasOnline" /></p>
+		</div>
+		<div class="item">
+			<h2>{lbl_pagosOnline}</h2>
+			<p><rasty id="pagosOnline" /></p>
+		</div>	
+	</div>
+	<button class="shortcut" onclick="javascript: rendirCaja();">
+		<img src="{WEB_PATH}/css/images/caja_48.png" />
+		{lbl_rendirCaja}
+	</button>
+	
+</div>
+<!-- END: main-->

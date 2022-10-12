@@ -1,0 +1,14 @@
+<rasty specificationClass="Cuentas\UI\pages\cajaChica\MovimientosCajaChica" templateLocation="pages/cajaChica/MovimientosCajaChica.htm"> 
+
+	<param name="layoutType" value="str:CuentasMetroLayout" />
+
+	<component id="movimientosFilter" type="MovimientoCuentaFilter">
+		<param name="cuenta" value="cajaChica" />
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:cajaChica.movimientos.buscar" />
+		<param name="legendAgain" value="msg:caja.movimientos.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+	
+</rasty>

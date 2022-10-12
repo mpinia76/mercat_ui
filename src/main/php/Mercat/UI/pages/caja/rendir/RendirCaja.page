@@ -1,0 +1,29 @@
+<rasty specificationClass="Mercat\UI\pages\caja\rendir\RendirCaja" templateLocation="pages/caja/rendir/RendirCaja.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="cajaOid" value="get:cajaOid" />
+	<param name="strFecha" value="get:fecha" />
+
+
+	<component id="ventasOnline" type="InputCurrency">
+		<param name="inputId" value="str:ventasOnline" />
+		<param name="name" value="str:ventasOnline" />
+		<param name="value" value="ventasOnline" />
+		<param name="requiredMessage" value="msg:caja.ventasOnline.required" />
+		<param name="placeholder" value="msg:caja.ventasOnline.placeholder" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+
+	<component id="pagosOnline" type="InputCurrency">
+		<param name="inputId" value="str:pagosOnline" />
+		<param name="name" value="str:pagosOnline" />
+		<param name="value" value="pagosOnline" />
+		<param name="requiredMessage" value="msg:caja.pagosOnline.required" />
+		<param name="placeholder" value="msg:caja.pagosOnline.placeholder" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+
+
+</rasty>

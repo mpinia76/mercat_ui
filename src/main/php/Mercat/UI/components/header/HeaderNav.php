@@ -63,6 +63,14 @@ class HeaderNav extends RastyComponent{
 			//$menuGroup->addMenuOption( $menuOption );
 //			$menuGroups[] = $menuOption;
 
+		}else{
+			$menuOption = new MenuOption();
+			$menuOption->setLabel( $this->localize( "menu.empleado_home") );
+			$menuOption->setPageName( "CajaHome" );
+			//$menuOption->setImageSource( $this->getWebPath() . "css/images/empleado_home_48.png" );
+			$menuOption->setIconClass("icon-home");
+			//$menuGroup->addMenuOption( $menuOption );
+//			$menuGroups[] = $menuOption;
 		}
 
 

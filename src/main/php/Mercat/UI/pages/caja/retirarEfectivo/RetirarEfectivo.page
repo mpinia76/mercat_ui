@@ -1,0 +1,30 @@
+<rasty specificationClass="Mercat\UI\pages\caja\retirarEfectivo\RetirarEfectivo" templateLocation="pages/caja/retirarEfectivo/RetirarEfectivo.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="monto" value="get:monto" />
+	<param name="observaciones" value="get:observaciones" />
+	<param name="error" value="get:error" />
+
+	<component id="montoRetirar" type="InputCurrency">
+		<param name="inputId" value="str:monto" />
+		<param name="name" value="str:monto" />
+		<param name="value" value="monto" />
+		<param name="requiredMessage" value="msg:retirarEfectivo.montoRetirar.required" />
+		<param name="placeholder" value="msg:retirarEfectivo.montoRetirar" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="observaciones" type="InputTextArea">
+		<param name="inputId" value="str:observaciones" />
+		<param name="name" value="str:observaciones" />
+		<param name="value" value="observaciones" />
+		<param name="placeholder" value="msg:retirarEfectivo.observaciones.placeholder" />
+		<param name="autocomplete" value="str:off" />
+		<param name="rows" value="str:3" />
+	</component>
+
+	<component id="caja" type="CajaBox">
+		<param name="caja" value="caja" />
+	</component>
+
+</rasty>

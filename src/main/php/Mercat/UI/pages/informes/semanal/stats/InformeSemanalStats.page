@@ -1,0 +1,7 @@
+<rasty specificationClass="Cuentas\UI\pages\informes\semanal\stats\InformeSemanalStats" templateLocation="pages/informes/semanal/stats/InformeSemanalStats.htm"> 
+
+	<param name="layoutType" value="str:CuentasMetroLayout" />
+
+
+	
+</rasty>

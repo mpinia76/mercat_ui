@@ -9,6 +9,8 @@ use Mercat\Core\utils\MercatUtils;
 use Mercat\Core\model\Producto;
 use Mercat\Core\model\EstadoVenta;
 
+use Mercat\Core\model\Caja;
+
 use Mercat\Core\model\DetalleVenta;
 
 use Mercat\Core\model\DetallePedido;
@@ -20,6 +22,8 @@ use Mercat\Core\model\ProductoCombo;
 use Mercat\Core\model\EstadoPedido;
 
 use Mercat\Core\model\EstadoPago;
+
+use Mercat\Core\model\Empleado;
 
 use Mercat\Core\model\DetallePresupuesto;
 
@@ -95,15 +99,16 @@ class MercatUIUtils {
 		return "vendor/realityking/pchart/Fonts/";
 	}
 
-	/**
-	 * registramos la sesión del empleado
-	 * @param Empleado $empleado
-	 */
-	public static function login(Empleado $empleado) {
+    /**
+     * registramos la sesión del empleado
+     * @param Empleado $empleado
+     */
+    public static function login(Empleado $empleado) {
 
-		$appName = RastyConfig::getInstance()->getAppName();
+        $appName = RastyConfig::getInstance()->getAppName();
 
-
+        $_SESSION [$appName]["empleado_oid"] = $empleado->getOid();
+        $_SESSION [$appName]["empleado_nombre"] = $empleado->getNombre();
 
     }
 
@@ -112,17 +117,64 @@ class MercatUIUtils {
      */
     public static function logout() {
 
-    	$appName = RastyConfig::getInstance()->getAppName();
+        $appName = RastyConfig::getInstance()->getAppName();
 
+        $_SESSION [$appName]["empleado_oid"] = null;
+        $_SESSION [$appName]["empleado_nombre"] = null;
+        unset($_SESSION [$appName]["empleado_oid"]);
+        unset($_SESSION [$appName]["empleado_nombre"]);
 
+        $_SESSION [$appName]["caja_oid"] = null;
+        $_SESSION [$appName]["caja_numero"] = null;
+        unset($_SESSION [$appName]["caja_oid"]);
+        unset($_SESSION [$appName]["caja_numero"]);
 
         $_SESSION [$appName]["admin_oid"] = null;
-		$_SESSION [$appName]["admin_name"] = null;
-		$_SESSION [$appName]["admin_username"] = null;
-		unset($_SESSION [$appName]["admin_oid"]);
-		unset($_SESSION [$appName]["admin_name"]);
-		unset($_SESSION [$appName]["admin_username"]);
+        $_SESSION [$appName]["admin_name"] = null;
+        $_SESSION [$appName]["admin_username"] = null;
+        unset($_SESSION [$appName]["admin_oid"]);
+        unset($_SESSION [$appName]["admin_name"]);
+        unset($_SESSION [$appName]["admin_username"]);
     }
+
+    /**
+     * @return true si hay un empleado logueado.
+     */
+    public static function isEmpleadoLogged() {
+
+        $appName = RastyConfig::getInstance()->getAppName();
+
+        $data = RastyUtils::getParamSESSION($appName);
+
+        $logueado =  ($data != "");
+
+        if( $logueado ){
+            $logueado = isset($data["empleado_oid"]) && !empty($data["empleado_oid"]);
+        }
+        return $logueado;
+    }
+
+    /**
+     * @return empleado logueado
+     */
+    public static function getEmpleadoLogged() {
+
+        $appName = RastyConfig::getInstance()->getAppName();
+
+        $data = RastyUtils::getParamSESSION( $appName );
+
+
+        if( !self::isEmpleadoLogged() )
+            return null;
+
+        $empleado = new Empleado();
+        $empleado->setOid($data["empleado_oid"]);
+        $empleado->setNombre($data["empleado_nombre"]);
+
+        return $empleado;
+    }
+
+
 
 
 
@@ -1241,6 +1293,66 @@ class MercatUIUtils {
 
 		return $estilos[$estadoPedido];
 	}
+
+    /**
+     * @return caja actual con la cual se está operando
+     */
+    public static function getCaja() {
+
+        $appName = RastyConfig::getInstance()->getAppName();
+
+        $data = RastyUtils::getParamSESSION( $appName );
+
+        if( !self::isCajaSelected() )
+            return null;
+
+        $caja = new Caja();
+        $caja->setOid($data["caja_oid"]);
+        $caja->setNumero($data["caja_numero"]);
+
+        return $caja;
+    }
+
+
+    /**
+     * registramos la caja seleccionada
+     * @param Caja $caja
+     */
+    public static function setCaja(Caja $caja=null) {
+
+        $appName = RastyConfig::getInstance()->getAppName();
+
+        if( $caja != null ){
+            $_SESSION [$appName]["caja_oid"] = $caja->getOid();
+            $_SESSION [$appName]["caja_numero"] = $caja->getNumero();
+
+            //self::setSucursal( $caja->getSucursal() );
+
+        }else{
+            $_SESSION [$appName]["caja_oid"] = null;
+            $_SESSION [$appName]["caja_numero"] = null;
+            unset($_SESSION [$appName]["caja_oid"]);
+            unset($_SESSION [$appName]["caja_numero"]);
+        }
+
+    }
+
+    /**
+     * @return true si hay una caja seleccionada
+     */
+    public static function isCajaSelected() {
+
+        $appName = RastyConfig::getInstance()->getAppName();
+
+        $data = RastyUtils::getParamSESSION($appName);
+
+        $cajaSeleccionada =  ($data != "");
+
+        if( $cajaSeleccionada ){
+            $cajaSeleccionada = isset($data["caja_oid"]) && !empty($data["caja_oid"]);
+        }
+        return $cajaSeleccionada;
+    }
 
 
 

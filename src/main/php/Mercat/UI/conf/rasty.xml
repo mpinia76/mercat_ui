@@ -3,7 +3,7 @@
 	<!-- declaración de las páginas -->
 	<page name="Login" location="pages/login/Login.page" url="login"/>
 
-
+	<page name="CajaHome"   location="pages/home/CajaHome.page" url="caja/home"/>
 	<page name="AdminHome"   location="pages/home/AdminHome.page" url="admin/home"/>
 	<page name="AdminMovimientos"   location="pages/home/AdminMovimientos.page" url="admin/movimientos"/>
     <page name="VentasHome"   location="pages/home/VentasHome.page" url="admin/ventas"/>
@@ -24,7 +24,12 @@
 	<page name="IvaAgregar"   location="pages/ivas/agregar/IvaAgregar.page" url="ivas/agregar"/>
 	<page name="IvaModificar"   location="pages/ivas/modificar/IvaModificar.page" url="ivas/modificar"/>
 
-
+	<page name="AbrirCaja"   location="pages/caja/abrir/AbrirCaja.page" url="caja/abrir"/>
+	<page name="CerrarCaja"   location="pages/caja/cerrar/CerrarCaja.page" url="caja/cerrar"/>
+	<page name="SeleccionarCaja"   location="pages/caja/seleccionar/SeleccionarCaja.page" url="caja/seleccionar"/>
+	<page name="RetirarEfectivo"   location="pages/caja/retirarEfectivo/RetirarEfectivo.page" url="caja/retirarEfectivo"/>
+	<page name="RendirCaja"   location="pages/caja/rendir/RendirCaja.page" url="caja/rendir"/>
+	<page name="IngresarEfectivo"   location="pages/caja/ingresarEfectivo/IngresarEfectivo.page" url="caja/ingresarEfectivo"/>
 
 	<page name="ConceptoGastos"   location="pages/conceptoGastos/ConceptoGastos.page" url="conceptoGastos"/>
 	<page name="ConceptoGastoAgregar"   location="pages/conceptoGastos/agregar/ConceptoGastoAgregar.page" url="conceptoGastos/agregar"/>
@@ -121,11 +126,22 @@
 	<page name="PedidoVer"   location="pages/pedidos/ver/PedidoVer.page" url="pedidos/ver"/>
     <page name="PedidoAgregarProducto"   location="pages/pedidos/agregar/PedidoAgregarProducto.page" url="pedidos/agregar/producto"/>
 
+	<page name="InformesDiariosDebitoCredito"   location="pages/informes/debitosCreditos/InformesDiariosDebitoCredito.page" url="informes/debitosCreditos"/>
+	<page name="InformeDiarioDebitoCreditoAgregar"   location="pages/informes/debitosCreditos/agregar/InformeDiarioDebitoCreditoAgregar.page" url="informes/debitosCreditos/agregar"/>
+	<page name="InformeDiarioDebitoCreditoModificar"   location="pages/informes/debitosCreditos/modificar/InformeDiarioDebitoCreditoModificar.page" url="informes/debitosCreditos/modificar"/>
+
 	<!-- declaración de los componentes -->
 	<component name="HeaderNav" location="components/header" />
 	<component name="HeaderNavMetro" location="components/header" />
 
 	<component name="FooterMercat" location="components/footer" />
+
+	<component name="CajaEmpleado" location="components/caja" />
+	<component name="TotalesCaja" location="components/stats/caja" />
+	<component name="UltimosMovimientos" location="components/stats/movimientos" />
+	<component name="UltimasVentas" location="components/stats/ventas" />
+
+	<component name="CajaBox"   location="components/boxes/caja"/>
 
 	<component name="GastoBox"   location="components/boxes/gasto"/>
 	<component name="VentaBox"   location="components/boxes/venta"/>
@@ -143,8 +159,12 @@
     <component name="BalanceRankCliente"   location="components/stats/balance"/>
     <component name="BalancePedidos"   location="components/stats/balance"/>
 
-	<!-- forms -->
+	<component name="InformeSemanalPorMes" location="components/stats/informes" />
+	<component name="InformeSemanalPorSemana" location="components/stats/informes" />
+	<component name="InformeDiarioComisionPorMes" location="components/stats/informes" />
 
+	<!-- forms -->
+	<component name="CajaForm"   location="components/form/caja"/>
 	<component name="TipoProductoForm"   location="components/form/tipoProducto"/>
 	<component name="TipoDispositivoForm"   location="components/form/tipoDispositivo"/>
 	<component name="MarcaProductoForm"   location="components/form/marcaProducto"/>
@@ -158,6 +178,9 @@
 	<component name="VentaForm"   location="components/form/venta"/>
 	<component name="ClienteForm"   location="components/form/cliente"/>
 	<component name="EmpleadoForm"   location="components/form/empleado"/>
+
+	<component name="InformeSemanalForm"   location="components/form/informeSemanal"/>
+	<component name="InformeDiarioDebitoCreditoForm"   location="components/form/informeDiarioDebitoCredito"/>
 
 	<component name="VentaCobrarTarjetaForm"   location="components/form/venta"/>
 
@@ -242,6 +265,11 @@
 	<action name="Login" class="Mercat\UI\actions\login\Login" url="login"/>
 	<action name="Logout" class="Mercat\UI\actions\login\Logout" url="logout"/>
 
+	<action name="AbrirCaja" class="Mercat\UI\actions\caja\AbrirCaja" url="caja/abrir"/>
+	<action name="CerrarCaja" class="Mercat\UI\actions\caja\CerrarCaja" url="caja/cerrar"/>
+	<action name="SeleccionarCaja" class="Mercat\UI\actions\caja\SeleccionarCaja" url="caja/seleccionar"/>
+	<action name="RetirarEfectivo" class="Mercat\UI\actions\caja\RetirarEfectivo" url="caja/retirarEfectivo"/>
+	<action name="IngresarEfectivo" class="Mercat\UI\actions\caja\IngresarEfectivo" url="caja/ingresarEfectivo"/>
 
 	<action name="AgregarTipoProducto" class="Mercat\UI\actions\tiposProducto\AgregarTipoProducto" url="tiposProducto/agregar"/>
 	<action name="ModificarTipoProducto" class="Mercat\UI\actions\tiposProducto\ModificarTipoProducto" url="tiposProducto/modificar"/>

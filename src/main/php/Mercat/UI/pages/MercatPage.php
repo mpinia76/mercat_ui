@@ -4,6 +4,7 @@ namespace Mercat\UI\pages;
 use Mercat\UI\utils\MercatUIUtils;
 
 use Mercat\Core\model\Cuenta;
+use Mercat\Core\model\Caja;
 use Mercat\Core\model\Gasto;
 use Mercat\Core\model\Venta;
 use Mercat\Core\model\Presupuesto;
@@ -13,7 +14,7 @@ use Rasty\components\RastyPage;
 use Rasty\utils\LinkBuilder;
 
 /**
- * página genérica para la app de cuentas
+ * página genérica para la app de Mercat
  *
  * @author Marcos
  * @since 01/03/2018
@@ -181,6 +182,37 @@ abstract class MercatPage extends RastyPage{
 
 	}
 
+	public function getLinkActionAbrirCaja(){
+
+		return LinkBuilder::getActionUrl( "AbrirCaja") ;
+
+	}
+
+	public function getLinkCerrarCaja( Caja $caja ){
+
+		$link = LinkBuilder::getPageUrl( "CerrarCaja", array("cajaOid"=>$caja->getOid())) ;
+
+		return $link;
+	}
+
+	public function getLinkActionCerrarCaja(){
+
+		return LinkBuilder::getActionUrl( "CerrarCaja") ;
+
+	}
+
+	public function getLinkActionSeleccionarCaja(){
+
+		return LinkBuilder::getActionUrl( "SeleccionarCaja") ;
+
+	}
+
+	public function getLinkCajaHome(){
+
+		return LinkBuilder::getPageUrl( "CajaHome") ;
+
+	}
+
 	public function getLinkClientes(){
 
 		return LinkBuilder::getPageUrl( "Clientes") ;
@@ -210,6 +242,13 @@ abstract class MercatPage extends RastyPage{
 	public function getLinkActionModificarCliente(){
 
 		return LinkBuilder::getActionUrl( "ModificarCliente") ;
+
+	}
+
+
+	public function getLinkCobrarCtaCte(){
+
+		return LinkBuilder::getPageUrl( "CobrarCtaCte") ;
 
 	}
 
@@ -444,7 +483,45 @@ abstract class MercatPage extends RastyPage{
 	}
 
 
+	public function getLinkRetirarEfectivo(){
 
+		return LinkBuilder::getPageUrl( "RetirarEfectivo") ;
+
+	}
+
+	public function getLinkActionRetirarEfectivo(){
+
+		return LinkBuilder::getActionUrl( "RetirarEfectivo") ;
+
+	}
+
+	public function getLinkActionIngresarEfectivo(){
+
+		return LinkBuilder::getActionUrl( "IngresarEfectivo") ;
+
+	}
+
+	public function getLinkMovimientosCajaActual(){
+
+		return LinkBuilder::getPageUrl( "MovimientosCajaActual") ;
+
+	}
+
+
+	public function getLinkRendirCaja( Caja $caja = null ){
+
+		if($caja==null)
+			$caja = MercatUIUtils::getCaja();
+
+		return LinkBuilder::getPageUrl( "RendirCaja", array("cajaOid"=>$caja->getOid())) ;
+
+	}
+
+	public function getLinkMovimientosCajaChica(){
+
+		return LinkBuilder::getPageUrl( "MovimientosCajaChica") ;
+
+	}
 
 
 	public function getLinkAdminHome(){
@@ -660,6 +737,66 @@ abstract class MercatPage extends RastyPage{
 	public function getLinkBalanceAnio(){
 
 		return LinkBuilder::getPageUrl( "BalanceAnio") ;
+
+	}
+
+
+	public function getLinkInformesSemanales(){
+
+		return LinkBuilder::getPageUrl( "InformesSemanales") ;
+
+	}
+
+	public function getLinkActionAgregarInformeSemanal(){
+
+		return LinkBuilder::getActionUrl( "AgregarInformeSemanal") ;
+
+	}
+
+	public function getLinkActionModificarInformeSemanal(){
+
+		return LinkBuilder::getActionUrl( "ModificarInformeSemanal") ;
+
+	}
+
+	public function getLinkInformesDiariosDebitoCredito(){
+
+		return LinkBuilder::getPageUrl( "InformesDiariosDebitoCredito") ;
+
+	}
+
+	public function getLinkActionAgregarInformeDiarioDebitoCredito(){
+
+		return LinkBuilder::getActionUrl( "AgregarInformeDiarioDebitoCredito") ;
+
+	}
+
+	public function getLinkActionModificarInformeDiarioDebitoCredito(){
+
+		return LinkBuilder::getActionUrl( "ModificarInformeDiarioDebitoCredito") ;
+
+	}
+
+	public function getLinkInformesDiariosComision(){
+
+		return LinkBuilder::getPageUrl( "InformesDiariosComision") ;
+
+	}
+
+	public function getLinkActionAgregarInformeDiarioComision(){
+
+		return LinkBuilder::getActionUrl( "AgregarInformeDiarioComision") ;
+
+	}
+
+	public function getLinkActionModificarInformeDiarioComision(){
+
+		return LinkBuilder::getActionUrl( "ModificarInformeDiarioComision") ;
+	}
+
+	public function getLinkInformesStats(){
+
+		return LinkBuilder::getPageUrl( "InformeSemanalStats") ;
 
 	}
 

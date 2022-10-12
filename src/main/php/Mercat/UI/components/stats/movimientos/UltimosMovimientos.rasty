@@ -1,0 +1,6 @@
+<rasty specificationClass="Mercat\UI\components\stats\movimientos\UltimosMovimientos" templateLocation="UltimosMovimientos.htm">
+
+	<param name="cuentaOid" value="get:cuentaOid" />
+	<param name="cantidad" value="get:cantidad" />
+	
+</rasty>

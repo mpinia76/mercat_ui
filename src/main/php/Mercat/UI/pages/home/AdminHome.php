@@ -87,6 +87,12 @@ class AdminHome extends MercatPage{
 
 		$this->parseSaldos($xtpl);
 
+		$this->parseDebitosCreditos($xtpl);
+
+
+
+		$this->parseStatsVentas($xtpl);
+
 		/*$this->parseStatsVentas($xtpl);*/
 	}
 

@@ -145,32 +145,23 @@ class UIEmpleadoService  implements IEntityGridService{
 		}
 		
 	}
-	
-	public function getTotalCtaCte( UIEmpleadoCriteria $uiCriteria){
 
-		try{
-			
-			$criteria = $uiCriteria->buildCoreCriteria() ;
-			
-			$service = ServiceFactory::getEmpleadoService();
-			
-			$empleados = $service->getList( $criteria );
-	
-			$saldo = 0;
-            foreach ($empleados as $empleado) {
-            	
-            		$saldo += $empleado->getSaldo();
-            	
-            }
-            return $saldo;
-            
-			
-		} catch (\Exception $e) {
-			
-			throw new RastyException($e->getMessage());
-			
-		}
-	}
+    public function getEmpleadoByUser(User $user){
+
+        try{
+
+            $service = ServiceFactory::getEmpleadoService();
+
+            $empleado = $service->getEmpleadoByUser($user);
+
+            return $empleado;
+
+        } catch (\Exception $e) {
+
+            throw new RastyException($e->getMessage());
+
+        }
+    }
 	
 }
 ?>
