@@ -225,6 +225,24 @@ abstract class MercatPage extends RastyPage{
 
 	}
 
+	public function getLinkEmpleadoAgregar(){
+
+		return LinkBuilder::getPageUrl( "EmpleadoAgregar") ;
+
+	}
+
+	public function getLinkActionAgregarEmpleado(){
+
+		return LinkBuilder::getActionUrl( "AgregarEmpleado") ;
+
+	}
+
+	public function getLinkActionModificarEmpleado(){
+
+		return LinkBuilder::getActionUrl( "ModificarEmpleado") ;
+
+	}
+
 
 	public function getLinkProductos(){
 

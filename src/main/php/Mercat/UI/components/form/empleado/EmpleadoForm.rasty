@@ -1,4 +1,4 @@
-<rasty specificationClass="Mercat\UI\components\form\cliente\ClienteForm" templateLocation="ClienteForm.htm">
+<rasty specificationClass="Mercat\UI\components\form\empleado\EmpleadoForm" templateLocation="EmpleadoForm.htm">
 
 	<param name="error" value="get:error" />
 
@@ -13,16 +13,16 @@
 	<component id="oid" type="InputHidden">
 		<param name="inputId" value="str:oid" />
 		<param name="name" value="str:oid" />
-		<param name="value" value="cliente.oid" />
+		<param name="value" value="empleado.oid" />
 	</component>
 
 
 	<component id="nombre" type="InputText">
 		<param name="inputId" value="str:nombre" />
 		<param name="name" value="str:nombre" />
-		<param name="value" value="cliente.nombre" />
-		<param name="requiredMessage" value="msg:cliente.nombre.required" />
-		<param name="placeholder" value="msg:cliente.nombre" />
+		<param name="value" value="empleado.nombre" />
+		<param name="requiredMessage" value="msg:empleado.nombre.required" />
+		<param name="placeholder" value="msg:empleado.nombre" />
 		<param name="autocomplete" value="str:off" />
 		
 	</component>
@@ -32,9 +32,9 @@
 	<component id="tipoDocumento" type="InputCombo">
 		<param name="inputId" value="str:tipoDocumento" />
 		<param name="name" value="str:tipoDocumento" />
-		<param name="value" value="cliente.tipoDocumento" />
+		<param name="value" value="empleado.tipoDocumento" />
 		<param name="options" value="tiposDocumento" />
-		<param name="placeholder" value="msg:cliente.tipoDocumento" />
+		<param name="placeholder" value="msg:empleado.tipoDocumento" />
 	</component>
 	
 
@@ -43,45 +43,53 @@
 	<component id="documento" type="InputText">
 		<param name="inputId" value="str:documento" />
 		<param name="name" value="str:documento" />
-		<param name="value" value="cliente.documento" />
-		<param name="placeholder" value="msg:cliente.documento" />
+		<param name="value" value="empleado.documento" />
+		<param name="placeholder" value="msg:empleado.documento" />
 	</component>
 
-	<component id="cuit" type="InputText">
-		<param name="inputId" value="str:cuit" />
-		<param name="name" value="str:cuit" />
-		<param name="value" value="cliente.cuit" />
-		<param name="placeholder" value="msg:cliente.cuit" />
+<component id="numero" type="InputText">
+		<param name="inputId" value="str:numeor" />
+		<param name="name" value="str:numero" />
+		<param name="requiredMessage" value="msg:empleado.numero.required" />
+		<param name="value" value="empleado.numero" />
+		<param name="placeholder" value="msg:empleado.numero" />
+	</component>
+
+	<component id="cuil" type="InputText">
+		<param name="inputId" value="str:cuil" />
+		<param name="name" value="str:cuil" />
+		<param name="value" value="empleado.cuil" />
+		<param name="placeholder" value="msg:empleado.cuil" />
 	</component>
 
 	<component id="nacimiento" type="InputDate">
 		<param name="inputId" value="str:nacimiento" />
 		<param name="name" value="str:nacimiento" />
-		<param name="value" value="cliente.nacimiento" />
-		<param name="placeholder" value="msg:cliente.nacimiento" />
+		<param name="value" value="empleado.nacimiento" />
+		<param name="placeholder" value="msg:empleado.nacimiento" />
 		<param name="format" value="str:d/m/Y" />
 	</component>
 
 	<component id="sexo" type="InputCombo">
 		<param name="inputId" value="str:sexo" />
 		<param name="name" value="str:sexo" />
-		<param name="value" value="cliente.sexo" />
+		<param name="value" value="empleado.sexo" />
 		<param name="options" value="sexos" />
-		<param name="placeholder" value="msg:cliente.sexo" />
+		<param name="placeholder" value="msg:empleado.sexo" />
 	</component>
 	
 	<component id="telefono" type="InputText">
 		<param name="inputId" value="str:telefono" />
 		<param name="name" value="str:telefono" />
-		<param name="value" value="cliente.telefono" />
-		<param name="placeholder" value="msg:cliente.telefono" />
+		<param name="value" value="empleado.telefono" />
+		<param name="placeholder" value="msg:empleado.telefono" />
 	</component>
 
 	<component id="celular" type="InputText">
 		<param name="inputId" value="str:celular" />
 		<param name="name" value="str:celular" />
-		<param name="value" value="cliente.celular" />
-		<param name="placeholder" value="msg:cliente.celular" />
+		<param name="value" value="empleado.celular" />
+		<param name="placeholder" value="msg:empleado.celular" />
 	</component>
 	
 
@@ -89,22 +97,22 @@
 	<component id="mail" type="InputText">
 		<param name="inputId" value="str:mail" />
 		<param name="name" value="str:mail" />
-		<param name="value" value="cliente.mail" />
-		<param name="placeholder" value="msg:cliente.mail" />
+		<param name="value" value="empleado.mail" />
+		<param name="placeholder" value="msg:empleado.mail" />
 	</component>
 	
 	<component id="direccion" type="InputText">
 		<param name="inputId" value="str:direccion" />
 		<param name="name" value="str:direccion" />
-		<param name="value" value="cliente.direccion" />
-		<param name="placeholder" value="msg:cliente.direccion" />
+		<param name="value" value="empleado.direccion" />
+		<param name="placeholder" value="msg:empleado.direccion" />
 	</component>
 	
 	<component id="observaciones" type="InputTextArea">
 		<param name="inputId" value="str:observaciones" />
 		<param name="name" value="str:observaciones" />
-		<param name="value" value="cliente.observaciones" />
-		<param name="placeholder" value="msg:cliente.observaciones" />	
+		<param name="value" value="empleado.observaciones" />
+		<param name="placeholder" value="msg:empleado.observaciones" />	
 		<param name="rows" value="str:5" />	
 	</component>
 	

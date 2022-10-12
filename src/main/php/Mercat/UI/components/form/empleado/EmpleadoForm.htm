@@ -11,7 +11,7 @@ $(function() {
 </script>
 
 <div>
-<form class="cuentas_form" id="cliente_form" onsubmit="return validate('cliente_form');" action="{action}" method="{method}">
+<form class="cuentas_form" id="empleado_form" onsubmit="return validate('empleado_form');" action="{action}" method="{method}">
 		<input type="hidden" id="onSuccessCallback" name="onSuccessCallback" value="{onSuccessCallback}">
 		<fieldset>
 		<legend>{legend}</legend>
@@ -25,10 +25,16 @@ $(function() {
 				    <rasty id="nombre" />
 				</div>
 			</div>
+			<div class="col-2">
+				<div class="item">
+					<label for="numero">{lbl_numero} *:</label>
+					<rasty id="numero" />
+				</div>
+			</div>
 			<!--<div class="col-2">
 				<div class="item">
-			    <label for="tipoCliente">{lbl_tipoCliente}:</label>
-			    <rasty id="tipoCliente" />
+			    <label for="tipoEmpleado">{lbl_tipoEmpleado}:</label>
+			    <rasty id="tipoEmpleado" />
 				</div>
 			</div>
 			<div class="col-2">
@@ -62,8 +68,8 @@ $(function() {
 			</div>
 			<div class="col-4">
 				<div class="item">
-				    <label for="cuit">{lbl_cuit}:</label>
-				    <rasty id="cuit" />
+				    <label for="cuil">{lbl_cuil}:</label>
+				    <rasty id="cuil" />
 				</div>
 			</div>
 			<div style="clear: both"></div>
@@ -129,7 +135,7 @@ $(function() {
 <form  class="turnos_form" id="buttons{inputId}">
 	<fieldset class="tblFooters">
 
-		<button type="button"  id="input_submit" onclick="submitFormulario('cliente_form'); "><i class="icon-checkmark on-left"></i>{lbl_submit}</button>
+		<button type="button"  id="input_submit" onclick="submitFormulario('empleado_form'); "><i class="icon-checkmark on-left"></i>{lbl_submit}</button>
 
 		<button type="button"  id="input_button_2" onclick="window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
 

@@ -36,6 +36,14 @@ class UIServiceFactory {
 	
 		return UIClienteService::getInstance();	
 	}
+
+    /**
+     * @return UIEmpleadoService
+     */
+    public static function getUIEmpleadoService(){
+
+        return UIEmpleadoService::getInstance();
+    }
 	
 
 	

@@ -1,0 +1,14 @@
+<rasty specificationClass="Mercat\UI\pages\empleados\agregar\EmpleadoAgregar" templateLocation="pages/empleados/agregar/EmpleadoAgregar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="empleadoForm" type="EmpleadoForm">
+		<param name="legend" value="msg:empleado.agregar.legend" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="action" value="linkActionAgregarEmpleado" />
+		<param name="method" value="str:post" />
+		<param name="empleado" value="empleado" />
+	</component>
+	
+</rasty>

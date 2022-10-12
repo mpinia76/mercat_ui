@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\empleados\Empleados" templateLocation="pages/empleados/Empleados.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="empleadosFilter" type="EmpleadoFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:empleado.buscar" />
+		<param name="legendAgain" value="msg:empleado.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+	
+</rasty>

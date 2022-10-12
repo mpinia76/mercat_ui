@@ -68,7 +68,7 @@ class ProveedorForm extends Form{
 		$this->addProperty("mail");
 		$this->addProperty("direccion");
 		$this->addProperty("observaciones");
-		$this->addProperty("laboral");
+
 		
 		
 		$url = parse_url($_SERVER['REQUEST_URI']);
@@ -130,7 +130,7 @@ class ProveedorForm extends Form{
 		$xtpl->assign("lbl_mail", $this->localize("proveedor.mail") );
 		$xtpl->assign("lbl_direccion", $this->localize("proveedor.direccion") );
 		$xtpl->assign("lbl_observaciones", $this->localize("proveedor.observaciones") );
-		$xtpl->assign("lbl_laboral", $this->localize("proveedor.laboral") );
+
 		$xtpl->assign("lbl_cuit", $this->localize("proveedor.cuit") );
 		
 	}

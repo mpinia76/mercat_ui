@@ -1,0 +1,16 @@
+<rasty specificationClass="Mercat\UI\pages\empleados\modificar\EmpleadoModificar" templateLocation="pages/empleados/modificar/EmpleadoModificar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="empleadoOid" value="get:oid" />
+
+
+	<component id="empleadoForm" type="EmpleadoForm">
+		<param name="legend" value="msg:empleado.modificar.legend" />
+		<param name="action" value="linkActionModificarEmpleado" />
+		<param name="method" value="str:post" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="empleado" value="empleado" />
+	</component>
+	
+</rasty>

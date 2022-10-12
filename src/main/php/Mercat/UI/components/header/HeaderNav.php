@@ -513,6 +513,18 @@ class HeaderNav extends RastyComponent{
 		$menuOption->setIconClass("icon-ventas");
 		$menuGroup->addMenuOption( $menuOption );*/
 
+		$menuOption = new MenuOption();
+		$menuOption->setLabel( $this->localize( "menu.empleados.listar") );
+		$menuOption->setPageName( "Empleados" );
+		$menuOption->setIconClass("icon-empleados");
+		$menuGroup->addMenuOption( $menuOption );
+
+		$menuOption = new MenuOption();
+		$menuOption->setLabel( $this->localize( "menu.empleados.agregar") );
+		$menuOption->setPageName( "EmpleadoAgregar" );
+		$menuOption->setIconClass("icon-agregar");
+		$menuGroup->addMenuOption( $menuOption );
+
 
 		$submenu = new SubmenuOption($menuGroup);
 
