@@ -1,0 +1,55 @@
+<!-- BEGIN: main-->
+<script>
+    function listarMovimientos(  ){
+        $("#input_submit_ajax_Movimiento").click();
+        window.open('{linkPdf}','_blank');
+
+    }
+    function listarMovimientosXLS(  ){
+        $("#input_submit_ajax_Movimiento").click();
+        window.location.href='{linkXls}'
+
+
+    }
+</script>
+<style>
+</style>
+
+<div class="grid" >
+
+    <div id="movimientos_filtros" class="grid_filters">
+
+        <rasty id="movimientosFilter" />
+
+        <!-- BEGIN: opciones -->
+        <div class="grid_filters_actions">
+
+
+                <!-- BEGIN: add -->
+                <button class="shortcut" onclick="listarMovimientos()">
+                    <i class="icon-pdf"></i>{lbl_pdf}
+                </button>
+
+                <button class="shortcut" onclick="listarMovimientosXLS()">
+                    <i class="icon-xls"></i>{lbl_pdf}
+                </button>
+                <!-- END: add -->
+
+        </div>
+        <!-- END: opciones -->
+    </div>
+
+
+
+
+	<br class="clear">
+
+	<fieldset>
+
+       	<legend>{legend_resultados}</legend>
+
+    	<div id="searchdiv" class="grid_searchdiv">
+		</div>
+    </fieldset>
+</div>
+<!-- END: main-->

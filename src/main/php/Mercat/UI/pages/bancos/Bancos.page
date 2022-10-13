@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\bancos\Bancos" templateLocation="pages/bancos/Bancos.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="bancosFilter" type="BancoFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:banco.buscar" />
+		<param name="legendAgain" value="msg:banco.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+
+</rasty>

@@ -1,0 +1,77 @@
+<rasty specificationClass="Mercat\UI\components\form\banco\BancoForm" templateLocation="BancoForm.htm">
+
+	<param name="error" value="get:error" />
+
+	<component id="backSuccess" type="InputHidden">
+		<param name="inputId" value="str:backToOnSuccess" />
+		<param name="name" value="str:backToOnSuccess" />
+		<param name="value" value="backToOnSuccess" />
+	</component>
+
+	<component id="oid" type="InputHidden">
+		<param name="inputId" value="str:oid" />
+		<param name="name" value="str:oid" />
+		<param name="value" value="banco.oid" />
+	</component>
+
+	<component id="nombre" type="InputText">
+    		<param name="inputId" value="str:nombre" />
+    		<param name="name" value="str:nombre" />
+    		<param name="value" value="banco.nombre" />
+    		<param name="requiredMessage" value="msg:banco.nombre.required" />
+    		<param name="placeholder" value="msg:banco.nombre.placeholder" />
+    		<param name="autocomplete" value="str:off" />
+    	</component>
+
+    	<component id="titular" type="InputText">
+            <param name="inputId" value="str:titular" />
+            <param name="name" value="str:titular" />
+            <param name="value" value="banco.titular" />
+
+            <param name="placeholder" value="msg:banco.titular.placeholder" />
+            <param name="autocomplete" value="str:off" />
+        </component>
+
+        <component id="cuit" type="InputText">
+            <param name="inputId" value="str:cuit" />
+            <param name="name" value="str:cuit" />
+            <param name="value" value="banco.cuit" />
+
+            <param name="placeholder" value="msg:banco.cuit.placeholder" />
+            <param name="autocomplete" value="str:off" />
+        </component>
+
+        <component id="cbu" type="InputText">
+            <param name="inputId" value="str:cbu" />
+            <param name="name" value="str:cbu" />
+            <param name="value" value="banco.cbu" />
+
+            <param name="placeholder" value="msg:banco.cbu.placeholder" />
+            <param name="autocomplete" value="str:off" />
+        </component>
+        <component id="numero" type="InputText">
+            <param name="inputId" value="str:numero" />
+            <param name="name" value="str:numero" />
+            <param name="value" value="banco.numero" />
+            <param name="requiredMessage" value="msg:banco.numero.required" />
+            <param name="placeholder" value="msg:banco.numero.placeholder" />
+            <param name="autocomplete" value="str:off" />
+        </component>
+
+    <component id="saldoInicial" type="InputCurrency">
+    		<param name="inputId" value="str:saldoInicial" />
+    		<param name="name" value="str:saldoInicial" />
+    		<param name="value" value="banco.saldoInicial" />
+    		<param name="requiredMessage" value="msg:banco.saldoInicial.required" />
+    		<param name="placeholder" value="msg:banco.saldoInicial" />
+    		<param name="autocomplete" value="str:off" />
+    	</component>
+
+
+
+
+
+
+
+
+</rasty>

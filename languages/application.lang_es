@@ -132,6 +132,12 @@
 	"menu.proveedors.cuentaCorriente":"Ver cuenta corriente",
 	"menu.proveedor.eliminar":"Eliminar el Proveedor",
 
+    "menu.bancos":"Cuentas",
+	"menu.bancos.listar":"Listado de Cuentas",
+	"menu.bancos.modificar":"Modificar Cuentas",
+	"menu.bancos.agregar":"Agregar Cuenta",
+	"menu.banco.eliminar":"Eliminar la cuenta",
+
 
 	"menu.gastos":"Gastos",
 	"menu.gastos.listar":"Listado de Gastos",
@@ -166,7 +172,7 @@
 	"menu.cajaCtaCte":"Ctas. Ctes.",
 
 
-	"menu.movimientos_caja":"Movimientos Caja",
+	"menu.movimientos_caja":"Movimientos",
 	"menu.movimientos_caja_chica":"Movimientos Caja Chica",
 
 
@@ -1014,6 +1020,42 @@
 	"forma.pago.bapro": "BAPRO",
 	"forma.pago.pendiente": "Pendiente",
 
+	"bancos.title": "Listado de Cuentas",
+        	"banco.agregar.title": "Agregar una cuenta",
+        	"banco.agregar.legend": "Ingrese una cuenta",
+
+        	"banco.modificar": "Modificar cuenta",
+        	"banco.modificar.title": "Modificar cuenta",
+        	"banco.modificar.legend": "Modifique la cuenta",
+
+
+        	"banco.eliminar.confirm.title": "Eliminar Cuenta",
+        	"banco.eliminar.confirm.msg": "Confirma eliminar la cuenta seleccionado?",
+
+        	"banco.buscar": "Buscar cuentas",
+        	"banco.buscar.again": "Afinar búsqueda...",
+
+        	"banco.oid":"Id",
+        	"banco.nombre":"Nombre",
+        	"banco.nombre.placeholder":"Nombre",
+        	"banco.nombre.required": "Ingrese el nombre",
+        	"banco.fecha":"Fecha",
+        	"banco.saldoInicial":"Saldo Inicial",
+        	"banco.saldoInicial.required": "Ingrese el saldo inicial",
+        	"banco.saldo":"Saldo",
+        	"banco.saldo.required": "Ingrese el saldo",
+
+        	"banco.titular":"Titular",
+            "banco.titular.placeholder":"Titular",
+            "banco.cuit":"Cuit",
+            "banco.cuit.placeholder":"Cuit",
+            "banco.cbu":"Cbu",
+            "banco.cbu.placeholder":"Cbu",
+
+            "banco.numero.placeholder":"Nro de cuenta",
+            "banco.numero.required": "Ingrese el Nro de cuenta",
+            "cuenta.banco":"Banco",
+
 	"devolverVenta.venta.title": "Devoluciones",
 	"devolverVenta.venta.legend": "Datos de la venta a devolver",
 	"venta.agregar.devoluciones_legend": "Productos a devolver",
@@ -1125,6 +1167,7 @@
 
 	"pago.ctacte.agregar": "Cobrar Cta Cte",
 
+"cajaChica.movimientos.title": "Movimientos de caja chica",
 
 	"caja.movimientos.title": "Movimientos de caja en efectivo",
   	"caja.movimientos.buscar": "Movimientos de caja en efectivo",
@@ -1222,12 +1265,29 @@
   	"cajaCtaCte.movimientos.title": "Movimientos de caja en cuenta corriente",
   	"cajaCtaCte.movimientos.buscar": "Movimientos de caja en cuenta corriente",
 
+
+"banco.movimientos.title": "Movimientos de cuenta",
+  	"banco.movimientos.buscar": "Movimientos de cuenta",
+
+  	"banco.depositar": "Depositar",
+  	"banco.depositarEfectivo": "Depositar efectivo",
+  	"banco.depositarEfectivo.title": "Depositar efectivo",
+  	"banco.depositarEfectivo.banco_legend": "Banco",
+  	"banco.depositarEfectivo.legend": "Ingrese detalles del depósito",
+
+  	"depositarEfectivo.banco": "Banco",
+  	"depositarEfectivo.fechaHora": "Fecha",
+  	"depositarEfectivo.fechaHora.required": "Ingrese la fecha",
+  	"depositarEfectivo.montoDepositar": "Monto",
+   	"depositarEfectivo.montoDepositar.required": "Ingrese el monto a depositar",
+   	"depositarEfectivo.observaciones": "Observaciones",
+
   	"banco.saldo": "Saldo",
   	"banco.saldoInicial": "Saldo inicial",
   	"banco.numero": "Nro de cuenta",
   	"banco.cuit": "Cuit",
   	"banco.titular": "Titular",
-  	"banco.nombre": "Banco",
+  	"banco.nombre": "Nombre",
   	"banco.cbu": "CBU",
 
   	"cuentaCorriente.saldo": "Saldo",

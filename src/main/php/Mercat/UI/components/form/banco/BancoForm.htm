@@ -1,0 +1,94 @@
+<!-- BEGIN:main -->
+
+
+<script>
+
+$(function() {
+
+	$("#fecha").focus();
+
+});
+
+//In your Javascript (external .js resource or <script> tag)
+
+</script>
+
+<div>
+<form class="cuentas_form" id="banco_form" onsubmit="return validate('banco_form');" action="{action}" method="{method}">
+
+		<fieldset>
+		<legend>{legend}</legend>
+
+		<rasty id="backSuccess" />
+	    <rasty id="oid" />
+		<div class="row">
+			<div class="col-4">
+				<div class="item">
+				    <label for="nombre">{lbl_nombre} *:</label>
+				    <rasty id="nombre" />
+				</div>
+			</div>
+            <div class="col-4">
+                <div class="item">
+                    <label for="numero">{lbl_numero} *:</label>
+                    <rasty id="numero" />
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="item">
+                    <label for="saldoInicial">{lbl_saldoInicial} *:</label>
+                    <rasty id="saldoInicial" />
+                </div>
+            </div>
+
+
+		</div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="item">
+                        <label for="titular">{lbl_titular}:</label>
+                        <rasty id="titular" />
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="item">
+                        <label for="cuit">{lbl_cuit}:</label>
+                        <rasty id="cuit" />
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="item">
+                        <label for="cbu">{lbl_cbu}:</label>
+                        <rasty id="cbu" />
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+	</fieldset>
+
+
+</form>
+<!-- BEGIN: msg_error -->
+<fieldset class="ui-state-error">
+	{msg}
+</fieldset>
+<!-- END: msg_error -->
+
+<form  class="cuentas_form" id="buttons{inputId}">
+	<fieldset class="tblFooters">
+
+		<button type="button"  id="input_submit" onclick="javascript: submitFormulario('banco_form'); "><i class="icon-checkmark on-left"></i>{lbl_submit}</button>
+
+		<button type="button"  id="input_button_2" onclick="javascript: window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+
+	</fieldset>
+</form>
+</div>
+<!-- END:main -->

@@ -1,0 +1,16 @@
+<rasty specificationClass="Accounts\UI\pages\bancos\modificar\BancoModificar" templateLocation="pages/bancos/modificar/BancoModificar.htm">
+
+	<param name="layoutType" value="str:AccountsMetroLayout" />
+	<param name="bancoOid" value="get:oid" />
+
+
+	<component id="bancoForm" type="BancoForm">
+		<param name="legend" value="msg:banco.modificar.legend" />
+		<param name="action" value="linkActionModificarBanco" />
+		<param name="method" value="str:post" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="banco" value="banco" />
+	</component>
+
+</rasty>

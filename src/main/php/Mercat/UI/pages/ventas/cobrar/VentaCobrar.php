@@ -3,6 +3,8 @@ namespace Mercat\UI\pages\ventas\cobrar;
 
 use Mercat\UI\service\UIServiceFactory;
 
+use Mercat\UI\components\filter\model\UIBancoCriteria;
+
 use Mercat\Core\utils\MercatUtils;
 use Mercat\UI\utils\MercatUIUtils;
 
@@ -94,6 +96,14 @@ class VentaCobrar extends MercatPage{
         //}
 
 		$xtpl->assign( "linkAnular", $this->getLinkVentaAnular( $this->getVenta()) );
+
+		$bancos = UIServiceFactory::getUIBancoService()->getList( new UIBancoCriteria() );
+
+		foreach ($bancos as $banco){
+			$xtpl->assign( "linkCobrarBanco", $this->getLinkActionCobrarVenta($this->getVenta(), $banco) );
+			$xtpl->assign("lbl_bapro",$banco->getNombre());
+			$xtpl->parse("main.forma_pago_bapro");
+		}
 
 
         if ($this->getVenta()->getCliente()->hasCuentaCorriente()) {
