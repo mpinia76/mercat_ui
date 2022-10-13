@@ -168,12 +168,22 @@
 
 	"menu.movimientos_caja":"Movimientos Caja",
 	"menu.movimientos_caja_chica":"Movimientos Caja Chica",
-	"menu.bancos":"V. Prod.",
 
 
-	"menu.cuentasCorrientes":"Gastos",
+    "menu.cajaChica":"Caja chica",
+    	"menu.cajaChica.depositarEnBanco":"Depositar en Banco",
 
-	"menu.transferir":"Transferir",
+    	"menu.movimientos_caja_actual":"Movimientos Caja",
+    	"menu.movimientos_caja_chica":"Movimientos Caja Chica",
+    	"menu.bancos":"Bancos",
+    	"menu.movimientos_banco":"Movimientos Banco",
+
+    	"menu.cuentasCorrientes":"Cuentas Corrientes",
+
+    	"menu.transferir":"Transferir",
+
+
+
 
 	"menu.socios":"Cuenta Socios",
 	"menu.movimientos_cuentaSocio":"Movimientos Socios",

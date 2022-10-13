@@ -99,13 +99,13 @@ class UIInformeDiarioDebitoCreditoService  implements IEntityGridService{
 	
 	public function getDebitosCreditosPendientes(){
 		
-		
+
 		try{
 				
 				
 			$service = ServiceFactory::getInformeDiarioDebitoCreditoService();
 			$informeDiarioDebitoCreditos = $service->getPendientes();
-				
+
 			return $informeDiarioDebitoCreditos;
 				
 		} catch (\Exception $e) {

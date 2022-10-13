@@ -523,6 +523,17 @@ abstract class MercatPage extends RastyPage{
 
 	}
 
+	public function getLinkBancos(){
+
+		return LinkBuilder::getPageUrl( "MovimientosBanco") ;
+
+	}
+
+	public function getLinkMovimientosBanco(){
+
+		return LinkBuilder::getPageUrl( "MovimientosBanco") ;
+
+	}
 
 	public function getLinkAdminHome(){
 

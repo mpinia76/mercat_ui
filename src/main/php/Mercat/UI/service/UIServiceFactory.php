@@ -210,7 +210,15 @@ class UIServiceFactory {
 	
 		return UIBalanceService::getInstance();	
 	}
-	
+
+    /**
+     * @return UIBancoService
+     */
+    public static function getUIBancoService(){
+
+        return UIBancoService::getInstance();
+    }
+
 	/**
 	 * @return UIVendedorService
 	 */

@@ -27,20 +27,53 @@ use Rasty\Menu\menu\model\MenuActionOption;
 use Rasty\security\RastySecurityContext;
 
 class AdminHome extends MercatPage{
+	private $caja;
+	private $cajaChica;
 
+	/**
+	 * @return mixed
+	 */
+	public function getCaja()
+	{
+		return $this->caja;
+	}
+
+	/**
+	 * @param mixed $caja
+	 */
+	public function setCaja($caja): void
+	{
+		$this->caja = $caja;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getCajaChica()
+	{
+		return $this->cajaChica;
+	}
+
+	/**
+	 * @param mixed $cajaChica
+	 */
+	public function setCajaChica($cajaChica): void
+	{
+		$this->cajaChica = $cajaChica;
+	}
 
 
 	public function __construct(){
 
 
-		/*if( MercatUIUtils::isCajaSelected() ){
+		if( MercatUIUtils::isCajaSelected() ){
 			$caja = UIServiceFactory::getUICajaService()->get(MercatUIUtils::getCaja()->getOid());
 			$this->setCaja( $caja );
-		}*/
+		}
 
-		/*$this->setCajaChica( UIServiceFactory::getUICuentaService()->getCajaChica() );
+		$this->setCajaChica( UIServiceFactory::getUICuentaService()->getCajaChica() );
 
-		$this->setCuentaBapro( UIServiceFactory::getUIBancoService()->getCuentaBAPRO() );*/
+		//$this->setCuentaBapro( UIServiceFactory::getUIBancoService()->getCuentaBAPRO() );
 	}
 
 	public function getTitle(){
@@ -75,9 +108,9 @@ class AdminHome extends MercatPage{
 
 		$this->parseMenuUser($xtpl);
 
-		/*$this->parseGastos($xtpl);
+		$this->parseGastos($xtpl);
 
-		$this->parseTareas($xtpl);
+		/*$this->parseTareas($xtpl);
 
 		$this->parseDebitosCreditos($xtpl);*/
 
@@ -149,6 +182,8 @@ class AdminHome extends MercatPage{
 		$xtpl->assign("menu_ventas_agregar", $this->localize("menu.ventas.agregar") );
 		$xtpl->assign("linkVentaAgregar", $this->getLinkVentaAgregar() );
 
+		$xtpl->assign("menu_bancos", $this->localize("menu.bancos") );
+		$xtpl->assign("linkBancos", $this->getLinkBancos() );
 
 		$xtpl->assign("menu_ventasST", $this->localize("menu.ventasST") );
 
@@ -158,9 +193,11 @@ class AdminHome extends MercatPage{
 		$xtpl->assign("menu_presupuestos_agregar", $this->localize("menu.presupuestos.agregar") );
 		$xtpl->assign("linkPresupuestoAgregar", $this->getLinkPresupuestoAgregar() );
 
-		/*$xtpl->assign("menu_ctasctes", $this->localize("menu.cuentasCorrientes") );
+		$xtpl->assign("menu_ctasctes", $this->localize("menu.cuentasCorrientes") );
 
-		$xtpl->assign("menu_sucursales", $this->localize("menu.sucursales") );
+
+
+		/*$xtpl->assign("menu_sucursales", $this->localize("menu.sucursales") );
 		$xtpl->assign("linkSucursales", $this->getLinkSucursales() );
 
 		$xtpl->assign("menu_premios", $this->localize("menu.pagoPremios") );
@@ -189,7 +226,9 @@ class AdminHome extends MercatPage{
 		$xtpl->assign("menu_cajaTarjeta", $this->localize("menu.cajaTarjeta") );
 		$xtpl->assign("menu_cajaCtaCte", $this->localize("menu.cajaCtaCte") );
 
-		/*$xtpl->assign("menu_informes", $this->localize("admin_home.informes") );
+		$xtpl->assign("menu_cajaChica", $this->localize("menu.cajaChica") );
+
+		$xtpl->assign("menu_informes", $this->localize("admin_home.informes") );
 
 		$xtpl->assign("menu_informesSemanales", $this->localize("admin_home.informesSemanales") );
 		$xtpl->assign("linkInformesSemanales", $this->getLinkInformesSemanales() );
@@ -203,7 +242,7 @@ class AdminHome extends MercatPage{
 		$xtpl->assign("menu_informesStats", $this->localize("admin_home.informesStats") );
 		$xtpl->assign("linkInformesStats", $this->getLinkInformesStats() );
 
-		$xtpl->assign("lbl_sorteos",  $this->localize( "menu.sorteos" ) );
+		/*$xtpl->assign("lbl_sorteos",  $this->localize( "menu.sorteos" ) );
 		$xtpl->assign("linkSorteos", $this->getLinkSorteos() );*/
 	}
 
@@ -271,36 +310,22 @@ class AdminHome extends MercatPage{
 
 	public function parseSaldos(XTemplate $xtpl){
 
-		//if( MercatUIUtils::isCajaSelected() ){
+		if( MercatUIUtils::isCajaSelected() ){
+			$xtpl->assign("saldo_caja", MercatUIUtils::formatMontoToView( $this->getCaja()->getSaldo()) );
 
+			$xtpl->assign("linkMovimientosCaja", $this->getLinkMovimientosCajaActual());
 
-			$xtpl->assign("saldo_caja", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIMovimientoCajaService()->getTotalesDia(new Datetime())) );
-			$xtpl->assign("saldo_ventas", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIMovimientoVentaService()->getTotalesDia(new Datetime())) );
-			$xtpl->assign("saldo_gastos", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIMovimientoGastoService()->getTotalesDia(new Datetime())) );
-
-			$xtpl->assign("saldo_cajaTarjeta", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIMovimientoCajaService()->getTotalesTarjetasDia(new Datetime())) );
-			$xtpl->assign("saldo_cajaCtaCte", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIMovimientoCajaService()->getTotalesCtasCtesDia(new Datetime())) );
-
-			$xtpl->assign("linkMovimientosCaja", $this->getLinkMovimientosCaja());
-			$xtpl->assign("linkMovimientosCajaTarjeta", $this->getLinkMovimientosCajaTarjeta());
-			$xtpl->assign("linkMovimientosCajaCtaCte", $this->getLinkMovimientosCajaCtaCte());
-			$xtpl->assign("linkMovimientosVentas", $this->getLinkMovimientosVenta());
-			$xtpl->assign("linkMovimientosGastos", $this->getLinkMovimientosGasto());
-
-
-
-		/*}else{
+		}else{
 			$xtpl->assign("saldo_caja", MercatUIUtils::formatMontoToView( 0) );
-		}*/
+		}
 
-		/*$xtpl->assign("saldo_cajaChica", MercatUIUtils::formatMontoToView( $this->getCajaChica()->getSaldo() ) );
+		$xtpl->assign("saldo_cajaChica", MercatUIUtils::formatMontoToView( $this->getCajaChica()->getSaldo() ) );
 		$xtpl->assign("linkMovimientosCajaChica", $this->getLinkMovimientosCajaChica());
 
 		$xtpl->assign("saldo_bancos", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIBancoService()->getSaldoBancos() ) );
 		$xtpl->assign("linkMovimientosBanco", $this->getLinkMovimientosBanco());
 
 		$xtpl->assign("saldo_ctasctes", MercatUIUtils::formatMontoToView( UIServiceFactory::getUICuentaCorrienteService()->getSaldoCtasCtes() ) );
-	*/
 	}
 
 
