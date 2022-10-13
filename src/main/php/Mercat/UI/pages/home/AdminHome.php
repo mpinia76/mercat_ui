@@ -87,6 +87,12 @@ class AdminHome extends MercatPage{
 
 		$this->parseSaldos($xtpl);
 
+		$this->parseDebitosCreditos($xtpl);
+
+
+
+		$this->parseStatsVentas($xtpl);
+
 		/*$this->parseStatsVentas($xtpl);*/
 	}
 
@@ -177,7 +183,7 @@ class AdminHome extends MercatPage{
 
 		$xtpl->assign("menu_cuentas", $this->localize("menu.cuentas") );
 		$xtpl->assign("menu.ventasST", $this->localize("menu.ventasST") );
-		//$xtpl->assign("linkCaja", $this->getLinkCajaHome());
+		$xtpl->assign("linkCaja", $this->getLinkCajaHome());
 
 		$xtpl->assign("menu_caja", $this->localize("menu.caja") );
 		$xtpl->assign("menu_cajaTarjeta", $this->localize("menu.cajaTarjeta") );

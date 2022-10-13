@@ -1,0 +1,63 @@
+<rasty specificationClass="Mercat\UI\components\form\informeDiarioDebitoCredito\InformeDiarioDebitoCreditoForm" templateLocation="InformeDiarioDebitoCreditoForm.htm">
+
+	<param name="error" value="get:error" />
+
+	<component id="backSuccess" type="InputHidden">
+		<param name="inputId" value="str:backToOnSuccess" />
+		<param name="name" value="str:backToOnSuccess" />
+		<param name="value" value="backToOnSuccess" />
+	</component>
+
+	<component id="oid" type="InputHidden">
+		<param name="inputId" value="str:oid" />
+		<param name="name" value="str:oid" />
+		<param name="value" value="informeDiarioDebitoCredito.oid" />
+	</component>
+
+	<component id="fecha" type="InputDate">
+		<param name="inputId" value="str:fecha" />
+		<param name="name" value="str:fecha" />
+		<param name="value" value="informeDiarioDebitoCredito.fecha" />
+		<param name="placeholder" value="msg:informeDiarioDebitoCredito.fecha" />
+		<param name="format" value="str:d/m/Y H:i" />
+		<param name="requiredMessage" value="msg:informeDiarioDebitoCredito.fecha.required" />
+	</component>
+
+	<component id="fechaVencimiento" type="InputDate">
+		<param name="inputId" value="str:fechaVencimiento" />
+		<param name="name" value="str:fechaVencimiento" />
+		<param name="value" value="informeDiarioDebitoCredito.fechaVencimiento" />
+		<param name="placeholder" value="msg:informeDiarioDebitoCredito.fechaVencimiento" />
+		<param name="format" value="str:d/m/Y H:i" />
+		<param name="requiredMessage" value="msg:informeDiarioDebitoCredito.fechaVencimiento.required" />
+	</component>
+
+	<component id="credito" type="InputCurrency">
+		<param name="inputId" value="str:credito" />
+		<param name="name" value="str:credito" />
+		<param name="value" value="informeDiarioDebitoCredito.credito" />
+		<param name="requiredMessage" value="msg:informeDiarioDebitoCredito.credito.required" />
+		<param name="placeholder" value="msg:informeDiarioDebitoCredito.credito" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="debito" type="InputCurrency">
+		<param name="inputId" value="str:debito" />
+		<param name="name" value="str:debito" />
+		<param name="value" value="informeDiarioDebitoCredito.debito" />
+		<param name="requiredMessage" value="msg:informeDiarioDebitoCredito.debito.required" />
+		<param name="placeholder" value="msg:informeDiarioDebitoCredito.debito" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	
+
+	
+	<component id="banco" type="InputCombo">
+		<param name="inputId" value="str:banco" />
+		<param name="name" value="str:banco" />
+		<param name="value" value="informeDiarioDebitoCredito.banco" />
+		<param name="options" value="bancos" />
+		<param name="finder" value="bancoFinderClazz" />
+	</component>
+</rasty>

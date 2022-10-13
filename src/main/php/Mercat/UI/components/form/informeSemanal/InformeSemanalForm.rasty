@@ -1,0 +1,108 @@
+<rasty specificationClass="Cuentas\UI\components\form\informeSemanal\InformeSemanalForm" templateLocation="InformeSemanalForm.htm">
+
+	<param name="error" value="get:error" />
+
+	<component id="backSuccess" type="InputHidden">
+		<param name="inputId" value="str:backToOnSuccess" />
+		<param name="name" value="str:backToOnSuccess" />
+		<param name="value" value="backToOnSuccess" />
+	</component>
+
+	<component id="oid" type="InputHidden">
+		<param name="inputId" value="str:oid" />
+		<param name="name" value="str:oid" />
+		<param name="value" value="informeSemanal.oid" />
+	</component>
+
+	<component id="fechaDesde" type="InputDate">
+		<param name="inputId" value="str:fechaDesde" />
+		<param name="name" value="str:fechaDesde" />
+		<param name="value" value="informeSemanal.fechaDesde" />
+		<param name="placeholder" value="msg:informeSemanal.fechaDesde" />
+		<param name="format" value="str:d/m/Y H:i" />
+		<param name="requiredMessage" value="msg:informeSemanal.fechaDesde.required" />
+	</component>
+
+	<component id="fechaHasta" type="InputDate">
+		<param name="inputId" value="str:fechaHasta" />
+		<param name="name" value="str:fechaHasta" />
+		<param name="value" value="informeSemanal.fechaHasta" />
+		<param name="placeholder" value="msg:informeSemanal.fechaHasta" />
+		<param name="format" value="str:d/m/Y H:i" />
+		<param name="requiredMessage" value="msg:informeSemanal.fechaHasta.required" />
+	</component>
+
+	<component id="ventas" type="InputCurrency">
+		<param name="inputId" value="str:ventas" />
+		<param name="name" value="str:ventas" />
+		<param name="value" value="informeSemanal.ventas" />
+		<param name="requiredMessage" value="msg:informeSemanal.ventas.required" />
+		<param name="placeholder" value="msg:informeSemanal.ventas" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="cancelaciones" type="InputCurrency">
+		<param name="inputId" value="str:cancelaciones" />
+		<param name="name" value="str:cancelaciones" />
+		<param name="value" value="informeSemanal.cancelaciones" />
+		<param name="requiredMessage" value="msg:informeSemanal.cancelaciones.required" />
+		<param name="placeholder" value="msg:informeSemanal.cancelaciones" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="pagos" type="InputCurrency">
+		<param name="inputId" value="str:pagos" />
+		<param name="name" value="str:pagos" />
+		<param name="value" value="informeSemanal.pagos" />
+		<param name="requiredMessage" value="msg:informeSemanal.pagos.required" />
+		<param name="placeholder" value="msg:informeSemanal.pagos" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="pagoPorLoteria" type="InputCurrency">
+		<param name="inputId" value="str:pagoPorLoteria" />
+		<param name="name" value="str:pagoPorLoteria" />
+		<param name="value" value="informeSemanal.pagoPorLoteria" />
+		<param name="requiredMessage" value="msg:informeSemanal.pagoPorLoteria.required" />
+		<param name="placeholder" value="msg:informeSemanal.pagoPorLoteria" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="comision" type="InputCurrency">
+		<param name="inputId" value="str:comision" />
+		<param name="name" value="str:comision" />
+		<param name="value" value="informeSemanal.comision" />
+		<param name="requiredMessage" value="msg:informeSemanal.comision.required" />
+		<param name="placeholder" value="msg:informeSemanal.comision" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="ajustes" type="InputCurrency">
+		<param name="inputId" value="str:ajustes" />
+		<param name="name" value="str:ajustes" />
+		<param name="value" value="informeSemanal.ajustes" />
+		<param name="requiredMessage" value="msg:informeSemanal.ajustes.required" />
+		<param name="placeholder" value="msg:informeSemanal.ajustes" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="deuda" type="InputCurrency">
+		<param name="inputId" value="str:deuda" />
+		<param name="name" value="str:deuda" />
+		<param name="value" value="informeSemanal.deuda" />
+		<param name="requiredMessage" value="msg:informeSemanal.deuda.required" />
+		<param name="placeholder" value="msg:informeSemanal.deuda" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="sucursal" type="InputCombo">
+		<param name="inputId" value="str:sucursal" />
+		<param name="name" value="str:sucursal" />
+		<param name="value" value="informeSemanal.sucursal" />
+		<param name="options" value="sucursales" />
+		<param name="finder" value="SucursalFinderClazz" />
+		<param name="requiredMessage" value="msg:informeSemanal.sucursal.required" />
+	</component>
+
+
+</rasty>

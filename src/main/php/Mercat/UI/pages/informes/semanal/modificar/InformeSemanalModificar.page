@@ -1,0 +1,16 @@
+<rasty specificationClass="Cuentas\UI\pages\informes\semanal\modificar\InformeSemanalModificar" templateLocation="pages/informes/semanal/modificar/InformeSemanalModificar.htm"> 
+
+	<param name="layoutType" value="str:CuentasMetroLayout" />
+	<param name="informeSemanalOid" value="get:oid" />
+
+
+	<component id="informeSemanalForm" type="InformeSemanalForm">
+		<param name="legend" value="msg:informeSemanal.modificar.legend" />
+		<param name="action" value="linkActionModificarInformeSemanal" />
+		<param name="method" value="str:post" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="informeSemanal" value="informeSemanal" />
+	</component>
+	
+</rasty>

@@ -1,0 +1,20 @@
+<rasty specificationClass="Mercat\UI\pages\caja\seleccionar\SeleccionarCaja" templateLocation="pages/caja/seleccionar/SeleccionarCaja.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="cajaOid" value="get:cajaOid" />
+
+	<component id="cajaBox" type="CajaBox">
+		<param name="caja" value="caja" />
+	</component>
+
+	<component id="caja" type="InputCombo">
+		<param name="inputId" value="str:caja" />
+		<param name="name" value="str:caja" />
+		<param name="value" value="caja" />
+		<param name="options" value="cajas" />
+		<param name="finder" value="cajaFinderClazz" />
+		<param name="emptyOptionLabel" value="msg:caja.option_empty" />
+		<param name="onChangeCallback" value="str:javascript:cajachange();" />
+	</component>
+
+</rasty>

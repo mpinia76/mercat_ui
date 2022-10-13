@@ -1,0 +1,15 @@
+<rasty specificationClass="Mercat\UI\pages\caja\abrir\AbrirCaja" templateLocation="pages/caja/abrir/AbrirCaja.htm"> 
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="cajaForm" type="CajaForm">
+		<param name="legend" value="msg:caja.abrir.legend" />
+		<param name="action" value="linkActionAbrirCaja" />
+		<param name="method" value="str:post" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="caja" value="caja" />
+		
+	</component>
+
+</rasty>

@@ -1,0 +1,245 @@
+<!-- BEGIN: main-->
+<style>
+.box{
+	font-size: 8pt;
+}
+.totales-data-title{
+	color: inherit;
+    display: block;
+    font-size: 14pt;
+    text-align: right;
+    padding: 5px;
+}
+</style>
+<div class="tile-area tile-area-mj" style="width: 1600px;">
+        
+        <h2 class="tile-area-title fg-white">
+        	{app_title} <span class="fg-white">{app_subtitle}</span>
+        </h2>
+        
+        
+        <div class="user-id">
+            
+            <div class="user-id-image">
+                <a href="#" class="icon-user no-display1 dropdown-toggle">
+                </a>
+                <ul data-role="dropdown" class="dropdown-menu place-right" style="display: none;">
+                
+                <!-- BEGIN: menuOptionProfile -->
+		        	<li><a href="#" onclick="{onclick}" ><!-- BEGIN: image --><img style="border:0;margin-right:10px;width:24px;height: 24px;" src="{src}"/><!-- END: image --> {label}</a></li>
+		        <!-- END: menuOptionProfile -->
+                
+                <!-- BEGIN: menuOptionAdmin -->
+		        	<li><a class="element" href="#" onclick="{onclick}" ><!-- BEGIN: image --><img style="border:0;margin-right:10px;width:24px;height: 24px;" src="{src}"/><!-- END: image -->{label}</a></li>
+		        <!-- END: menuOptionAdmin -->
+                
+                <!-- BEGIN: menuOptionExit -->
+		        	<li><a href="#" onclick="{onclick}" ><!-- BEGIN: image --><img style="border:0;margin-right:10px;width:24px;height: 24px;" src="{src}"/><!-- END: image --></i> {label}</a></li>
+		        <!-- END: menuOptionExit -->	
+                
+            </ul>
+            </div>
+            <div class="user-id-name">
+                <!-- span class="first-name">{user}</span-->
+                <span class="last-name" >{user}</span>
+            </div>
+            
+        </div>
+
+		<div class="tile-group quadro">
+            <div class="tile-group-title">{caja_legend}</div>
+           
+            <a href="{linkRendirCaja}" class="tile triple triple-vertical bg-cyan">
+	            <div class="tile-content">
+	                <div class="padding10">
+	                    <rasty id="caja"/>
+	                </div>
+	            </div>
+            </a>
+
+			<!-- BEGIN:caja -->
+			<a class="tile bg-lightGreen" href="{linkVentaAgregar}">
+                <div class="tile-content icon">
+                    <span class="fg-white icon-nueva-venta"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{menu_ventas_agregar}</div>
+                </div>
+            </a>
+			
+			<!--<a class="tile bg-darkRed" href="{linkPagoPremioAgregar}">
+                <div class="tile-content icon">
+                    <span class="icon-nuevo-pagoPremio"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{menu_premios_agregar}</div>
+                </div>
+            </a>-->
+            
+			<a class="tile  bg-red" href="{linkGastoAgregar}">
+                <div class="tile-content icon">
+                    <span class="icon-nuevo-gasto"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{menu_gastos_agregar}</div>
+                </div>
+            </a>
+			
+   			<a class="tile {boton_cerrar_width} bg-crimson" href="{linkCerrarCaja}">
+                <div class="tile-content icon">
+                    <span class="icon-cerrar-caja"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_cerrar}</div>
+                </div>
+            </a>
+            <!-- BEGIN:seleccionar -->
+            <a class="tile  bg-darkBlue" href="{linkSeleccionarCaja}">
+                <div class="tile-content icon">
+                    <span class="icon-seleccionar-caja"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_seleccionar}</div>
+                </div>
+            </a>
+            <!-- END:seleccionar -->
+            
+            <!-- BEGIN:ingresarEfectivo -->
+   			<a class="tile bg-lime" href="{linkIngresarEfectivo}">
+                <div class="tile-content icon">
+                    <span class="icon-ingresar-efectivo"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_ingresarEfectivo}</div>
+                </div>
+            </a>
+   			<!-- END:ingresarEfectivo -->
+            <!-- BEGIN:retirarEfectivo -->
+   			<a class="tile bg-lightRed" href="{linkRetirarEfectivo}">
+                <div class="tile-content icon">
+                    <span class="icon-retirar-efectivo"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_retirarEfectivo}</div>
+                </div>
+            </a>
+   			<!-- END:retirarEfectivo -->
+   			
+   			
+   			<!-- END:caja -->
+
+			<!-- BEGIN:sinCaja -->
+			<a class="tile  bg-darkBlue" href="{linkAbrirCaja}">
+                <div class="tile-content icon">
+                    <span class="icon-abrir-caja"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_abrir}</div>
+                </div>
+            </a>
+			<a class="tile  bg-darkBlue" href="{linkSeleccionarCaja}">
+                <div class="tile-content icon">
+                    <span class="icon-seleccionar-caja"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_seleccionar}</div>
+                </div>
+            </a>
+			<!-- END:sinCaja -->
+            
+            
+        </div> <!-- End group -->
+		
+		
+		<div class="tile-group quadro">
+
+            <div class="tile-group-title">{movimientosCaja_legend}</div>
+			
+			<a class="tile quadro triple-vertical ribbed-teal" title="{admin_home.ultimasRecaudaciones}" href="{linkMovimientosCaja}" >
+                <div class="tile-content">
+                    
+                    <div class="padding10">
+                        <rasty id="ultimosMovimientosCaja"/>
+                    </div>
+
+                </div>
+				<div class="brand">
+				</div>
+            </a> <!-- end tile recaudaciones-->
+            
+   			<a class="tile bg-olive" href="{linkInformesDiariosDebitoCredito}">
+                <div class="tile-content icon">
+                    <span class="icon-informes-debito-credito"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_informesDiariosDebitoCredito}</div>
+                </div>
+            </a>
+            <!-- <a class="tile bg-gray " href="{linkInformesDiariosComision}">
+             <div class="tile-content icon">
+                 <span class="icon-informes-comision"></span>
+             </div>
+             <div class="brand">
+                 <div class="label">{lbl_informesDiariosComision}</div>
+             </div>
+         </a>
+
+         a class="tile bg-steel " href="{linkSorteos}">
+             <div class="tile-content icon">
+                 <span class="icon-sorteos"></span>
+             </div>
+             <div class="brand">
+                 <div class="label">{lbl_sorteos}</div>
+             </div>
+         </a
+
+            <a class="tile bg-steel " href="{linkNuestrasFijas}">
+             <div class="tile-content icon">
+                 <span class="icon-nuestrafija"></span>
+             </div>
+             <div class="brand">
+                 <div class="label">{lbl_nuestrasfijas}</div>
+             </div>
+         </a>-->
+               	
+   			<a class="tile bg-magenta" href="{linkDepositarBanco}">
+                <div class="tile-content icon">
+                    <span class="icon-depositar-efectivo"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_depositarBanco}</div>
+                </div>
+            </a>
+   			
+   			
+
+        </div> <!-- End group -->
+
+		<div class="tile-group">
+
+            <div class="tile-group-title">{clientes_legend}</div>
+			
+			<a class="tile  bg-darkBlue" href="{linkClientes}">
+                <div class="tile-content icon">
+                    <span class="icon-clientes"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{menu_clientes}</div>
+                </div>
+            </a>   	
+   			
+
+			<a class="tile bg-lightOlive" href="{linkCobrarCuentaCorriente}">
+                <div class="tile-content icon">
+                    <span class="icon-cobrar-cuentacorriente"></span>
+                </div>
+                <div class="brand">
+                    <div class="label">{lbl_cobrarCuentaCorriente}</div>
+                </div>
+            </a>
+            
+        </div> <!-- End group -->
+		
+  	       
+    </div>
+<!-- END: main-->

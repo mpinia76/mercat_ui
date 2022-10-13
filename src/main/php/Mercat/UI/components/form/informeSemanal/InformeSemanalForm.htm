@@ -1,0 +1,92 @@
+<!-- BEGIN:main -->
+
+
+<script>
+
+$(function() {
+
+	$("#fechaDesde").focus();
+	
+});
+</script>
+
+<div>
+<form class="cuentas_form" id="informeSemanal_form" onsubmit="return validate('informeSemanal_form');" action="{action}" method="{method}">
+
+		<fieldset>
+		<legend>{legend}</legend>
+
+		<rasty id="backSuccess" />
+	    <rasty id="oid" />
+		
+		<div class="item">
+		    <label for="fechaDesde">{lbl_fechaDesde} *:</label>
+		    <rasty id="fechaDesde" />
+		</div>
+		
+		<div class="item">
+		    <label for="fechaHasta">{lbl_fechaHasta} *:</label>
+		    <rasty id="fechaHasta" />
+		</div>
+		
+		<div class="item">
+		    <label for="ventas">{lbl_ventas} *:</label>
+		    <rasty id="ventas" />
+		</div>
+		
+		<div class="item">
+		    <label for="cancelaciones">{lbl_cancelaciones} *:</label>
+		    <rasty id="cancelaciones" />
+		</div>
+
+		<div class="item">
+		    <label for="pagos">{lbl_pagos} *:</label>
+		    <rasty id="pagos" />
+		</div>
+
+		<div class="item">
+		    <label for="pagoPorLoteria">{lbl_pagoPorLoteria}:</label>
+		    <rasty id="pagoPorLoteria" />
+		</div>
+		
+		<div class="item">
+		    <label for="comision">{lbl_comision}:</label>
+		    <rasty id="comision" />
+		</div>
+		
+		<div class="item">
+		    <label for="ajustes">{lbl_ajustes}:</label>
+		    <rasty id="ajustes" />
+		</div>
+		
+		<div class="item">
+		    <label for="deuda">{lbl_deuda}:</label>
+		    <rasty id="deuda" />
+		</div>
+		
+		<div class="item">
+		    <label for="sucursal">{lbl_sucursal} *:</label>
+		    <rasty id="sucursal" />
+		</div>
+		
+	</fieldset>
+	
+
+</form>
+<!-- BEGIN: msg_error -->
+<fieldset class="ui-state-error">
+	{msg}	
+</fieldset>
+<!-- END: msg_error -->
+	
+<form  class="cuentas_form" id="buttons{inputId}">
+	<fieldset class="tblFooters">
+	
+		<button type="button"  id="input_submit" onclick="javascript: submitFormulario('informeSemanal_form'); "><i class="icon-checkmark on-left"></i>{lbl_submit}</button>
+
+		<button type="button"  id="input_button_2" onclick="javascript: window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+	
+	</fieldset>
+</form>	
+</div>
+<!-- END:main -->

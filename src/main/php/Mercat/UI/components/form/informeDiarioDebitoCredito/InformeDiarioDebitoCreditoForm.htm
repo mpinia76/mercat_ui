@@ -1,0 +1,77 @@
+<!-- BEGIN:main -->
+
+
+<script>
+
+$(function() {
+
+	$("#fecha").focus();
+
+	$("#debito").change(function(){
+		$("#credito").val(0);
+	});
+
+	$("#credito").change(function(){
+		$("#debito").val(0);
+	});
+	
+});
+</script>
+
+<div>
+<form class="cuentas_form" id="informeDiarioDebitoCredito_form" onsubmit="return validate('informeDiarioDebitoCredito_form');" action="{action}" method="{method}">
+
+		<fieldset>
+		<legend>{legend}</legend>
+
+		<rasty id="backSuccess" />
+	    <rasty id="oid" />
+		
+		<div class="item">
+		    <label for="fecha">{lbl_fecha} *:</label>
+		    <rasty id="fecha" />
+		</div>
+		
+		<div class="item">
+		    <label for="fechaVencimiento">{lbl_fechaVencimiento} *:</label>
+		    <rasty id="fechaVencimiento" />
+		</div>
+		
+		<div class="item">
+		    <label for="debito">{lbl_debito} *:</label>
+		    <rasty id="debito" />
+		</div>
+		
+		<div class="item">
+		    <label for="credito">{lbl_credito} *:</label>
+		    <rasty id="credito" />
+		</div>
+
+
+
+		<div class="item">
+		    <label for="banco">{lbl_banco} *:</label>
+		    <rasty id="banco" />
+		</div>
+		
+	</fieldset>
+	
+
+</form>
+<!-- BEGIN: msg_error -->
+<fieldset class="ui-state-error">
+	{msg}	
+</fieldset>
+<!-- END: msg_error -->
+	
+<form  class="cuentas_form" id="buttons{inputId}">
+	<fieldset class="tblFooters">
+	
+		<button type="button"  id="input_submit" onclick="javascript: submitFormulario('informeDiarioDebitoCredito_form'); "><i class="icon-checkmark on-left"></i>{lbl_submit}</button>
+
+		<button type="button"  id="input_button_2" onclick="javascript: window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+	
+	</fieldset>
+</form>	
+</div>
+<!-- END:main -->

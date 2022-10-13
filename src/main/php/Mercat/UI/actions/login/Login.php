@@ -46,29 +46,31 @@ class Login extends Action{
 
 			$user = MercatUtils::getUserByUsername($user->getUsername());
 
-			if( MercatUtils::isAdmin($user)){
+			if( MercatUtils::isEmpleado($user)){
 
-				//$empleado = MercatUtils::getEmpleadoDefault();
+				$empleado = UIServiceFactory::getUIEmpleadoService()->getEmpleadoByUser( $user );
+
+			}elseif( MercatUtils::isAdmin($user)){
+
+				$empleado = MercatUtils::getEmpleadoDefault();
 				MercatUIUtils::loginAdmin($user);
 
 			}else{
 
 				//TODO
 			}
-
-			/*MercatUIUtils::login( $empleado );
+//print_r($empleado);
+			MercatUIUtils::login( $empleado );
 			//buscamos la caja que esté abierta para el empleado
 			$caja = UIServiceFactory::getUICajaService()->getCajaAbiertaByEmpleado($empleado);
-			MercatUIUtils::setCaja($caja);*/
+			MercatUIUtils::setCaja($caja);
 
 			if( MercatUIUtils::isAdminLogged() )
 				$forward->setPageName( $this->getForwardAdmin() );
-			/*elseif( MercatUIUtils::isCajaSelected() )
-				$forward->setPageName( $this->getForwardEmpleado() );*/
-			else {//si no hay caja abierta, lo enviamos a abrir una nueva.
-                MercatUIUtils::setVendedorSession(MercatUtils::MERCAT_VENDEDOR_MELISA);
-                $forward->setPageName($this->getForwardEmpleado());
-            }
+			elseif( MercatUIUtils::isCajaSelected() )
+				$forward->setPageName( $this->getForwardEmpleado() );
+			else //si no hay caja abierta, lo enviamos a abrir una nueva.
+				$forward->setPageName( $this->getForwardCaja() );
 
 		} catch (RastyException $e) {
 

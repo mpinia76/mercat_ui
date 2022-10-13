@@ -1,0 +1,67 @@
+<rasty specificationClass="Mercat\UI\components\form\caja\CajaForm" templateLocation="CajaForm.htm">
+
+	<param name="error" value="get:error" />
+
+	<component id="backSuccess" type="InputHidden">
+		<param name="inputId" value="str:backToOnSuccess" />
+		<param name="name" value="str:backToOnSuccess" />
+		<param name="value" value="backToOnSuccess" />
+	</component>
+
+	<component id="oid" type="InputHidden">
+		<param name="inputId" value="str:oid" />
+		<param name="name" value="str:oid" />
+		<param name="value" value="caja.oid" />
+	</component>
+
+	<component id="fecha" type="InputDate">
+		<param name="inputId" value="str:fecha" />
+		<param name="name" value="str:fecha" />
+		<param name="value" value="caja.fecha" />
+		<param name="placeholder" value="msg:caja.fecha" />
+		<param name="format" value="str:d/m/Y" />
+		<param name="requiredMessage" value="msg:caja.fecha.required" />
+		<param name="isEditable" value="fechaEditable" />
+	</component>
+
+	<component id="horaApertura" type="InputTime">
+		<param name="inputId" value="str:horaApertura" />
+		<param name="name" value="str:horaApertura" />
+		<param name="value" value="caja.horaApertura" />
+		<param name="placeholder" value="msg:caja.horaApertura" />
+		<param name="requiredMessage" value="msg:caja.horaApertura.required" />
+		<param name="isEditable" value="horaEditable" />
+	</component>
+
+	<component id="cajero" type="InputCombo">
+		<param name="inputId" value="str:cajero" />
+		<param name="name" value="str:cajero" />
+		<param name="value" value="caja.cajero" />
+		<param name="options" value="cajeros" />
+		<param name="finder" value="cajeroFinderClazz" />
+		<param name="requiredMessage" value="msg:caja.cajero.required" />
+		<param name="isEditable" value="cajeroEditable" />
+	</component>
+
+
+
+	<component id="saldoInicial" type="InputCurrency">
+		<param name="inputId" value="str:saldoInicial" />
+		<param name="name" value="str:saldoInicial" />
+		<param name="value" value="caja.saldoInicial" />
+		<param name="requiredMessage" value="msg:caja.saldoInicial.required" />
+		<param name="placeholder" value="msg:caja.saldoInicial" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+
+	<component id="numero" type="InputText">
+		<param name="inputId" value="str:numero" />
+		<param name="name" value="str:numero" />
+		<param name="value" value="caja.numero" />
+		<param name="requiredMessage" value="msg:caja.numero.required" />
+		<param name="placeholder" value="msg:caja.numero" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+</rasty>

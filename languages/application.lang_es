@@ -114,7 +114,9 @@
 	"menu.informesSemanales.modificar":"Modificar Informe Semanal",
 	"menu.informesSemanales.reportes":"Reportes",
 
-
+"menu.informesDiariosDebitoCredito.listar":"Informes Diarios Débito/Crédito",
+	"menu.informesDiariosDebitoCredito.agregar":"Agregar Informe Diario Débito/Crédito",
+	"menu.informesDiariosDebitoCredito.modificar":"Modificar Informe Diario Débito/Crédito",
 
 	"menu.stock":"Stock",
 
@@ -159,7 +161,7 @@
 	"menu.ventasProductos":"Ventas Productos",
 	"menu.ventas.pdf":"Comprobante",
 
-	"menu.caja":"Efectivo",
+	"menu.caja":"Caja",
 	"menu.cajaTarjeta":"Tarjetas",
 	"menu.cajaCtaCte":"Ctas. Ctes.",
 
@@ -540,6 +542,37 @@
 
 	"iva.oid":"Id",
 	"iva.nombre":"Nombre",
+
+	"admin_home.informes": "Informes",
+    	"admin_home.informesSemanales": "Semanales",
+    	"admin_home.informesDiariosDebitoCredito": "Débitos/Créditos",
+    	"admin_home.informesDiariosComision": "Comisiones",
+    	"admin_home.informesStats": "Reportes",
+
+    	"admin_home.debitoCreditos.vacio": "No hay Débitos/Créditos",
+
+
+    	"empleado_home.title": "Panel de $1",
+    	"empleado_home.legend": "Resumen del día de $1",
+
+    	"empleado_home.ventas.legend": "Últimas ventas",
+    	"empleado_home.movimientosCaja.legend": "Últimos movimientos de caja",
+    	"empleado_home.caja.legend": "Caja $1",
+    	"empleado_home.caja_abrir.legend": "No hay caja abierta, debe abrir la caja",
+    	"empleado_home.stats.legend": "Totales del día",
+    	"empleado_home.accesos_rapidos.legend": "Accesos rápidos",
+
+    	"empleado_home.movimientosCaja.todos": "ver todos",
+
+
+    	"cuentas.transferir.title": "Transferencia entre Cuentas",
+    	"cuentas.transferir.legend": "Ingrese los datos de la transferencia",
+
+    	"transferir.origen": "Origen",
+    	"transferir.destino": "Destino",
+    	"transferir.monto": "Monto",
+    	"transferir.observaciones": "Observaciones",
+    	"transferir.observaciones.placeholder": "Observaciones",
 
 	"clientes.title": "Listado de Clientes",
 	"cliente.agregar": "Agregar un nuevo cliente",
@@ -1088,6 +1121,78 @@
 
   	"cajaTarjeta.movimientos.title": "Movimientos de caja con tarjetas",
   	"cajaTarjeta.movimientos.buscar": "Movimientos de caja con tarjetas",
+
+  	"caja":"Caja",
+    	"caja.fecha":"Fecha",
+    	"caja.saldo":"Saldo",
+     	"caja.saldoInicial":"Saldo inicial",
+     	"caja.recaudacion":"Ganancia",
+     	"caja.pagos":"Pagos",
+     	"caja.ventas":"Ventas",
+     	"caja.gastos":"Gastos",
+     	"caja.horaApertura":"Apertura",
+     	"caja.horaCierre":"Cierre",
+     	"caja.cajero":"Cajero",
+       	"caja.sucursal":"Sucursal",
+       	"caja.numero":"Número de Caja",
+       	"caja.ventas.ctasctes": "Ventas en Cta Cte",
+       	"caja.pagos.ctasctes": "Pagos en Cta Cte",
+       	"caja.ventas.online": "Ventas Online",
+       	"caja.pagos.online": "Pagos Online",
+       	"caja.ventas.online.ctacte": "Ventas Online Cta Cte",
+
+       	"caja.ventasOnline.placeholder": "Ingrese las Ventas Online",
+       	"caja.pagosOnline.placeholder": "Ingrese los Pagos Online",
+
+       	"caja.detalle_ventas.legend" :"Detalle de ventas x Categoría",
+
+       	"caja.totales_dia.legend": "Balance de cajas del día",
+       	"caja.totales_ventas_dia.legend": "Detalle de ventas totales del día x Categoría",
+
+     	"caja.abrir": "Abrir caja",
+    	"caja.abrir.title": "Abrir nuevo caja",
+    	"caja.abrir.legend": "Ingrese los datos de la caja",
+
+      	"caja.cerrar": "Cerrar caja",
+    	"caja.cerrar.title": "Cerrar caja",
+      	"caja.cerrar.legend": "Cerrando caja",
+
+      	"caja.rendir": "Rendir caja",
+    	"caja.rendir.title": "Rendir caja",
+      	"caja.rendir.legend": "Rendir caja",
+
+     	"caja.retirarEfectivo": "Retirar Efectivo",
+    	"caja.retirarEfectivo.title": "Retirar Efectivo de Caja",
+    	"caja.retirarEfectivo.legend": "Efectivo a retirar",
+      	"caja.retirarEfectivo.caja_legend": "Caja",
+
+     	"caja.ingresarEfectivo": "Ingresar Efectivo",
+    	"caja.ingresarEfectivo.title": "Ingresar Efectivo a Caja",
+    	"caja.ingresarEfectivo.legend": "Efectivo a ingresar ",
+      	"caja.ingresarEfectivo.caja_legend": "Caja",
+
+      	"caja.depositarBanco": "Depositar en Banco",
+
+      	"caja.seleccionar": "Seleccionar caja",
+    	"caja.seleccionar.title": "seleccionar caja",
+    	"caja.seleccionar.legend": "Seleccione alguna de las cajas abiertas",
+      	"caja.seleccionar.caja_legend": "Caja seleccionada",
+      	"caja.option_empty": "- Seleccione una caja -",
+      	"caja.toString":"Caja $1 - $2 / $3",
+
+      	"retirarEfectivo.montoRetirar": "Monto",
+      	"retirarEfectivo.montoRetirar.required": "Ingrese el monto a retirar",
+      	"retirarEfectivo.observaciones": "Observaciones",
+      	"retirarEfectivo.observaciones.placeholder": "Aquí puede escribir notas que considera necesarias",
+
+      	"ingresarEfectivo.montoIngresar": "Monto",
+      	"ingresarEfectivo.montoIngresar.required": "Ingrese el monto a ingresar",
+      	"ingresarEfectivo.observaciones": "Observaciones",
+      	"ingresarEfectivo.observaciones.placeholder": "Aquí puede escribir notas que considera necesarias",
+
+    	"caja.movimientos.buscar": "Movimientos de caja",
+    	"cajaChica.movimientos.buscar": "Movimientos de caja chica",
+    	"cuentaCorriente.movimientos.buscar": "Cuenta Corriente de $1",
 
   	"venta.movimientos.title": "Movimientos de ventas",
   	"venta.movimientos.buscar": "Movimientos de ventas",
