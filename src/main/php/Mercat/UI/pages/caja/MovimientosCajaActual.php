@@ -5,9 +5,9 @@ use Mercat\UI\service\UIServiceFactory;
 
 use Mercat\UI\utils\MercatUIUtils;
 
-use Mercat\UI\components\filter\model\UIMovimientoCuentaCriteria;
+use Mercat\UI\components\filter\model\UIMovimientoCajaCriteria;
 
-use Mercat\UI\components\grid\model\MovimientoCuentaGridModel;
+use Mercat\UI\components\grid\model\MovimientoCajaGridModel;
 
 use Mercat\UI\pages\MercatPage;
 
@@ -63,11 +63,11 @@ class MovimientosCajaActual extends MercatPage{
 	}	
 
 	public function getModelClazz(){
-		return get_class( new MovimientoCuentaGridModel() );
+		return get_class( new MovimientoCajaGridModel() );
 	}
 
 	public function getUicriteriaClazz(){
-		return get_class( new UIMovimientoCuentaCriteria() );
+		return get_class( new UIMovimientoCajaCriteria() );
 	}
 	
 	protected function parseXTemplate(XTemplate $xtpl){

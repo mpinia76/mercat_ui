@@ -32,7 +32,9 @@
                 <!-- BEGIN: menuOptionProfile -->
                 <li><a href="#" onclick="{onclick}" ><!-- BEGIN: image --><img style="border:0;margin-right:10px;width:24px;height: 24px;" src="{src}"/><!-- END: image --> {label}</a></li>
                 <!-- END: menuOptionProfile -->
-
+                <!-- BEGIN: menuOptionAdmin -->
+                <li><a class="element" href="#" onclick="{onclick}" ><!-- BEGIN: image --><img style="border:0;margin-right:10px;width:24px;height: 24px;" src="{src}"/><!-- END: image -->{label}</a></li>
+                <!-- END: menuOptionAdmin -->
                 <!-- BEGIN: menuOptionExit -->
                 <li><a class="element" href="#" onclick="{onclick}" ><!-- BEGIN: image --><img style="border:0;margin-right:10px;width:24px;height: 24px;" src="{src}"/><!-- END: image -->{label}</a></li>
                 <!-- END: menuOptionExit -->
@@ -52,70 +54,58 @@
 
     </div>
 
-        <div class="tile-group double">
+    <div class="tile-group double">
+        <div class="tile-group-title">{menu_cuentas}</div>
+        <a class="tile double bg-cyan" href="{linkMovimientosCajaChica}">
+            <div class="tile-content">
+                <div class="padding10">
+                    <h1 class="fg-white ntm">{menu_cajaChica}</h1>
+                </div>
+            </div>
+            <div class="brand bg-green fg-white" style="text-align: right;">
+					<span class="text" style="font-size:19pt;">
+						{saldo_cajaChica}
+					</span>
+            </div>
+        </a>
+        <a class="tile bg-cyan" href="{linkCaja}">
+            <div class="tile-content">
+                <div class="padding10">
+                    <h1 class="fg-white ntm">{menu_caja}</h1>
+                </div>
+            </div>
+            <div class="brand bg-green fg-white" style="text-align: right;">
+					<span class="text" style="font-size:16pt;">
+						{saldo_caja}
+					</span>
+            </div>
+        </a>
+        <a class="tile bg-cyan" href="{linkMovimientosBanco}">
+            <div class="tile-content">
+                <div class="padding10">
+                    <h1 class="fg-white ntm">{menu_bancos}</h1>
+                </div>
+            </div>
+            <div class="brand bg-green fg-white" style="text-align: right;">
+					<span class="text" style="font-size:16pt;">
+						{saldo_bancos}
+					</span>
+            </div>
+        </a>
+        <a class="tile double bg-cyan" href="{linkClientes}">
+            <div class="tile-content">
+                <div class="padding10">
+                    <h1 class="fg-white ntm">{menu_ctasctes}</h1>
+                </div>
+            </div>
+            <div class="brand bg-green fg-white" style="text-align: right;">
+					<span class="text" style="font-size:16pt;">
+						{saldo_ctasctes}
+					</span>
+            </div>
+        </a>
 
-            <div class="tile-group-title">{menu_ventas}/{menu_gastos}</div>
-
-
-
-            <a class="tile bg-amber" href="{linkVentas}">
-                <div class="tile-content icon">
-                    <span class="icon-ventas"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_ventas}</div>
-                </div>
-            </a><!-- end tile gastos-->
-            <a class="tile  bg-amber" href="{linkVentaAgregar}">
-                <div class="tile-content icon">
-                    <span class="icon-nueva-venta"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_ventas_agregar}</div>
-                </div>
-            </a>
-            <a class="tile bg-amber" href="{linkPresupuestos}">
-                <div class="tile-content icon">
-                    <span class="icon-pedidos"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_presupuestos}</div>
-                </div>
-            </a><!-- end tile gastos-->
-            <a class="tile  bg-amber" href="{linkPresupuestoAgregar}">
-                <div class="tile-content icon">
-                    <span class="icon-nuevo-pedido"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_presupuestos_agregar}</div>
-                </div>
-            </a>
-            <a class="tile  bg-darkBlue" href="{linkClienteAgregar}">
-                <div class="tile-content icon">
-                    <span class="icon-clientes"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_clientes_agregar}</div>
-                </div>
-            </a><!-- end tile gastos-->
-            <a class="tile  bg-darkBlue" href="{linkProductos}">
-                <div class="tile-content icon">
-                    <span class="icon-productos"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_productos}</div>
-                </div>
-            </a>
-            <a class="tile  bg-darkBlue" href="{linkProductoAgregar}">
-                <div class="tile-content icon">
-                    <span class="icon-productos"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_productos_agregar}</div>
-                </div>
-            </a>
-
-        </div> <!-- End group -->
+    </div>
 
 
 

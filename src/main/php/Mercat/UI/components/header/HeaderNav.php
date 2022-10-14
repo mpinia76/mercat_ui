@@ -403,14 +403,19 @@ class HeaderNav extends RastyComponent{
 		$menuOption->setPageName( "DepositarEfectivo" );
 		$menuOption->setIconClass("icon-depositar-efectivo");
 		//$menuOption->setImageSource( $this->getWebPath() . "css/images/depositar_32.png" );
-		$menuGroup->addMenuOption( $menuOption );
+		$menuGroup->addMenuOption( $menuOption );*/
 
 		$menuOption = new MenuOption();
 		$menuOption->setLabel( $this->localize( "menu.transferir") );
 		$menuOption->setIconClass("icon-movimientos");
 		$menuOption->setPageName( "Transferir");
-		$menuGroup->addMenuOption( $menuOption );*/
+		$menuGroup->addMenuOption( $menuOption );
 
+		$menuOption = new MenuOption();
+		$menuOption->setLabel( $this->localize( "menu.bancos.listar") );
+		$menuOption->setPageName( "Bancos" );
+		$menuOption->setIconClass("icon-depositar-efectivo");
+		$menuGroup->addMenuOption( $menuOption );
 
 		//$menuGroup->addMenuOption( $this->getMenuGastos() );
 		$menuOption = new MenuOption();

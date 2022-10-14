@@ -86,8 +86,8 @@ class CajaBox extends RastyComponent{
 				$gastos = UIServiceFactory::getUIGastoService()->getTotalesCuenta($caja);
 				$xtpl->assign("gastos",  MercatUIUtils::formatMontoToView($gastos) );
 			
-				$pagos = UIServiceFactory::getUIPagoPremioService()->getTotalesCuenta($caja);
-				$xtpl->assign("pagos",  MercatUIUtils::formatMontoToView($pagos) );
+				/*$pagos = UIServiceFactory::getUIPagoPremioService()->getTotalesCuenta($caja);
+				$xtpl->assign("pagos",  MercatUIUtils::formatMontoToView($pagos) );*/
 			
 				$ventas = UIServiceFactory::getUIVentaService()->getTotalesCuenta($caja);
 				$xtpl->assign("ventas",  MercatUIUtils::formatMontoToView($ventas) );
@@ -95,7 +95,7 @@ class CajaBox extends RastyComponent{
 				$xtpl->parse("main.detalles");
 				
 				
-				$fecha = new \DateTime();
+				/*$fecha = new \DateTime();
 				$totales = UIServiceFactory::getUIVentaService()->getTotalesCuentaPorCategoria($caja);
 				foreach ($totales as $total) {
 					$importe = $total["monto"];
@@ -104,7 +104,7 @@ class CajaBox extends RastyComponent{
 					$xtpl->assign("importe",  MercatUIUtils::formatMontoToView($importe) );
 					$xtpl->parse("main.ventas.detalle_categoria");
 				}
-				$xtpl->parse("main.ventas");
+				$xtpl->parse("main.ventas");*/
 				
 				
 				$this->parseDetallesDelDia( $xtpl );
@@ -125,17 +125,17 @@ class CajaBox extends RastyComponent{
 		$ventas = 0;
 		foreach ($cajas as $caja) {
 			$gastos += UIServiceFactory::getUIGastoService()->getTotalesCuenta( $caja );
-			$pagos += UIServiceFactory::getUIPagoPremioService()->getTotalesCuenta( $caja );
+			//$pagos += UIServiceFactory::getUIPagoPremioService()->getTotalesCuenta( $caja );
 			$ventas += UIServiceFactory::getUIVentaService()->getTotalesCuenta( $caja );
 		}
 		
 		$xtpl->assign("gastos",  MercatUIUtils::formatMontoToView($gastos) );
-		$xtpl->assign("pagos",  MercatUIUtils::formatMontoToView($pagos) );
+		//$xtpl->assign("pagos",  MercatUIUtils::formatMontoToView($pagos) );
 		$xtpl->assign("ventas",  MercatUIUtils::formatMontoToView($ventas) );
 		
 		$xtpl->parse("main.totales_dia");
 		
-		$fecha = new \DateTime();
+		/*$fecha = new \DateTime();
 		$totales = UIServiceFactory::getUIVentaService()->getTotalesCuentaPorCategoria(null, $fecha);
 		foreach ($totales as $total) {
 			$importe = $total["monto"];
@@ -144,7 +144,7 @@ class CajaBox extends RastyComponent{
 			$xtpl->assign("importe",  MercatUIUtils::formatMontoToView($importe) );
 			$xtpl->parse("main.ventas_dia.detalle_categoria");
 		}
-		$xtpl->parse("main.ventas_dia");
+		$xtpl->parse("main.ventas_dia");*/
 	}
 	
 	protected function initObserverEventType(){

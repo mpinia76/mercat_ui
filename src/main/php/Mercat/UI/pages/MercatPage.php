@@ -422,6 +422,13 @@ abstract class MercatPage extends RastyPage{
 
 	}
 
+	public function getLinkActionCobrarVenta(Venta $venta, Cuenta $cuenta){
+
+		return LinkBuilder::getActionUrl( "CobrarVentaBanco", array("ventaOid"=>$venta->getOid(),
+			"cuentaOid"=>$cuenta->getOid())) ;
+
+	}
+
 	public function getLinkActionCobrarVentaEfectivo(Venta $venta){
 
 		return LinkBuilder::getActionUrl( "CobrarVentaEfectivo", array("ventaOid"=>$venta->getOid())) ;
@@ -832,10 +839,36 @@ abstract class MercatPage extends RastyPage{
 	}
 
 
+	public function getLinkBancoAgregar(){
+
+		return LinkBuilder::getPageUrl( "BancoAgregar") ;
+
+	}
+
+	public function getLinkActionAgregarBanco(){
+
+		return LinkBuilder::getActionUrl( "AgregarBanco") ;
+
+	}
+
+	public function getLinkActionModificarBanco(){
+
+		return LinkBuilder::getActionUrl( "ModificarBanco") ;
+
+	}
 
 
+	public function getLinkMovimientosPdf(){
 
+		return LinkBuilder::getPdfUrl( "MovimientosPDF") ;
 
+	}
+
+	public function getLinkMovimientosXls(){
+
+		return LinkBuilder::getPageUrl( "MovimientosBancoXLS") ;
+
+	}
 
 
 

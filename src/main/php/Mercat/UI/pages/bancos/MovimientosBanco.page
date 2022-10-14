@@ -1,0 +1,13 @@
+<rasty specificationClass="Mercat\UI\pages\bancos\MovimientosBanco" templateLocation="pages/bancos/MovimientosBanco.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="movimientosFilter" type="MovimientoBancoFilter">
+		<param name="gridModelClazz" value="modelClazz" />
+		<param name="uicriteriaClazz" value="uicriteriaClazz" />
+		<param name="legend" value="msg:banco.movimientos.buscar" />
+		<param name="legendAgain" value="msg:banco.movimientos.buscar.again" />
+		<param name="resultDiv" value="str:searchdiv" />
+	</component>
+
+</rasty>

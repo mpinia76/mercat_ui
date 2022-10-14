@@ -176,6 +176,14 @@ class UIServiceFactory {
 	
 		return UIMovimientoGastoService::getInstance();	
 	}
+
+    /**
+     * @return UIMovimientoCuentaService
+     */
+    public static function getUIMovimientoCuentaService(){
+
+        return UIMovimientoCuentaService::getInstance();
+    }
 	
 	
 	

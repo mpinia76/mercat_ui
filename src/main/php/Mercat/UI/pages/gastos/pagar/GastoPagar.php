@@ -3,6 +3,8 @@ namespace Mercat\UI\pages\gastos\pagar;
 
 use Mercat\UI\service\UIServiceFactory;
 
+use Mercat\UI\components\filter\model\UIBancoCriteria;
+
 use Mercat\Core\utils\MercatUtils;
 use Mercat\UI\utils\MercatUIUtils;
 
@@ -77,11 +79,17 @@ class GastoPagar extends MercatPage{
 		$xtpl->assign( "lbl_pendiente", $this->localize( "forma.pago.pendiente") );
 		
 		
-			$xtpl->assign( "linkPagarEfectivo", $this->getLinkActionPagarGasto($this->getGasto(), MercatUtils::getCuentaUnica(), $this->getBackTo()) );
-			$xtpl->parse("main.forma_pago_caja");	
-		
-		
-		
+			$xtpl->assign( "linkPagarEfectivo", $this->getLinkActionPagarGasto($this->getGasto(), UIServiceFactory::getUICajaService()->get( MercatUIUtils::getCaja()->getOid() ), $this->getBackTo()) );
+			$xtpl->parse("main.forma_pago_caja");
+
+
+        $bancos = UIServiceFactory::getUIBancoService()->getList( new UIBancoCriteria() );
+
+        foreach ($bancos as $banco){
+            $xtpl->assign( "linkPagarBAPRO", $this->getLinkActionPagarGasto($this->getGasto(), $banco, $this->getBackTo()) );
+            $xtpl->assign("lbl_bapro",$banco->getNombre());
+            $xtpl->parse("main.forma_pago_bapro");
+        }
 		
 		$xtpl->assign( "linkAnular", $this->getLinkGastoAnular($this->getGasto()) );
 		

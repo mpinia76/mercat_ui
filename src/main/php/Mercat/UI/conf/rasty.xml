@@ -83,6 +83,11 @@
 	<page name="VentaDevolver"   location="pages/ventas/devolver/VentaDevolver.page" url="ventas/devolver"/>
 	<page name="VentaAgregarProducto"   location="pages/ventas/agregar/VentaAgregarProducto.page" url="ventas/agregar/producto"/>
 
+	<page name="MovimientosCajaActual"   location="pages/caja/MovimientosCajaActual.page" url="caja/actual/movimientos"/>
+	<page name="MovimientosCajaChica"   location="pages/cajaChica/MovimientosCajaChica.page" url="cajaChica/movimientos"/>
+	<page name="MovimientosCtaCte"   location="pages/clientes/MovimientosCtaCte.page" url="clientes/ctacte/movimientos"/>
+	<page name="MovimientosBanco"   location="pages/bancos/MovimientosBanco.page" url="bancos/movimientos"/>
+
 	<page name="MovimientosCaja"   location="pages/cajas/MovimientosCaja.page" url="cajas/movimientos"/>
 	<page name="MovimientosCajaTarjeta"   location="pages/cajas/MovimientosCajaTarjeta.page" url="cajas/tarjetas/movimientos"/>
 	<page name="MovimientosCajaCtaCte"   location="pages/cajas/MovimientosCajaCtaCte.page" url="cajas/ctasctes/movimientos"/>
@@ -130,6 +135,16 @@
 	<page name="InformeDiarioDebitoCreditoAgregar"   location="pages/informes/debitosCreditos/agregar/InformeDiarioDebitoCreditoAgregar.page" url="informes/debitosCreditos/agregar"/>
 	<page name="InformeDiarioDebitoCreditoModificar"   location="pages/informes/debitosCreditos/modificar/InformeDiarioDebitoCreditoModificar.page" url="informes/debitosCreditos/modificar"/>
 
+	<page name="Bancos"   location="pages/bancos/Bancos.page" url="cuentas"/>
+	<page name="BancoAgregar"   location="pages/bancos/agregar/BancoAgregar.page" url="cuentas/agregar"/>
+	<page name="BancoModificar"   location="pages/bancos/modificar/BancoModificar.page" url="cuentas/modificar"/>
+
+	<page name="DepositarEfectivo"   location="pages/bancos/depositar/DepositarEfectivo.page" url="depositar"/>
+
+
+
+	<page name="Transferir"   location="pages/cuentas/transferir/Transferir.page" url="transferir"/>
+
 	<!-- declaración de los componentes -->
 	<component name="HeaderNav" location="components/header" />
 	<component name="HeaderNavMetro" location="components/header" />
@@ -149,6 +164,8 @@
 	<component name="CuentaCorrienteBox"   location="components/boxes/cuentaCorriente"/>
 	<component name="PedidoBox"   location="components/boxes/pedido"/>
 
+	<component name="BancoBox"   location="components/boxes/banco"/>
+
 	<component name="PresupuestoBox"   location="components/boxes/presupuesto"/>
 
 	<component name="BalanceDia"   location="components/stats/balance"/>
@@ -162,6 +179,9 @@
 	<component name="InformeSemanalPorMes" location="components/stats/informes" />
 	<component name="InformeSemanalPorSemana" location="components/stats/informes" />
 	<component name="InformeDiarioComisionPorMes" location="components/stats/informes" />
+
+	<component name="MovimientoCuentaFilter"   location="components/filter/movimiento"/>
+	<component name="MovimientoBancoFilter"   location="components/filter/movimiento"/>
 
 	<!-- forms -->
 	<component name="CajaForm"   location="components/form/caja"/>
@@ -195,6 +215,8 @@
 	<component name="ProveedorForm"   location="components/form/proveedor"/>
 
 	<component name="PedidoForm"   location="components/form/pedido"/>
+
+	<component name="BancoForm"   location="components/form/banco"/>
 
 	<!-- filters -->
 
@@ -244,6 +266,8 @@
 
 	<component name="AccesosRapidos" location="components/filter/producto" />
 
+	<component name="BancoFilter"   location="components/filter/banco"/>
+
 	<!-- pdfs -->
 	<component name="VentaPDF"   location="components/pdf/venta"/>
 	<component name="PresupuestoPDF"   location="components/pdf/presupuesto"/>
@@ -264,6 +288,10 @@
 	<!-- declaración de las actions -->
 	<action name="Login" class="Mercat\UI\actions\login\Login" url="login"/>
 	<action name="Logout" class="Mercat\UI\actions\login\Logout" url="logout"/>
+
+	<action name="AgregarBanco" class="Mercat\UI\actions\bancos\AgregarBanco" url="cuentas/agregar"/>
+	<action name="ModificarBanco" class="Mercat\UI\actions\bancos\ModificarBanco" url="cuentas/modificar"/>
+	<action name="EliminarBanco" class="Mercat\UI\actions\bancos\EliminarBanco" url="cuentas/eliminar"/>
 
 	<action name="AbrirCaja" class="Mercat\UI\actions\caja\AbrirCaja" url="caja/abrir"/>
 	<action name="CerrarCaja" class="Mercat\UI\actions\caja\CerrarCaja" url="caja/cerrar"/>
@@ -333,6 +361,7 @@
 	<action name="BorrarDetalleVentaJson" class="Mercat\UI\actions\ventas\BorrarDetalleVentaJson" url="ventas/borrar/detalleJson"/>
 	<action name="CobrarVentaEfectivo" class="Mercat\UI\actions\ventas\CobrarVentaEfectivo" url="ventas/cobrar/efectivo"/>
 	<action name="CobrarVentaCtaCte" class="Mercat\UI\actions\ventas\CobrarVentaCtaCte" url="ventas/cobrar/ctacte"/>
+	<action name="CobrarVentaBanco" class="Mercat\UI\actions\ventas\CobrarVentaBanco" url="ventas/cobrar/banco"/>
 	<action name="AnularVenta" class="Mercat\UI\actions\ventas\AnularVenta" url="ventas/anular"/>
 	<action name="CobrarVentaTarjeta" class="Mercat\UI\actions\ventas\CobrarVentaTarjeta" url="ventas/cobrar/tarjeta"/>
 	<action name="SeleccionarTarjetaJson" class="Mercat\UI\actions\ventas\SeleccionarTarjetaJson" url="ventas/cobrar/seleccionarJson"/>

@@ -46,7 +46,10 @@ class CobrarVentaEfectivo extends Action{
 			$montoActualizado = $value = str_replace(',', '.', RastyUtils::getParamGET("montoActualizado"));
 			//$venta->setMonto($monto);
 
-			$cuenta = MercatUtils::getCuentaUnica();
+			//$cuenta = MercatUtils::getCuentaUnica();
+
+            //el pago será en efectivo (caja) tomando toda la info del contexto.
+            $cuenta = UIServiceFactory::getUICajaService()->get( MercatUIUtils::getCaja()->getOid() );
 			
 			
 			$user = RastySecurityContext::getUser();
@@ -54,7 +57,7 @@ class CobrarVentaEfectivo extends Action{
 			
 			UIServiceFactory::getUIVentaService()->cobrar($venta, $cuenta, $user, $monto, $montoActualizado);			
 			
-			$forward->setPageName( "Ventas" );
+			$forward->setPageName( "CajaHome" );
 		
 			
 		} catch (RastyException $e) {

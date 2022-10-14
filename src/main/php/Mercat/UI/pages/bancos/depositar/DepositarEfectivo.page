@@ -1,0 +1,49 @@
+<rasty specificationClass="Accounts\UI\pages\bancos\depositar\DepositarEfectivo" templateLocation="pages/bancos/depositar/DepositarEfectivo.htm">
+
+	<param name="layoutType" value="str:AccountsMetroLayout" />
+	<param name="monto" value="get:monto" />
+	<param name="observaciones" value="get:observaciones" />
+	<param name="error" value="get:error" />
+	<param name="bancoOid" value="get:bancoOid" />
+
+
+	<component id="bancoBox" type="BancoBox">
+		<param name="banco" value="banco" />
+	</component>
+
+	<component id="fechaHora" type="InputDate">
+		<param name="inputId" value="str:fechaHora" />
+		<param name="name" value="str:fechaHora" />
+		<param name="value" value="fechaHora" />
+		<param name="placeholder" value="msg:depositarEfectivo.fechaHora" />
+		<param name="format" value="str:d/m/Y H:i" />
+		<param name="requiredMessage" value="msg:depositarEfectivo.fecha.required" />
+	</component>
+
+	<component id="montoDepositar" type="InputCurrency">
+		<param name="inputId" value="str:monto" />
+		<param name="name" value="str:monto" />
+		<param name="value" value="monto" />
+		<param name="requiredMessage" value="msg:depositarEfectivo.montoDepositar.required" />
+		<param name="placeholder" value="msg:depositarEfectivo.montoDepositar" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="observaciones" type="InputTextArea">
+		<param name="inputId" value="str:observaciones" />
+		<param name="name" value="str:observaciones" />
+		<param name="value" value="observaciones" />
+		<param name="placeholder" value="msg:retirarEfectivo.observaciones.placeholder" />
+		<param name="autocomplete" value="str:off" />
+		<param name="rows" value="str:3" />
+	</component>
+
+	<component id="banco" type="InputCombo">
+		<param name="inputId" value="str:banco" />
+		<param name="name" value="str:banco" />
+		<param name="value" value="banco" />
+		<param name="options" value="bancos" />
+		<param name="finder" value="bancoFinderClazz" />
+		<param name="onChangeCallback" value="str:javascript:bancochange();" />
+	</component>
+</rasty>

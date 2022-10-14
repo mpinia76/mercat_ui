@@ -1,0 +1,78 @@
+<!-- BEGIN: main-->
+<script>
+function bancochange(){
+
+
+	window.location.href = "?bancoOid=" + $("#banco").val();
+
+}
+
+</script>
+<style>
+.div_left{
+	width: 40%;
+	float:left;
+}
+
+.div_right{
+	width: 60%;
+	float:right;
+}
+
+
+</style>
+
+
+
+	<div class="div_rigth">
+	<form class="accounts_form" id="depositar_form" onsubmit="return validate('depositar_form');" action="{action}" method="POST">
+		<fieldset>
+		<legend>{legend}</legend>
+
+            <div class="item">
+                <label for="banco">{lbl_banco} *:</label>
+                <rasty id="banco" />
+            </div>
+            <div class="item">
+			    <label for="fechaHora">{lbl_fechaHora} *:</label>
+			    <rasty id="fechaHora" />
+			</div>
+
+
+
+
+			<div class="item">
+			    <label for="montoDepositar">{lbl_montoDepositar} *:</label>
+			    <rasty id="montoDepositar" />
+			</div>
+
+			<div class="item">
+			    <label for="observaciones">{lbl_observaciones}:</label>
+			    <rasty id="observaciones" />
+			</div>
+
+		</fieldset>
+	</form>
+
+	<!-- BEGIN: msg_error -->
+	<fieldset class="ui-state-error">
+			{msg}
+	</fieldset>
+	<!-- END: msg_error -->
+
+	<form  class="accounts_form">
+	<fieldset class="tblFooters">
+
+
+		<button type="button" class="shortcut" id="input_submit" onclick="javascript: submitFormulario('depositar_form'); ">
+			<i class="icon-checkmark on-left"></i>{lbl_submit}
+		</button>
+
+		<button type="button"  class="shortcut" id="input_button_2" onclick="javascript: window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+
+	</fieldset>
+	</form>
+	</div>
+	<div style="clear:both;"></div>
+
+<!-- END: main-->

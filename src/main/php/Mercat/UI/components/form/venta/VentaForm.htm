@@ -108,7 +108,7 @@ function cleanInputs(){
 
 	$("#findentity_detalleProducto_inputCode").val("") ;
 	$("#findentity_detalleProducto_inputCode").blur() ;
-	$("#findentity_detalleProducto_autocomplete").focus() ;
+	$("#findentity_detalleProducto_inputCode").focus() ;
 
 
 }
@@ -452,7 +452,7 @@ $(function() {
 		detalleChange();
 	});
 
-	$("#findentity_detalleProducto_autocomplete").focus() ;
+
 
 
 
@@ -476,6 +476,8 @@ $(function() {
     submitBuscarAccesosRapidos("{WEB_PATH}");
 
     $("#cliente1").select2("val", $('#cliente').val());
+
+
 
 });
 </script>
@@ -705,6 +707,11 @@ display:none;
 <div style="clear: both;"></div>
 
 
+<script>
 
+	$(function() {
+		$("#findentity_detalleProducto_inputCode").focus();
+	});
+</script>
 
 <!-- END:main -->

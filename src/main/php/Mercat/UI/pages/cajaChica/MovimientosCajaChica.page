@@ -1,8 +1,8 @@
-<rasty specificationClass="Cuentas\UI\pages\cajaChica\MovimientosCajaChica" templateLocation="pages/cajaChica/MovimientosCajaChica.htm"> 
+<rasty specificationClass="Mercat\UI\pages\cajaChica\MovimientosCajaChica" templateLocation="pages/cajaChica/MovimientosCajaChica.htm">
 
-	<param name="layoutType" value="str:CuentasMetroLayout" />
+	<param name="layoutType" value="str:MercatMetroLayout" />
 
-	<component id="movimientosFilter" type="MovimientoCuentaFilter">
+	<component id="movimientosFilter" type="MovimientoCajaFilter">
 		<param name="cuenta" value="cajaChica" />
 		<param name="gridModelClazz" value="modelClazz" />
 		<param name="uicriteriaClazz" value="uicriteriaClazz" />

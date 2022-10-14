@@ -18,6 +18,8 @@ use Rasty\security\RastySecurityContext;
 
 use Rasty\i18n\Locale;
 
+use Rasty\utils\Logger;
+
 
 
 /**
@@ -59,10 +61,11 @@ class Login extends Action{
 
 				//TODO
 			}
-//print_r($empleado);
+
 			MercatUIUtils::login( $empleado );
 			//buscamos la caja que esté abierta para el empleado
 			$caja = UIServiceFactory::getUICajaService()->getCajaAbiertaByEmpleado($empleado);
+			//Logger::logObject($caja);
 			MercatUIUtils::setCaja($caja);
 
 			if( MercatUIUtils::isAdminLogged() )
@@ -84,7 +87,7 @@ class Login extends Action{
 	}
 
 	protected function getForwardEmpleado(){
-		return "VentasHome";
+		return "CajaHome";
 	}
 
 	protected function getForwardAdmin(){

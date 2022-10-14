@@ -218,7 +218,7 @@ class AdminHome extends MercatPage{
 		$xtpl->assign("menu_balance_anio", $this->localize("menu.balances.anio") );
 		$xtpl->assign("linkBalanceAnio", $this->getLinkBalanceAnio() );*/
 
-		$xtpl->assign("menu_cuentas", $this->localize("menu.cuentas") );
+		$xtpl->assign("menu_cuentas", $this->localize("menu.agencia") );
 		$xtpl->assign("menu.ventasST", $this->localize("menu.ventasST") );
 		$xtpl->assign("linkCaja", $this->getLinkCajaHome());
 

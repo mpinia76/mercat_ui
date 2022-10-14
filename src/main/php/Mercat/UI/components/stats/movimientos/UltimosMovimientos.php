@@ -122,7 +122,7 @@ class UltimosMovimientos extends RastyComponent{
 	
 
 	protected function initObserverEventType(){
-		$this->addEventType( "MovimientoCuenta" );
+		$this->addEventType( "MovimientoCaja" );
 	}
 	
 	public function setCuentaOid($cuentaOid){

@@ -1,15 +1,15 @@
 <?php
-namespace Cuentas\UI\pages\cajaChica;
+namespace Mercat\UI\pages\cajaChica;
 
-use Cuentas\UI\service\UIServiceFactory;
+use Mercat\UI\components\grid\model\MovimientoCajaGridModel;
+use Mercat\UI\service\UIServiceFactory;
 
-use Cuentas\UI\components\filter\model\UIMovimientoCuentaCriteria;
+use Mercat\UI\components\filter\model\UIMovimientoCajaCriteria;
 
-use Cuentas\UI\components\grid\model\MovimientoCuentaGridModel;
 
-use Cuentas\UI\pages\CuentasPage;
+use Mercat\UI\pages\MercatPage;
 
-use Cuentas\UI\utils\CuentasUtils;
+use Mercat\UI\utils\MercatUtils;
 
 use Rasty\utils\XTemplate;
 use Rasty\utils\RastyUtils;
@@ -22,11 +22,11 @@ use Rasty\Menu\menu\model\MenuOption;
 /**
  * Página para consultar los movimientos de la cajaChica.
  * 
- * @author Bernardo
- * @since 04-06-2014
+ * @author Marcos
+ * @since 13-10-2022
  * 
  */
-class MovimientosCajaChica extends CuentasPage{
+class MovimientosCajaChica extends MercatPage{
 
 	
 	public function __construct(){
@@ -69,11 +69,11 @@ class MovimientosCajaChica extends CuentasPage{
 	}	
 
 	public function getModelClazz(){
-		return get_class( new MovimientoCuentaGridModel() );
+		return get_class( new MovimientoCajaGridModel() );
 	}
 
 	public function getUicriteriaClazz(){
-		return get_class( new UIMovimientoCuentaCriteria() );
+		return get_class( new UIMovimientoCajaCriteria() );
 	}
 	
 	protected function parseXTemplate(XTemplate $xtpl){

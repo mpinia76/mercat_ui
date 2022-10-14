@@ -32,7 +32,6 @@ class CajaHome extends AdminHome{
 	private $empleado;
 	private $fecha;
 	private $caja;
-	//private $sucursal;
 
 	public function __construct(){
 
@@ -237,25 +236,9 @@ class CajaHome extends AdminHome{
 		$this->fecha = $fecha;
 	}
 
-	public function getCaja()
-	{
-		return $this->caja;
-	}
 
-	public function setCaja($caja)
-	{
-		$this->caja = $caja;
-	}
 
-	public function getSucursal()
-	{
-		return $this->sucursal;
-	}
 
-	public function setSucursal($sucursal)
-	{
-		$this->sucursal = $sucursal;
-	}
 	
 
 	

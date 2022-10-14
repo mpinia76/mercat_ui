@@ -1,0 +1,14 @@
+<rasty specificationClass="Mercat\UI\pages\bancos\agregar\BancoAgregar" templateLocation="pages/bancos/agregar/BancoAgregar.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+
+	<component id="bancoForm" type="BancoForm">
+		<param name="legend" value="msg:banco.agregar.legend" />
+		<param name="backToOnSuccess" value="get:backTo" />
+		<param name="backToOnCancel" value="get:backTo" />
+		<param name="action" value="linkActionAgregarBanco" />
+		<param name="method" value="str:post" />
+		<param name="banco" value="banco" />
+	</component>
+
+</rasty>

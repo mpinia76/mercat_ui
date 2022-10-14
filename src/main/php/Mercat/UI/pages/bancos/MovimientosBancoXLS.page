@@ -1,0 +1,12 @@
+<rasty specificationClass="Accounts\UI\pages\bancos\MovimientosBancoXLS" templateLocation="pages/bancos/MovimientosBancoXLS.htm">
+
+	<param name="layoutType" value="str:AccountsXLSLayout" />
+
+
+
+
+	 <component id="movimientosXLS" type="MovimientosXLS">
+
+	</component>
+
+</rasty>

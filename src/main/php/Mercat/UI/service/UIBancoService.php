@@ -135,5 +135,91 @@ class UIBancoService {
 		}
 		return $saldos;
 	}
+
+    /**
+     * retorna los saldos de todos los bancos
+     */
+    public function getSaldoBanco(UIBancoCriteria $criteria){
+
+        $bancos = $this->getList($criteria);
+        $saldos = 0;
+        foreach ($bancos as $banco) {
+            $saldos += $banco->getSaldo();
+        }
+        return $saldos;
+    }
+
+    function getEntitiesCount($uiCriteria){
+
+        try{
+
+            $criteria = $uiCriteria->buildCoreCriteria() ;
+
+            $service = ServiceFactory::getCuentaService();
+            $cuentas = $service->getCount( $criteria );
+
+            return $cuentas;
+
+        } catch (\Exception $e) {
+
+            throw new RastyException($e->getMessage());
+
+        }
+    }
+
+    function getEntities($uiCriteria){
+
+        return $this->getList($uiCriteria);
+    }
+
+    public function add( Banco $banco ){
+
+        try {
+
+            $service = ServiceFactory::getBancoService();
+
+            return $service->add( $banco );
+
+        } catch (\Exception $e) {
+
+            throw new RastyException($e->getMessage());
+
+        }
+    }
+
+    public function update( Banco $banco ){
+
+        try{
+
+            $service = ServiceFactory::getBancoService();
+
+            return $service->update( $banco );
+
+        } catch (\Exception $e) {
+
+            throw new RastyException($e->getMessage());
+
+        }
+
+    }
+
+
+
+
+    public function delete(Banco $banco){
+
+        try {
+
+            $service = ServiceFactory::getBancoService();
+
+            return $service->delete($banco->getOid());
+
+        } catch (\Exception $e) {
+
+            throw new RastyException( $e->getMessage() );
+
+        }
+
+    }
 }
 ?>
