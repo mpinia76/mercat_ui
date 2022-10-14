@@ -96,6 +96,16 @@
 	<page name="MovimientosGasto"   location="pages/gastos/MovimientosGasto.page" url="gastos/movimientos"/>
 	<page name="MovimientosPedido"   location="pages/pedidos/MovimientosPedido.page" url="pedidos/movimientos"/>
 
+	<page name="InformesDiariosDebitoCredito"   location="pages/informes/debitosCreditos/InformesDiariosDebitoCredito.page" url="informes/debitosCreditos"/>
+	<page name="InformeDiarioDebitoCreditoAgregar"   location="pages/informes/debitosCreditos/agregar/InformeDiarioDebitoCreditoAgregar.page" url="informes/debitosCreditos/agregar"/>
+	<page name="InformeDiarioDebitoCreditoModificar"   location="pages/informes/debitosCreditos/modificar/InformeDiarioDebitoCreditoModificar.page" url="informes/debitosCreditos/modificar"/>
+
+
+
+	<page name="InformesSemanales"   location="pages/informes/semanal/InformesSemanales.page" url="informes/semanales"/>
+	<page name="InformeSemanalAgregar"   location="pages/informes/semanal/agregar/InformeSemanalAgregar.page" url="informes/semanales/agregar"/>
+	<page name="InformeSemanalModificar"   location="pages/informes/semanal/modificar/InformeSemanalModificar.page" url="informes/semanales/modificar"/>
+	<page name="InformeSemanalStats"   location="pages/informes/semanal/stats/InformeSemanalStats.page" url="informes/semanales/stats"/>
 
 	<page name="CobrarCtaCte"   location="pages/clientes/cobrarCtaCte/CobrarCtaCte.page" url="cuentasCorrientes/cobrar"/>
 	<page name="ActualizarCtaCte"   location="pages/clientes/actualizarCtaCte/ActualizarCtaCte.page" url="cuentasCorrientes/actualizar"/>

@@ -1,0 +1,10 @@
+<rasty specificationClass="Cuentas\UI\components\filter\informeSemanal\InformeSemanalFilter" templateLocation="InformeSemanalFilter.htm">
+
+	<component id="mes" type="InputCombo">
+		<param name="inputId" value="str:mes" />
+		<param name="name" value="str:mes" />
+		<param name="value" value="criteria.mes" />
+		<param name="options" value="meses" />
+		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />
+	</component>
+</rasty>

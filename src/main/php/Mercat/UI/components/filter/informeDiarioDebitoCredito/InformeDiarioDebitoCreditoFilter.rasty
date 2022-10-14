@@ -1,0 +1,19 @@
+<rasty specificationClass="Cuentas\UI\components\filter\informeDiarioDebitoCredito\InformeDiarioDebitoCreditoFilter" templateLocation="InformeDiarioDebitoCreditoFilter.htm">
+
+	<component id="mes" type="InputCombo">
+		<param name="inputId" value="str:mes" />
+		<param name="name" value="str:mes" />
+		<param name="value" value="criteria.mes" />
+		<param name="options" value="meses" />
+		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />
+	</component>
+		
+	<component id="estado" type="InputCombo">
+		<param name="inputId" value="str:estado" />
+		<param name="name" value="str:estado" />
+		<param name="value" value="criteria.estado" />
+		<param name="options" value="estados" />
+		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />		
+	</component>
+	
+</rasty>

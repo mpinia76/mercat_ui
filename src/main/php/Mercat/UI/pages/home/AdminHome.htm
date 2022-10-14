@@ -119,7 +119,61 @@
 
 
     </div>
+    <div class="tile-group double">
+        <div class="tile-group-title">{menu_stock}</div>
+        <a class="tile double bg-mauve" href="{linkPedidos}">
+            <div class="tile-content icon">
+                <span class="icon-pedidos"></span>
+            </div>
+            <div class="brand">
+                <div class="label">{menu_pedidos}</div>
+                <span class="badge bg-orange">{total_pedidosPendientes}</span>
+            </div>
+        </a>
+        <a class="tile  bg-mauve" href="{linkProductos}">
+            <div class="tile-content icon">
+                <span class="icon-productos"></span>
+            </div>
+            <div class="brand">
+                <div class="label">{menu_productos}</div>
+            </div>
+        </a>
+        <a class="tile  bg-mauve" href="{linkPedidoAgregar}">
+            <div class="tile-content icon">
+                <span class="icon-nuevo-pedido"></span>
+            </div>
+            <div class="brand">
+                <div class="label">{menu_pedidos_agregar}</div>
+            </div>
+        </a>
+        <a data-effect="slideDown" href="{linkProductos}" data-role="live-tile" class="tile double bg-mauve">
+            <!-- BEGIN:debajo_stock -->
+            <div class="tile-content email">
+                <div class="email-image">
+                </div>
+                <div class="email-data">
+                    <span class="email-data-subtitle">{titulo}</span>
+                    <span class="email-data-title">{subtitulo}</span>
+                    <span class="email-data-text">{descripcion}</span>
+                </div>
+            </div>
+            <!-- END: debajo_stock -->
+            <!-- BEGIN:sin_debajo_stock -->
+            <div class="tile-content email">
+                <div class="email-image">
+                </div>
+                <div class="email-data">
+                    <span class="email-data-title">{titulo}</span>
+                </div>
+            </div>
+            <!-- END: sin_debajo_stock -->
+            <div class="brand">
+                <div class="label"><h3 class="no-margin fg-white"><span class="icon-informes-debito-credito"></span></h3></div>
+                <div class="badge bg-red">{total_debajoStockMinimo}</div>
 
+            </div>
+        </a>
+    </div>
     <!-- begin informes-->
     <div class="tile-group double">
         <div class="tile-group-title">{menu_informes}</div>
@@ -188,61 +242,7 @@
     <!-- end informes-->
 
 
-        <div class="tile-group double">
-           <div class="tile-group-title">{menu_stock}</div>
-	       <a class="tile double bg-mauve" href="{linkPedidos}">
-                <div class="tile-content icon">
-                    <span class="icon-pedidos"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_pedidos}</div>
-                    <span class="badge bg-orange">{total_pedidosPendientes}</span>
-                </div>
-           </a>
-           <a class="tile  bg-mauve" href="{linkProductos}">
-                <div class="tile-content icon">
-                    <span class="icon-productos"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_productos}</div>
-                </div>
-           </a>
-           <a class="tile  bg-mauve" href="{linkPedidoAgregar}">
-                <div class="tile-content icon">
-                    <span class="icon-nuevo-pedido"></span>
-                </div>
-                <div class="brand">
-                    <div class="label">{menu_pedidos_agregar}</div>
-                </div>
-           </a>
-            <a data-effect="slideDown" href="{linkProductos}" data-role="live-tile" class="tile double bg-mauve">
-                <!-- BEGIN:debajo_stock -->
-                <div class="tile-content email">
-                    <div class="email-image">
-                    </div>
-                    <div class="email-data">
-                        <span class="email-data-subtitle">{titulo}</span>
-                        <span class="email-data-title">{subtitulo}</span>
-                        <span class="email-data-text">{descripcion}</span>
-                    </div>
-                </div>
-                <!-- END: debajo_stock -->
-                <!-- BEGIN:sin_debajo_stock -->
-                <div class="tile-content email">
-                    <div class="email-image">
-                    </div>
-                    <div class="email-data">
-                        <span class="email-data-title">{titulo}</span>
-                    </div>
-                </div>
-                <!-- END: sin_debajo_stock -->
-                <div class="brand">
-                    <div class="label"><h3 class="no-margin fg-white"><span class="icon-informes-debito-credito"></span></h3></div>
-                    <div class="badge bg-red">{total_debajoStockMinimo}</div>
 
-                </div>
-            </a>
-       </div>
 
 
 

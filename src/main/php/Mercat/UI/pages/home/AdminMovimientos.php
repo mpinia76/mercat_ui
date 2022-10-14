@@ -27,10 +27,27 @@ use Rasty\Menu\menu\model\MenuActionOption;
 
 use Rasty\security\RastySecurityContext;
 
-class AdminMovimientos extends MercatPage{
+class AdminMovimientos extends AdminHome{
 
 	private $caja;
 	private $cajaChica;
+	private $empleado;
+
+	/**
+	 * @return mixed
+	 */
+	public function getEmpleado()
+	{
+		return $this->empleado;
+	}
+
+	/**
+	 * @param mixed $empleado
+	 */
+	public function setEmpleado($empleado): void
+	{
+		$this->empleado = $empleado;
+	}
 
 	/**
 	 * @return mixed
@@ -65,7 +82,7 @@ class AdminMovimientos extends MercatPage{
 	}
 
 	public function __construct(){
-
+		$this->setEmpleado(MercatUIUtils::getEmpleadoLogged());
 
 		if( MercatUIUtils::isCajaSelected() ){
 			$caja = UIServiceFactory::getUICajaService()->get(MercatUIUtils::getCaja()->getOid());
@@ -75,28 +92,11 @@ class AdminMovimientos extends MercatPage{
 		$this->setCajaChica( UIServiceFactory::getUICuentaService()->getCajaChica() );
 	}
 
-	public function getTitle(){
-		return $this->localize( "admin_home.title" );
-	}
 
-	public function getMenuGroups(){
 
-		//TODO construirlo a partir del usuario
-		//y utilizando permisos
 
-		$menuGroup = new MenuGroup();
 
-		return array($menuGroup);
-	}
 
-	protected function parseMenuUser(XTemplate $xtpl){
-
-		$user = RastySecurityContext::getUser();
-		$xtpl->assign("user", $user->getName() );
-
-		$this->parseMenuExit($xtpl);
-
-	}
 
 	protected function parseXTemplate(XTemplate $xtpl){
 
@@ -113,7 +113,9 @@ class AdminMovimientos extends MercatPage{
 
 		$this->parseSaldos($xtpl);
 
-
+		if( MercatUIUtils::isAdminLogged() ){
+			$this->parseMenuAdmin($xtpl);
+		}
 	}
 
 	public function parseLinks( XTemplate $xtpl){
@@ -171,56 +173,33 @@ class AdminMovimientos extends MercatPage{
 	}
 
 
-	public function parseMenuExit( XTemplate $xtpl){
-
-		$menuOption = new MenuActionOption();
-		$menuOption->setLabel( $this->localize( "menu.logout") );
-		$menuOption->setIconClass( "icon-exit" );
-		$menuOption->setActionName( "Logout");
-		$menuOption->setImageSource( $this->getWebPath() . "css/images/logout.png" );
-
-		$this->parseMenuOption($xtpl, $menuOption, "main.menuOptionExit");
-
+	public function getTitle(){
+		$empleado = $this->getEmpleado();
+		if($empleado)
+			$nombre = $this->getEmpleado()->getNombre();
+		else
+			$nombre ="";
+		return MercatUIUtils::formatMessage( $this->localize("empleado_home.title"), array($nombre)) ;
 	}
 
-	public function parseMenuAdmin( XTemplate $xtpl){
+	public function getMenuGroups(){
 
-		$menuOption = new MenuOption();
-		$menuOption->setLabel( $this->localize( "menu.admin_home") );
-		//$menuOption->setIconClass( "icon-exit" );
-		$menuOption->setPageName( "AdminHome");
-		$menuOption->setImageSource( $this->getWebPath() . "css/images/empleado_home_48.png" );
+		$menuGroup = new MenuGroup();
 
-		$this->parseMenuOption($xtpl, $menuOption, "main.menuOptionAdmin");
+		//		$menuOption = new MenuOption();
+		//		$menuOption->setLabel( $this->localize( "ausencia.agregar" ) );
+		//		$menuOption->setPageName("AusenciaAgregar");
+		//		$menuOption->setImageSource( $this->getWebPath() . "css/images/ausencias_48.png" );
+		//		$menuGroup->addMenuOption( $menuOption );
+		//
+		//		$menuOption = new MenuOption();
+		//		$menuOption->setLabel( $this->localize( "horario.definir" ) );
+		//		$menuOption->setPageName("HorariosProfesional");
+		//		$menuOption->setImageSource( $this->getWebPath() . "css/images/horarios_48.png" );
+		//		$menuGroup->addMenuOption( $menuOption );
 
+		return array();
 	}
-	public function parseMenuProfile( XTemplate $xtpl, $user){
-
-		$menuOption = new MenuOption();
-		$menuOption->setLabel( $this->localize( "menu.profile") );
-		$menuOption->setIconClass( "icon-cog" );
-		$menuOption->setPageName( "UserProfile");
-		$menuOption->addParam("oid",$user->getOid());
-		$menuOption->setImageSource( $this->getWebPath() . "css/images/profile.png" );
-		$this->parseMenuOption($xtpl, $menuOption, "main.menuOptionProfile");
-
-	}
-
-	public function parseMenuOption( XTemplate $xtpl, MenuOption $menuOption, $blockName){
-		$xtpl->assign("label", $menuOption->getLabel() );
-		$xtpl->assign("onclick", $menuOption->getOnclick());
-		$img = $menuOption->getImageSource();
-		if(!empty($img)){
-			$xtpl->assign("src", $img );
-			$xtpl->parse("$blockName.image");
-		}
-		$xtpl->assign("iconClass", $menuOption->getIconClass());
-
-		$xtpl->parse("$blockName");
-	}
-
-
-
 
 	public function getType(){
 
