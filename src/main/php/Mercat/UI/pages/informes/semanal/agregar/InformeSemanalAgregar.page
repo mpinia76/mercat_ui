@@ -1,6 +1,6 @@
-<rasty specificationClass="Cuentas\UI\pages\informes\semanal\agregar\InformeSemanalAgregar" templateLocation="pages/informes/semanal/agregar/InformeSemanalAgregar.htm"> 
+<rasty specificationClass="Mercat\UI\pages\informes\semanal\agregar\InformeSemanalAgregar" templateLocation="pages/informes/semanal/agregar/InformeSemanalAgregar.htm"> 
 
-	<param name="layoutType" value="str:CuentasMetroLayout" />
+	<param name="layoutType" value="str:MercatMetroLayout" />
 
 	<component id="informeSemanalForm" type="InformeSemanalForm">
 		<param name="legend" value="msg:informeSemanal.agregar.legend" />

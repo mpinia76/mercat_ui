@@ -64,12 +64,12 @@ class ProductosXLS extends RastyComponent{
 		$productoFilter->fillFromSaved($productoCriteria);
 		$xtpl->assign( "APP_PATH", RastyConfig::getInstance()->getAppPath() );
 		$xtpl->assign( "fecha", MercatUIUtils::formatDateTimeToView(new Datetime()) );
-		$oVendedor = UIServiceFactory::getUIVendedorService()->get( $productoCriteria->getVendedor()->getOid() );
+		/*$oVendedor = UIServiceFactory::getUIVendedorService()->get( $productoCriteria->getVendedor()->getOid() );
 
 		if ($oVendedor->getMayorista()) {
 			$productoCriteria->setPorcentajeGanancia2(1);
 			$xtpl->assign( "vendedor",'<p style="font-size:12pt;"><span style="font-weight: bold;">Vendedor: </span>'.$oVendedor->getNombre().' - '.$oVendedor->getTelefono().'</p>');
-		}
+		}*/
 
 
 		$xtpl->assign("lbl_detalle_nombre", $this->localize( "venta.detalle.producto" ) );
@@ -93,7 +93,7 @@ class ProductosXLS extends RastyComponent{
 				$arrProductos[]=$producto->getOid();
 				$xtpl->assign( "producto", $producto->getMarcaProducto().' '.$producto->getNombre() );
 
-				$xtpl->assign( "precio", MercatUIUtils::formatMontoToView( ($oVendedor->getMayorista())?$producto->getPrecioLista():$producto->getPrecioEfectivo() ) );
+				$xtpl->assign( "precio", MercatUIUtils::formatMontoToView( $producto->getPrecioEfectivo() ) );
 
 				$xtpl->parse( "main.productos.detalle" );
 				$uiCriteria = new UIPackCriteria();
@@ -154,7 +154,7 @@ class ProductosXLS extends RastyComponent{
 
 			$html ='';
 		//Logger::logObject($arrTipos);
-			if (!$oVendedor->getMayorista()) {
+			/*if (!$oVendedor->getMayorista()) {
 				$uiCriteria = new UIComboCriteria();
 
 
@@ -210,7 +210,7 @@ class ProductosXLS extends RastyComponent{
 									';
 			}
 
-		}
+		}*/
 
 
 

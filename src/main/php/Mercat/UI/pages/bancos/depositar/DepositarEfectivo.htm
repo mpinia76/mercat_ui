@@ -28,22 +28,31 @@ function bancochange(){
 	<form class="accounts_form" id="depositar_form" onsubmit="return validate('depositar_form');" action="{action}" method="POST">
 		<fieldset>
 		<legend>{legend}</legend>
-
-            <div class="item">
-                <label for="banco">{lbl_banco} *:</label>
-                <rasty id="banco" />
-            </div>
-            <div class="item">
-			    <label for="fechaHora">{lbl_fechaHora} *:</label>
-			    <rasty id="fechaHora" />
+			<div class="row">
+				<div class="col-4">
+					<div class="item">
+						<label for="banco">{lbl_banco} *:</label>
+						<rasty id="banco" />
+					</div>
+				</div>
+				<div style="clear: both"></div>
 			</div>
+			<div class="row">
+				<div class="col-2">
+					<div class="item">
+						<label for="fechaHora">{lbl_fechaHora} *:</label>
+						<rasty id="fechaHora" />
+					</div>
+				</div>
 
+				<div class="col-2">
 
-
-
-			<div class="item">
-			    <label for="montoDepositar">{lbl_montoDepositar} *:</label>
-			    <rasty id="montoDepositar" />
+					<div class="item">
+						<label for="montoDepositar">{lbl_montoDepositar} *:</label>
+						<rasty id="montoDepositar" />
+					</div>
+				</div>
+				<div style="clear: both"></div>
 			</div>
 
 			<div class="item">

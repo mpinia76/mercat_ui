@@ -119,15 +119,15 @@ class BalanceAnio extends RastyComponent{
 		$xtpl->assign("anio",  $fecha->format("Y"));
 		/*$xtpl->assign("totalGastos",  MercatUIUtils::formatMontoToView($balance["gastos"]) );
 		$xtpl->assign("totalPagos",  MercatUIUtils::formatMontoToView($balance["pagos"]) );*/
-		$xtpl->assign("totalVentas",  'Negocio: '.MercatUIUtils::formatMontoToView($saldos["ventas"]).' - Hielo: '.MercatUIUtils::formatMontoToView($saldos["ventashielo"]) );
+		$xtpl->assign("totalVentas",  MercatUIUtils::formatMontoToView($saldos["ventas"]));
 		//$xtpl->assign("totalComisiones",  MercatUIUtils::formatMontoToView($balance["comisiones"]) );
         /*if ($criteria->getVendedor())  {
             $ganancia = ($criteria->getVendedor()->getOid()==1)?$saldos['ganancias']-$gastoSaldo:$saldos['ganancias'];
         }
         else $ganancia =$saldos['ganancias']-$gastoSaldo;*/
         $ganancia =$saldos['ganancias'];
-		$xtpl->assign("totalGanancia",  'Negocio: '.MercatUIUtils::formatMontoToView($ganancia).' - Hielo: '.MercatUIUtils::formatMontoToView($saldos["gananciashielo"])  );
-		$xtpl->assign("totalComisiones",  'Negocio: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisiones"]).' - Hielo: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisioneshielo"])  );
+		$xtpl->assign("totalGanancia",  MercatUIUtils::formatMontoToView($ganancia) );
+		//$xtpl->assign("totalComisiones",  'Negocio: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisiones"]).' - Hielo: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisioneshielo"])  );
         $xtpl->assign("totalGastos",  MercatUIUtils::formatMontoToView((-1)*$gastoSaldo)  );
 		if ($saldos['productos']) {
 			$productos='';
@@ -187,13 +187,13 @@ class BalanceAnio extends RastyComponent{
             }
             else $ganancias =$saldos['ganancias']-$gastoSaldoMes;*/
             $ganancias =$saldos['ganancias'];
-			$xtpl->assign("ventas",  'Negocio: '.MercatUIUtils::formatMontoToView($saldos["ventas"]).' - Hielo: '.MercatUIUtils::formatMontoToView($saldos["ventashielo"]) );
+			$xtpl->assign("ventas",  MercatUIUtils::formatMontoToView($saldos["ventas"]));
 			/*$xtpl->assign("gastos",  MercatUIUtils::formatMontoToView($detalles[$mes]["gastos"]) );
 			$xtpl->assign("pagos",  MercatUIUtils::formatMontoToView($detalles[$mes]["pagos"]) );
 			*/
 
-			$xtpl->assign("ganancia",  'Negocio: '.MercatUIUtils::formatMontoToView($ganancias).' - Hielo: '.MercatUIUtils::formatMontoToView($saldos["gananciashielo"])  );
-			$xtpl->assign("comisiones",  'Negocio: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisiones"]).' - Hielo: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisioneshielo"])  );
+			$xtpl->assign("ganancia",  MercatUIUtils::formatMontoToView($ganancias) );
+			//$xtpl->assign("comisiones",  'Negocio: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisiones"]).' - Hielo: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisioneshielo"])  );
             $xtpl->assign("gastos",  MercatUIUtils::formatMontoToView((-1)*$gastoSaldoMes)  );
 			if ($saldos['productos']) {
 				$productos='';

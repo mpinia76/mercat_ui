@@ -1,4 +1,4 @@
-<rasty specificationClass="Cuentas\UI\components\filter\informeSemanal\InformeSemanalFilter" templateLocation="InformeSemanalFilter.htm">
+<rasty specificationClass="Mercat\UI\components\filter\informeSemanal\InformeSemanalFilter" templateLocation="InformeSemanalFilter.htm">
 
 	<component id="mes" type="InputCombo">
 		<param name="inputId" value="str:mes" />

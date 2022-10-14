@@ -1,6 +1,6 @@
-<rasty specificationClass="Accounts\UI\pages\bancos\depositar\DepositarEfectivo" templateLocation="pages/bancos/depositar/DepositarEfectivo.htm">
+<rasty specificationClass="Mercat\UI\pages\bancos\depositar\DepositarEfectivo" templateLocation="pages/bancos/depositar/DepositarEfectivo.htm">
 
-	<param name="layoutType" value="str:AccountsMetroLayout" />
+	<param name="layoutType" value="str:MercatMetroLayout" />
 	<param name="monto" value="get:monto" />
 	<param name="observaciones" value="get:observaciones" />
 	<param name="error" value="get:error" />

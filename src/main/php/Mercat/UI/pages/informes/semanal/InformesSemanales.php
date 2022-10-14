@@ -1,22 +1,22 @@
 <?php
-namespace Cuentas\UI\pages\informes\semanal;
+namespace Mercat\UI\pages\informes\semanal;
 
-use Cuentas\UI\pages\CuentasPage;
+use Mercat\UI\pages\MercatPage;
 
-use Cuentas\UI\components\filter\model\UIInformeSemanalCriteria;
+use Mercat\UI\components\filter\model\UIInformeSemanalCriteria;
 
-use Cuentas\UI\components\grid\model\InformeSemanalGridModel;
+use Mercat\UI\components\grid\model\InformeSemanalGridModel;
 
-use Cuentas\UI\service\UIInformeSemanalService;
+use Mercat\UI\service\UIInformeSemanalService;
 
-use Cuentas\UI\utils\CuentasUtils;
+use Mercat\UI\utils\MercatUtils;
 
 use Rasty\utils\XTemplate;
 use Rasty\utils\RastyUtils;
 use Rasty\i18n\Locale;
 
-use Cuentas\Core\model\InformeSemanal;
-use Cuentas\Core\criteria\InformeSemanalCriteria;
+use Mercat\Core\model\InformeSemanal;
+use Mercat\Core\criteria\InformeSemanalCriteria;
 use Rasty\Menu\menu\model\MenuGroup;
 use Rasty\Menu\menu\model\MenuOption;
 
@@ -24,11 +24,11 @@ use Rasty\Menu\menu\model\MenuOption;
 /**
  * Página para consultar los informes semanales.
  * 
- * @author Bernardo
- * @since 14/04/2015
+ * @author Marcos
+ * @since 14/10/2022
  * 
  */
-class InformesSemanales extends CuentasPage{
+class InformesSemanales extends MercatPage{
 
 	
 	public function __construct(){

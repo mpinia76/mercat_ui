@@ -278,6 +278,9 @@
 
 	<component name="BancoFilter"   location="components/filter/banco"/>
 
+	<component name="InformeDiarioDebitoCreditoFilter"   location="components/filter/informeDiarioDebitoCredito"/>
+	<component name="InformeSemanalFilter"   location="components/filter/informeSemanal"/>
+
 	<!-- pdfs -->
 	<component name="VentaPDF"   location="components/pdf/venta"/>
 	<component name="PresupuestoPDF"   location="components/pdf/presupuesto"/>
@@ -362,7 +365,7 @@
 	<action name="ActualizarCuentaCorriente" class="Mercat\UI\actions\cuentasCorrientes\ActualizarCuentaCorriente" url="cuentasCorrientes/actualizar"/>
 
 
-
+	<action name="DepositarEfectivo" class="Mercat\UI\actions\bancos\DepositarEfectivo" url="cuentas/depositar"/>
 
 	<action name="AgregarVenta" class="Mercat\UI\actions\ventas\AgregarVenta" url="ventas/agregar"/>
 	<action name="AgregarDetalleVentaJson" class="Mercat\UI\actions\ventas\AgregarDetalleVentaJson" url="ventas/agregar/detalleJson"/>

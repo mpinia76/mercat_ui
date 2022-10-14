@@ -93,6 +93,8 @@ class UIBancoService {
 		}	
 		
 	}
+
+
 	
 
 	public function depositarEfectivo(Banco $banco, $monto, $observaciones ){
@@ -100,7 +102,7 @@ class UIBancoService {
 		try{
 			
 			//recuperamos la caja chica.
-			$cajaChica = UIServiceFactory::getUIMercatervice()->getCajaChica();
+			$cajaChica = UIServiceFactory::getUICuentaService()->getCajaChica();
 			
 			$user = RastySecurityContext::getUser();
 			$user = MercatUtils::getUserByUsername($user->getUsername());
