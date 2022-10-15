@@ -164,7 +164,7 @@ class UICajaService {
 		try{
 			
 			//recuperamos la caja chica.
-			$cajaChica = UIServiceFactory::getUIMercatervice()->getCajaChica();
+			$cajaChica = UIServiceFactory::getUICuentaService()->getCajaChica();
 			
 			//recuperamos la caja actual
 			$caja = UIServiceFactory::getUICajaService()->get( MercatUIUtils::getCaja()->getOid() );
@@ -252,7 +252,7 @@ class UICajaService {
 		try{
 			
 			//recuperamos la caja chica.
-			$cajaChica = UIServiceFactory::getUIMercatervice()->getCajaChica();
+			$cajaChica = UIServiceFactory::getUICuentaService()->getCajaChica();
 			
 			//recuperamos la caja actual
 			$caja = UIServiceFactory::getUICajaService()->get( MercatUIUtils::getCaja()->getOid() );

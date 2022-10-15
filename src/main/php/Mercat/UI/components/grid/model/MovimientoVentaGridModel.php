@@ -138,7 +138,7 @@ class MovimientoVentaGridModel extends EntityGridModel{
 	}
 
 	public function getHeaderContent(){
-		$filter = $this->getFilter();
+		/*$filter = $this->getFilter();
 		$filter->fill( $this->getDefaultOrderField(), $this->getDefaultOrderType() );
 		//print_r($filter->getCriteria());
 
@@ -177,7 +177,7 @@ class MovimientoVentaGridModel extends EntityGridModel{
 		}
 
 
-		return $todoString;
+		return $todoString;*/
 	}
 
 }

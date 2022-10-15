@@ -1,13 +1,13 @@
 <?php
 
-namespace Cuentas\UI\components\form\informeSemanal;
+namespace Mercat\UI\components\form\informeSemanal;
 
-use Cuentas\UI\utils\CuentasUIUtils;
+use Mercat\UI\utils\MercatUIUtils;
 
-use Cuentas\UI\service\UIServiceFactory;
+use Mercat\UI\service\UIServiceFactory;
 
-use Cuentas\UI\service\finder\SucursalFinder;
-use Cuentas\UI\components\filter\model\UISucursalCriteria;
+use Mercat\UI\service\finder\SucursalFinder;
+use Mercat\UI\components\filter\model\UISucursalCriteria;
 
 use Rasty\Forms\form\Form;
 
@@ -15,17 +15,17 @@ use Rasty\components\RastyComponent;
 use Rasty\utils\XTemplate;
 use Rasty\utils\RastyUtils;
 
-use Cuentas\Core\model\Sucursal;
-use Cuentas\Core\model\Empleado;
-use Cuentas\Core\model\InformeSemanal;
+use Mercat\Core\model\Sucursal;
+use Mercat\Core\model\Empleado;
+use Mercat\Core\model\InformeSemanal;
 
 use Rasty\utils\LinkBuilder;
 
 /**
  * Formulario para informeSemanal
 
- * @author Bernardo
- * @since 14/04/2015
+ * @author Marcos
+ * @since 14/10/2022
  */
 class InformeSemanalForm extends Form{
 		

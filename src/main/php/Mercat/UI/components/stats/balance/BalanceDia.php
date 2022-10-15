@@ -131,10 +131,10 @@ class BalanceDia extends RastyComponent{
 		/*$xtpl->assign("ganancias",  MercatUIUtils::formatMontoToView($saldos['ganancias']) );
 		$xtpl->assign("ventas",  MercatUIUtils::formatMontoToView($saldos['ventas']) );
 		$xtpl->assign("comisiones",  MercatUIUtils::formatMontoToView((-1)*$saldos['comisiones']) );*/
-		$xtpl->assign("ventas",  'Negocio: '.MercatUIUtils::formatMontoToView($saldos["ventas"]).' - Hielo: '.MercatUIUtils::formatMontoToView($saldos["ventashielo"]) );
+		$xtpl->assign("ventas", MercatUIUtils::formatMontoToView($saldos["ventas"]));
 
-			$xtpl->assign("ganancias",  'Negocio: '.MercatUIUtils::formatMontoToView($ganancia).' - Hielo: '.MercatUIUtils::formatMontoToView($saldos["gananciashielo"])  );
-			$xtpl->assign("comisiones",  'Negocio: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisiones"]).' - Hielo: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisioneshielo"])  );
+			$xtpl->assign("ganancias",  MercatUIUtils::formatMontoToView($ganancia) );
+			//$xtpl->assign("comisiones",  'Negocio: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisiones"]).' - Hielo: '.MercatUIUtils::formatMontoToView((-1)*$saldos["comisioneshielo"])  );
         $xtpl->assign("gastos",  MercatUIUtils::formatMontoToView((-1)*$gastoSaldo)  );
 		if ($saldos['productos']) {
 			$productos='';

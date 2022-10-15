@@ -1,6 +1,6 @@
-<rasty specificationClass="Cuentas\UI\pages\informes\semanal\InformesSemanales" templateLocation="pages/informes/semanal/InformesSemanales.htm"> 
+<rasty specificationClass="Mercat\UI\pages\informes\semanal\InformesSemanales" templateLocation="pages/informes/semanal/InformesSemanales.htm"> 
 
-	<param name="layoutType" value="str:CuentasMetroLayout" />
+	<param name="layoutType" value="str:MercatMetroLayout" />
 
 	<component id="informesFilter" type="InformeSemanalFilter">
 		<param name="gridModelClazz" value="modelClazz" />
@@ -9,5 +9,5 @@
 		<param name="legendAgain" value="msg:informeSemanal.buscar.again" />
 		<param name="resultDiv" value="str:searchdiv" />
 	</component>
-	
+
 </rasty>

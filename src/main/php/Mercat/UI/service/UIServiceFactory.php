@@ -276,6 +276,15 @@ class UIServiceFactory {
     }
 
     /**
+     * @return UITransferenciaService
+     */
+    public static function getUITransferenciaService(){
+
+        return UITransferenciaService::getInstance();
+    }
+
+
+    /**
      * @return UIInformeDiarioDebitoCreditoService
      */
     public static function getUIInformeDiarioDebitoCreditoService(){

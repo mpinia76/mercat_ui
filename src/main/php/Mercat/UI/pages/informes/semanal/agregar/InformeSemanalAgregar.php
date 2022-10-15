@@ -1,17 +1,17 @@
 <?php
-namespace Cuentas\UI\pages\informes\semanal\agregar;
+namespace Mercat\UI\pages\informes\semanal\agregar;
 
-use Cuentas\Core\utils\CuentasUtils;
-use Cuentas\UI\utils\CuentasUIUtils;
+use Mercat\Core\utils\MercatUtils;
+use Mercat\UI\utils\MercatUIUtils;
 
-use Cuentas\UI\pages\CuentasPage;
+use Mercat\UI\pages\MercatPage;
 
 use Rasty\utils\XTemplate;
-use Cuentas\Core\model\InformeSemanal;
+use Mercat\Core\model\InformeSemanal;
 use Rasty\Menu\menu\model\MenuGroup;
 use Rasty\Menu\menu\model\MenuOption;
 
-class InformeSemanalAgregar extends CuentasPage{
+class InformeSemanalAgregar extends MercatPage{
 
 	/**
 	 * informeSemanal a agregar.
@@ -25,7 +25,7 @@ class InformeSemanalAgregar extends CuentasPage{
 		//inicializamos el informeSemanal.
 		$informeSemanal = new InformeSemanal();
 		
-		$informeSemanal->setSucursal( CuentasUIUtils::getSucursal() );
+		//$informeSemanal->setSucursal( MercatUIUtils::getSucursal() );
 		
 		$this->setInformeSemanal($informeSemanal);
 

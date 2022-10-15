@@ -1,16 +1,16 @@
 <?php
-namespace Accounts\UI\pages\bancos\depositar;
+namespace Mercat\UI\pages\bancos\depositar;
 
 
-use Accounts\UI\components\filter\model\UIBancoCriteria;
+use Mercat\UI\components\filter\model\UIBancoCriteria;
 
-use Accounts\UI\service\finder\BancoFinder;
+use Mercat\UI\service\finder\BancoFinder;
 
-use Accounts\UI\pages\AccountsPage;
+use Mercat\UI\pages\MercatPage;
 
-use Accounts\UI\service\UIServiceFactory;
+use Mercat\UI\service\UIServiceFactory;
 
-use Accounts\UI\utils\AccountsUIUtils;
+use Mercat\UI\utils\MercatUIUtils;
 
 use Rasty\utils\XTemplate;
 use Rasty\utils\RastyUtils;
@@ -22,7 +22,7 @@ use Rasty\Grid\filter\model\UICriteria;
 use Rasty\Menu\menu\model\MenuGroup;
 use Rasty\Menu\menu\model\MenuOption;
 
-class DepositarEfectivo extends AccountsPage{
+class DepositarEfectivo extends MercatPage{
 
 	private $fechaHora;
 	private $banco;
@@ -34,7 +34,7 @@ class DepositarEfectivo extends AccountsPage{
 
 	public function __construct(){
 		$this->setFechaHora( new \Datetime() );
-		$this->banco = UIServiceFactory::getUIBancoService()->getCuentaBAPROCtaCte();
+		$this->banco = UIServiceFactory::getUIBancoService()->getCuentaBAPRO();
 
 	}
 
