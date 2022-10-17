@@ -72,8 +72,8 @@ class ClienteCtaCteGridModel extends EntityGridModel{
 		$column = GridModelBuilder::buildColumn( "nombre", "cliente.nombre", 30, EntityGrid::TEXT_ALIGN_LEFT ) ;
 		$this->addColumn( $column );
 
-		$column = GridModelBuilder::buildColumn( "tipoCliente", "cliente.tipoCliente", 30, EntityGrid::TEXT_ALIGN_LEFT , new GridTipoClienteFormat());
-		$this->addColumn( $column );
+		/*$column = GridModelBuilder::buildColumn( "tipoCliente", "cliente.tipoCliente", 30, EntityGrid::TEXT_ALIGN_LEFT , new GridTipoClienteFormat());
+		$this->addColumn( $column );*/
 
 		$column = GridModelBuilder::buildColumn( "documento", "cliente.documento", 10, EntityGrid::TEXT_ALIGN_CENTER ) ;
 		$this->addColumn( $column );

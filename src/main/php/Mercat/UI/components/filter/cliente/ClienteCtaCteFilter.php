@@ -6,7 +6,7 @@ use Mercat\UI\components\filter\model\UIClienteCriteria;
 
 use Mercat\UI\components\grid\model\ClienteGridModel;
 
-use Mercat\Core\model\TipoCliente;
+//use Mercat\Core\model\TipoCliente;
 
 use Mercat\UI\utils\MercatUIUtils;
 
@@ -46,7 +46,7 @@ class ClienteCtaCteFilter extends Filter{
 		//agregamos las propiedades a popular en el submit.
 		$this->addProperty("nombre");
 		$this->addProperty("documento");
-		$this->addProperty("tipoCliente");
+		//$this->addProperty("tipoCliente");
 		//print_r(RastyUtils::getParamGET("tieneCtaCte"));
 
 	}
@@ -61,7 +61,7 @@ class ClienteCtaCteFilter extends Filter{
 
 		$xtpl->assign("lbl_nombre",  $this->localize("cliente.nombre") );
 		$xtpl->assign("lbl_documento",  $this->localize("cliente.documento") );
-		$xtpl->assign("lbl_tipoCliente",  $this->localize("cliente.tipoCliente") );
+		//$xtpl->assign("lbl_tipoCliente",  $this->localize("cliente.tipoCliente") );
 
 		//$xtpl->assign("linkSeleccionar",  LinkBuilder::getPageUrl( "HistoriaClinica") );
 		$xtpl->assign("linkSeleccionar",  LinkBuilder::getPageUrl( "ClienteModificar") );
@@ -94,9 +94,9 @@ class ClienteCtaCteFilter extends Filter{
 	}
 
 
-	public function getTiposClientes(){
+	/*public function getTiposClientes(){
 
 		return MercatUIUtils::localizeEntities(TipoCliente::getItems());
-	}
+	}*/
 }
 ?>

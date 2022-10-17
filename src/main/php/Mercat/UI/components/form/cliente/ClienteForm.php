@@ -25,7 +25,7 @@ use Mercat\Core\model\Cliente;
 use Mercat\Core\model\Sexo;
 
 use Mercat\Core\model\TipoDocumento;
-use Mercat\Core\model\TipoCliente;
+//use Mercat\Core\model\TipoCliente;
 
 use Rasty\utils\LinkBuilder;
 
@@ -178,10 +178,10 @@ class ClienteForm extends Form{
 		return MercatUIUtils::localizeEntities(TipoDocumento::getItems());
 	}
 
-	public function getTiposCliente(){
+	/*public function getTiposCliente(){
 
 		return MercatUIUtils::localizeEntities(TipoCliente::getItems());
-	}
+	}*/
 
 
 }

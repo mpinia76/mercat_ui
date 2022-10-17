@@ -1,0 +1,105 @@
+<!-- BEGIN: main-->
+<script>
+function destinochange(){
+
+	//window.location.href = "?origenOid=" + $("#origen").val() + "&destinoOid=" + $("#destino").val();
+
+}
+
+function origenchange(){
+
+	//window.location.href = "?origenOid=" + $("#origen").val() + "&destinoOid=" + $("#destino").val();
+
+}
+
+</script>
+<style>
+.div_left{
+	width: 40%;
+	float:left;
+}
+
+.div_right{
+	width: 60%;
+	float:right;
+}
+
+
+</style>
+
+	<div class="div_left">
+
+	</div>
+
+	<div class="div_rigth">
+	<form class="accounts_form" id="transferir_form" onsubmit="return validate('depositar_form');" action="{action}" method="POST">
+		<fieldset>
+		<legend>{legend}</legend>
+
+			<div class="row">
+			<div class="col-6">
+
+				<div class="item">
+				    <label for="origen">{lbl_origen} *:</label>
+				    <rasty id="origen" />
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="item">
+				    <label for="destino">{lbl_destino} *:</label>
+				    <rasty id="destino" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div class="item">
+				    <label for="fechaHora">{lbl_fechaHora} *:</label>
+				    <rasty id="fechaHora" />
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="item">
+				    <label for="monto">{lbl_monto} *:</label>
+				    <rasty id="monto" />
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+
+
+
+
+
+
+
+			<div class="item">
+			    <label for="observaciones">{lbl_observaciones}:</label>
+			    <rasty id="observaciones" />
+			</div>
+
+		</fieldset>
+	</form>
+
+	<!-- BEGIN: msg_error -->
+	<fieldset class="ui-state-error">
+			{msg}
+	</fieldset>
+	<!-- END: msg_error -->
+
+	<form  class="accounts_form">
+	<fieldset class="tblFooters">
+
+
+		<button type="button" class="shortcut" id="input_submit" onclick="javascript: submitFormulario('transferir_form'); ">
+			<i class="icon-checkmark on-left"></i>{lbl_submit}
+		</button>
+
+		<button type="button"  class="shortcut" id="input_button_2" onclick="javascript: window.location.href = '{cancel}'; "><i class="icon-cancel-2 on-left"></i>{lbl_cancel}</button>
+
+	</fieldset>
+	</form>
+	</div>
+	<div style="clear:both;"></div>
+
+<!-- END: main-->

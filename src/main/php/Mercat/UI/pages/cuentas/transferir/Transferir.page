@@ -1,0 +1,58 @@
+<rasty specificationClass="Mercat\UI\pages\cuentas\transferir\Transferir" templateLocation="pages/cuentas/transferir/Transferir.htm">
+
+	<param name="layoutType" value="str:MercatMetroLayout" />
+	<param name="monto" value="get:monto" />
+	<param name="observaciones" value="get:observaciones" />
+	<param name="error" value="get:error" />
+	<param name="origenOid" value="get:origenOid" />
+	<param name="destinoOid" value="get:destinoOid" />
+
+	<component id="fechaHora" type="InputDate">
+		<param name="inputId" value="str:fechaHora" />
+		<param name="name" value="str:fechaHora" />
+		<param name="value" value="fechaHora" />
+		<param name="placeholder" value="msg:transferir.fechaHora" />
+		<param name="format" value="str:d/m/Y H:i" />
+		<param name="requiredMessage" value="msg:transferir.fecha.required" />
+	</component>
+
+	<component id="monto" type="InputCurrency">
+		<param name="inputId" value="str:monto" />
+		<param name="name" value="str:monto" />
+		<param name="value" value="monto" />
+		<param name="requiredMessage" value="msg:transferir.monto.required" />
+		<param name="placeholder" value="msg:transferir.monto" />
+		<param name="autocomplete" value="str:off" />
+	</component>
+
+	<component id="observaciones" type="InputTextArea">
+		<param name="inputId" value="str:observaciones" />
+		<param name="name" value="str:observaciones" />
+		<param name="value" value="observaciones" />
+		<param name="placeholder" value="msg:transferir.observaciones.placeholder" />
+		<param name="autocomplete" value="str:off" />
+		<param name="rows" value="str:3" />
+	</component>
+
+	<component id="origen" type="InputCombo">
+		<param name="inputId" value="str:origen" />
+		<param name="name" value="str:origen" />
+		<param name="value" value="origen" />
+		<param name="options" value="origenes" />
+		<param name="finder" value="cuentaFinderClazz" />
+		<param name="requiredMessage" value="msg:transferir.origen.required" />
+		<param name="onChangeCallback" value="str:javascript:origenchange();" />
+
+	</component>
+
+	<component id="destino" type="InputCombo">
+		<param name="inputId" value="str:destino" />
+		<param name="name" value="str:destino" />
+		<param name="value" value="destino" />
+		<param name="options" value="destinos" />
+		<param name="requiredMessage" value="msg:transferir.destino.required" />
+		<param name="finder" value="cuentaFinderClazz" />
+		<param name="onChangeCallback" value="str:javascript:destinochange();" />
+		
+	</component>
+</rasty>

@@ -142,6 +142,7 @@ class AdminMovimientos extends AdminHome{
 
 		$xtpl->assign("menu_cajaChica", $this->localize("menu.cajaChica") );
 
+		$xtpl->assign("menu_total", $this->localize("menu.total") );
 	}
 
 
@@ -166,10 +167,15 @@ class AdminMovimientos extends AdminHome{
 		$xtpl->assign("saldo_bancos", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIBancoService()->getSaldoBancos() ) );
 		$xtpl->assign("linkMovimientosBanco", $this->getLinkMovimientosBanco());
 
-		$xtpl->assign("saldo_ctasctes", MercatUIUtils::formatMontoToView( UIServiceFactory::getUICuentaCorrienteService()->getSaldoCtasCtes() ) );
 
 
+		$xtpl->assign("saldo_cajaCtaCte", MercatUIUtils::formatMontoToView( UIServiceFactory::getUIMovimientoCajaService()->getTotalesCtasCtesDia(new Datetime())) );
 
+
+		$xtpl->assign("linkMovimientosCajaCtaCte", $this->getLinkMovimientosCajaCtaCte());
+
+		$total = $this->getCajaChica()->getSaldo() + UIServiceFactory::getUIBancoService()->getSaldoBancos() + UIServiceFactory::getUIMovimientoCajaService()->getTotalesCtasCtesDia(new Datetime());
+			$xtpl->assign("saldo_total", MercatUIUtils::formatMontoToView($total) );
 	}
 
 

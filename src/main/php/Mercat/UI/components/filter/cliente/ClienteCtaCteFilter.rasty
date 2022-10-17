@@ -14,14 +14,6 @@
 		
 	</component>
 	
-	
-	<component id="tipoCliente" type="InputCombo">
-		<param name="inputId" value="str:tipoCliente" />
-		<param name="name" value="str:tipoCliente" />
-		<param name="value" value="criteria.tipoCliente" />
-		<param name="options" value="tiposClientes" />
-		
-		<param name="emptyOptionLabel" value="msg:criteria.sin_especificar" />
-	</component>
+
 	
 </rasty>

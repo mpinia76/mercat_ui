@@ -160,7 +160,7 @@
 	"menu.pack.eliminar":"Eliminar el Pack",
 
 
-
+    "menu.total":"Total",
 
 	"menu.cuentas":"Cuentas",
 	"menu.ventasST":"Ventas ST",
@@ -177,12 +177,12 @@
 
 
     "menu.cajaChica":"Caja chica",
-    	"menu.cajaChica.depositarEnBanco":"Depositar en Banco",
+    	"menu.cajaChica.depositarEnBanco":"Depositar en Cuenta",
 
     	"menu.movimientos_caja_actual":"Movimientos Caja",
     	"menu.movimientos_caja_chica":"Movimientos Caja Chica",
-    	"menu.bancos":"Bancos",
-    	"menu.movimientos_banco":"Movimientos Banco",
+    	"menu.bancos":"Cuentas",
+    	"menu.movimientos_banco":"Movimientos Cuenta",
 
     	"menu.cuentasCorrientes":"Cuentas Corrientes",
 
@@ -586,7 +586,10 @@
 
     	"transferir.origen": "Origen",
     	"transferir.destino": "Destino",
+    	"transferir.fecha": "Fecha",
+    	"transferir.fecha.required": "Ingrese la fecha",
     	"transferir.monto": "Monto",
+    	"transferir.monto.required": "Ingrese el monto",
     	"transferir.observaciones": "Observaciones",
     	"transferir.observaciones.placeholder": "Observaciones",
 
@@ -728,7 +731,7 @@
 	"iva.cf.label":"Consumido Final",
 
 	"cuenta.saldo":"Saldo",
-	"cuenta.banco":"Banco",
+	"cuenta.banco":"Cuenta",
 	"cuenta.cuentaSocio":"Socio",
 
 
@@ -1224,7 +1227,7 @@
     	"caja.ingresarEfectivo.legend": "Efectivo a ingresar ",
       	"caja.ingresarEfectivo.caja_legend": "Caja",
 
-      	"caja.depositarBanco": "Depositar en Banco",
+      	"caja.depositarBanco": "Depositar en Cuenta",
 
       	"caja.seleccionar": "Seleccionar caja",
     	"caja.seleccionar.title": "seleccionar caja",
@@ -1272,10 +1275,10 @@
   	"banco.depositar": "Depositar",
   	"banco.depositarEfectivo": "Depositar efectivo",
   	"banco.depositarEfectivo.title": "Depositar efectivo",
-  	"banco.depositarEfectivo.banco_legend": "Banco",
+  	"banco.depositarEfectivo.banco_legend": "Cuenta",
   	"banco.depositarEfectivo.legend": "Ingrese detalles del depósito",
 
-  	"depositarEfectivo.banco": "Banco",
+  	"depositarEfectivo.banco": "Cuenta",
   	"depositarEfectivo.fechaHora": "Fecha",
   	"depositarEfectivo.fechaHora.required": "Ingrese la fecha",
   	"depositarEfectivo.montoDepositar": "Monto",

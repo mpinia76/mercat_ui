@@ -70,7 +70,9 @@ class CajaHome extends AdminHome{
 		$xtpl->assign("movimientosCaja_legend", $this->localize("empleado_home.movimientosCaja.legend") );
 		$xtpl->assign("movimientosCaja_todos", $this->localize("empleado_home.movimientosCaja.todos") );
 		$xtpl->assign("linkMovimientosCaja", $this->getLinkMovimientosCajaActual() );
-	
+
+
+
 		if( MercatUIUtils::isCajaSelected() ){
 			$caja = MercatUIUtils::getCaja();
 			$xtpl->assign("caja_legend", MercatUIUtils::formatMessage( $this->localize("empleado_home.caja.legend"), array($caja->getNumero())) );
@@ -87,6 +89,8 @@ class CajaHome extends AdminHome{
 
 		if( MercatUIUtils::isAdminLogged() ){
 			$this->parseMenuAdmin($xtpl);
+            $xtpl->assign("lbl_movimientos", $this->localize( "menu.cuentas" ) );
+            $xtpl->parse("main.movimientos");
 		}
 		
 	}
@@ -101,10 +105,7 @@ class CajaHome extends AdminHome{
 		$xtpl->assign("lbl_ingresarEfectivo",  $this->localize( "caja.ingresarEfectivo" ) );
 		$xtpl->assign("lbl_depositarBanco",  $this->localize( "caja.depositarBanco" ) );
 		$xtpl->assign("lbl_seleccionar",  $this->localize( "caja.seleccionar" ) );
-		$xtpl->assign("lbl_informesDiariosDebitoCredito",  $this->localize( "menu.informesDiariosDebitoCredito.listar" ) );
-		$xtpl->assign("lbl_informesDiariosComision",  $this->localize( "menu.informesDiariosComision.listar" ) );
-		$xtpl->assign("lbl_sorteos",  $this->localize( "menu.sorteos" ) );
-		$xtpl->assign("lbl_nuestrasfijas",  $this->localize( "menu.nuestraFija" ) );
+
 		$xtpl->assign("lbl_cobrarCuentaCorriente",  $this->localize( "menu.cobrarCuentaCorriente" ) );
 		
 		$xtpl->assign("linkSeleccionarCaja", $this->getLinkSeleccionarCaja() );
@@ -112,7 +113,7 @@ class CajaHome extends AdminHome{
 		$xtpl->assign("linkDepositarBanco", $this->getLinkDepositarBanco() );
 		$xtpl->assign("linkRetirarEfectivo", $this->getLinkRetirarEfectivo() );
 		$xtpl->assign("linkAbrirCaja", $this->getLinkAbrirCaja() );
-		$xtpl->assign("linkInformesDiariosDebitoCredito", $this->getLinkInformesDiariosDebitoCredito() );
+		$xtpl->assign("linkMovimientos", $this->getLinkMovimientos() );
 
 		$xtpl->assign("linkCobrarCuentaCorriente", $this->getLinkCobrarCtaCte() );
 		

@@ -77,7 +77,7 @@ function cleanInputs(){
 
 	$("#findentity_detalleProducto_inputCode").val("") ;
 	$("#findentity_detalleProducto_inputCode").blur() ;
-	$("#findentity_detalleProducto_autocomplete").focus() ;
+	$("#findentity_detalleProducto_inputCode").focus() ;
 
 
 }
@@ -238,12 +238,7 @@ $(function() {
 		detalleChange();
 	});
 
-	$("#findentity_detalleProducto_autocomplete").focus() ;
 
-
-	/*$("#nombreProducto").change( function(){
-		submitBuscarAccesosRapidos("{WEB_PATH}");
-	});*/
 
 	$("#detallePrecio").keyup(function (e) {
         if (e.keyCode == 13) {
@@ -263,12 +258,24 @@ $(function() {
 </script>
 
 <style>
-    #findentity_detalleProducto_inputCode{
-        width: 30%;
-    }
-    #findentity_detalleProducto_autocomplete{
-        width: 60%;
-    }
+	@media (max-width:770px) {
+		#findentity_detalleProducto_inputCode{
+			width: 10%;
+		}
+		#findentity_detalleProducto_autocomplete{
+			width: 80%;
+		}
+
+	}
+
+	@media (min-width:770px) {
+		#findentity_detalleProducto_inputCode{
+			width: 50%;
+		}
+		#findentity_detalleProducto_autocomplete{
+			width: 40%;
+		}
+	}
 .item{
 
 
@@ -413,4 +420,18 @@ display:none;
 
 
 </div>
+<script>
+	$(function() {
+
+
+
+		$("#findentity_detalleProducto_inputCode").focus() ;
+
+
+
+	});
+
+
+</script>
+
 <!-- END:main -->

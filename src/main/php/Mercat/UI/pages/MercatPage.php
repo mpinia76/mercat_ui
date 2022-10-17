@@ -882,6 +882,12 @@ abstract class MercatPage extends RastyPage{
 
 	}
 
+	public function getLinkMovimientos(){
+
+		return LinkBuilder::getPageUrl( "AdminMovimientos") ;
+
+	}
+
 
 
 }

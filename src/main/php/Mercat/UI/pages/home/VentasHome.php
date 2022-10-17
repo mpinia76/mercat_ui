@@ -183,6 +183,7 @@ class VentasHome extends MercatPage{
 		$xtpl->assign("menu_cajaTarjeta", $this->localize("menu.cajaTarjeta") );
 		$xtpl->assign("menu_cajaCtaCte", $this->localize("menu.cajaCtaCte") );
 
+
 		/*$xtpl->assign("menu_informes", $this->localize("admin_home.informes") );
 
 		$xtpl->assign("menu_informesSemanales", $this->localize("admin_home.informesSemanales") );

@@ -23,7 +23,7 @@ class UIClienteCriteria extends UIMercatCriteria{
 	private $nombre;
 	private $documento;
 	private $tieneCtaCte;
-	private $tipoCliente;
+	//private $tipoCliente;
 
 	public function __construct(){
 
@@ -63,7 +63,7 @@ class UIClienteCriteria extends UIMercatCriteria{
 		$criteria->setNombre( $this->getNombre() );
 		$criteria->setDocumento( $this->getDocumento() );
 		$criteria->setTieneCtaCte( $this->getTieneCtaCte() );
-		$criteria->setTipoCliente( $this->getTipoCliente() );
+		//$criteria->setTipoCliente( $this->getTipoCliente() );
 
 		return $criteria;
 	}

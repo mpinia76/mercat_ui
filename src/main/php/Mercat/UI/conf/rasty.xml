@@ -415,6 +415,8 @@
 	<action name="AnularRecibirPedido" class="Mercat\UI\actions\pedidos\AnularRecibirPedido" url="pedidos/anular/recibir"/>
     <action name="AgregarProductoPedido" class="Mercat\UI\actions\pedidos\AgregarProductoPedido" url="pedidos/agregar/productos"/>
 
+	<action name="Transferir" class="Mercat\UI\actions\cuentas\Transferir" url="cuentas/transferir"/>
+
 	<action name="findEntities" class="Mercat\UI\actions\common\ListarEntitiesJson" url="findEntities"/>
 	<action name="findEntity" class="Mercat\UI\actions\common\GetEntityJson" url="findEntity"/>
 
